@@ -1,5 +1,5 @@
 /*
-Theme Name: Mashshare Theme
+Theme Name: Mashshare Theme2
 Theme URI: https://mashshare.net
 Author: Steffen Arnold, René Hermenau
 Author URI: https://mashshare.net
@@ -1654,11 +1654,3 @@ height: 1px;
     text-align: center;
 }
 
-
-#packshot-addons {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5);
-}
