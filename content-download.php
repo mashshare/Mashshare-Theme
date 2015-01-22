@@ -4,7 +4,7 @@
  *
  * This is the template that displays full width page without sidebar
  *
- * @package rootstrap
+ * @package mashshare
  */
 
 get_header(); ?>
