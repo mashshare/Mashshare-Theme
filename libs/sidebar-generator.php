@@ -3,7 +3,7 @@
 Plugin Name: Sidebar Generator
 Plugin URI: http://www.getson.info
 Description: This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish. Version 1.1 now supports themes with multiple sidebars. 
-Version: 1.1.0
+Version: 1.1.1
 Author: Kyle Getson
 Author URI: http://www.kylegetson.com
 Copyright (C) 2009 Kyle Robert Getson
