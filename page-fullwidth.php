@@ -6,7 +6,7 @@ Template Name: Page: page-fullwidth
 
 <?php get_header(); ?>
 
-	<?php get_template_part( 'framework/inc/titlebar' ); ?>
+	
 
 	<div id="page-wrap" class="container-fluid">
             <div id="header-image"><!--start header-image-->
