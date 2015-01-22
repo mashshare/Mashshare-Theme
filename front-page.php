@@ -8,7 +8,6 @@ get_header(); ?>
 		
 <?php rootstrap_featured_slider(); ?>
 <?php rootstrap_call_for_action(); ?>
-
 <div id="content" class="site-content container-fluid">
 	<?php do_action( 'rootstrap_post_before' ); ?>
 	<div id="primary" class="content-area col-sm-12 col-md-12">
