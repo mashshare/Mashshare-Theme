@@ -57,7 +57,7 @@ class sidebar_generator {
 				$sidebar_class = sidebar_generator::name_to_class($sidebar);
 				register_sidebar(array(
 					'name'=>$sidebar,
-			    	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+                                        'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		   			'after_widget' => '</div>',
 		   			'before_title' => '<h3 class="title"><span>',
 					'after_title' => '</span></h3>',
@@ -66,7 +66,7 @@ class sidebar_generator {
 		}
 	}
 	
-	function admin_print_scripts(){
+	public static function admin_print_scripts() {
 		wp_print_scripts( array( 'sack' ));
 		?>
 			<script>
@@ -171,7 +171,7 @@ class sidebar_generator {
 		die($js);
 	}
 	
-	function admin_menu(){
+	public static function admin_menu(){
 		add_theme_page('Sidebars', 'Sidebars', 'manage_options', 'multiple_sidebars', array('sidebar_generator','admin_page'));
 	}
 	
