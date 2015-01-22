@@ -13,9 +13,23 @@
 
 	<div id="footer-area">
 	<?php do_action( 'rootstrap_footer_start' ); ?>
+            <div class="container">
 		<div class="row">
 			<?php get_sidebar( 'footer' ); ?>
-		</div>
+                    <div class="col-sm-6 col-md-4">
+                    <h4>What is Mashshare?</h4>
+<p>Mashshare is a extensible free Share Button ecosystem for the best possible social sharing optimization of your website. You find Add-Ons for Velocity Graph, Google Analytics integration, mobile sharing optimization, responsive design and much more in the <a href="https://www.mashshare.net/downloads">Add-On section</a></p>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                    <h4>What is Mashshare?</h4>
+<p>Mashshare is a extensible free Share Button ecosystem for the best possible social sharing optimization of your website. You find Add-Ons for Velocity Graph, Google Analytics integration, mobile sharing optimization, responsive design and much more in the <a href="https://www.mashshare.net/downloads">Add-On section</a></p>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                    <h4>What is Mashshare?</h4>
+<p>Mashshare is a extensible free Share Button ecosystem for the best possible social sharing optimization of your website. You find Add-Ons for Velocity Graph, Google Analytics integration, mobile sharing optimization, responsive design and much more in the <a href="https://www.mashshare.net/downloads">Add-On section</a></p>
+                    </div>
+                </div>
+            </div>
 
 		<footer id="" class="site-footer" role="contentinfo">
 			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
@@ -25,6 +39,18 @@
 </div><!-- #page -->
 <?php do_action( 'rootstrap_footer_after' ); ?>
 <?php do_action( 'rootstrap_body_end' ); ?>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-912289-17', 'mashshare.net');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>
