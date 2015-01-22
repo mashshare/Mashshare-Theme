@@ -25,7 +25,7 @@ get_header(); ?>
 </div><!--end header-image-->
 <div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
         <div class=" container addon-offer notice info">
-        Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase 
+        Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase. 
         <!-- <strong>BlackFriday - CyberMonday: </strong> 25% discount on all Add-Ons until Monday 23:59:59h. Discount code "blackfriday" -->
     </div>
         <div class="content clearfix">
