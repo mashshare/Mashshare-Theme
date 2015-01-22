@@ -224,4 +224,4 @@ require get_template_directory() . '/inc/navwalker.php';
  *
  */
 
-include_once('/libs/sidebar-generator.php');
+include_once('libs/sidebar-generator.php');

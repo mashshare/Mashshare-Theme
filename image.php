@@ -2,7 +2,7 @@
 /**
  * The template for displaying image attachments.
  *
- * @package rootstrap
+ * @package mashshare
  */
 
 get_header();
