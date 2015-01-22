@@ -1,0 +1,268 @@
+/* rootstrap Framework Admin Styles */
+.nav-tab-active, .nav-tab-active {
+	background: #2c3e50 !important;
+	color: #fff !important;
+}
+#rootstrap {
+    max-width:840px;
+    background:#fff;
+    float: left;
+    margin-right: 20px;
+	margin-left: 20px;
+}
+#rootstrap-wrap {
+	max-width:1250px;
+    background:#fff;
+    margin-right: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.framework-title, .nav-tab-wrapper {
+	cursor: default;
+	background-color: #16a085;
+	font-size: 20px;
+	padding: 20px 20px 0px 20px !important;
+	color: #fff;
+	
+}
+.supportbtn {
+	padding: 10px 30px;
+	text-align: center;
+	border: 2px solid #16a085;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.supportbtn:hover {
+	
+	background:  #16a085;
+	color: #fff;
+}
+#rootstrap h3 {
+	cursor: default;
+	background-color: #2c3e50;
+	border-bottom: 1px solid #ddd;
+	font-size: 20px;
+	color: #fff;
+}
+#rootstrap p {
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+#rootstrap .section {
+	padding:10px 10px 0;
+}
+#rootstrap .group {
+	padding-bottom:40px;
+}
+#rootstrap .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#rootstrap .section .explain {
+	max-width:38%;
+	float: left;
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+#rootstrap .controls input[type=text] {
+	width: inherit;
+}
+#rootstrap .section-checkbox .controls {
+	width: 98%;
+}
+#rootstrap .section-checkbox .explain {
+	max-width:94%;
+}
+#rootstrap .controls select, #rootstrap .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#rootstrap .section-radio label, #rootstrap .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#rootstrap input.checkbox, #rootstrap input.of-radio {
+	margin: 0 10px 5px 0;
+	float:left;
+	clear:both;
+}
+#rootstrap .section-typography .controls {
+	float:none;
+	width:auto;
+}
+#rootstrap .section-typography .explain {
+	float:none;
+	width:auto;
+}
+#rootstrap .controls .of-typography-size {
+	width:80px;
+	float:left
+}
+#rootstrap .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#rootstrap .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#rootstrap .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#rootstrap .of-background-properties {
+	clear:both;
+	margin-top: 18px;
+}
+#rootstrap .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#rootstrap .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#rootstrap .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#rootstrap .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#rootstrap .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#rootstrap .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+#rootstrap .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#rootstrap .controls .of-border-width {
+	width:80px;
+	float:left
+}
+#rootstrap .controls .of-border-style {
+	width:120px;
+	float:left
+}
+#rootstrap .hide {
+	display:none;
+}
+#rootstrap .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#rootstrap .mini .controls select, #rootstrap .section .mini .controls {
+	width: 140px;
+}
+#rootstrap .mini .controls input, #rootstrap .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+#rootstrap .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#rootstrap .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+#rootstrap-sidebar {
+	float: left;
+	width: 300px;
+	padding-top: 0 !important;
+}
+
+/* Image Uploader */
+
+#rootstrap .controls input.upload {
+	width:80%;
+}
+#rootstrap .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#rootstrap .screenshot img {
+	background:#fafafa;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#rootstrap .screenshot .remove-image {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#rootstrap .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#rootstrap .screenshot .no_image .remove-button {
+	bottom: 0px;
+}
+#rootstrap .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#rootstrap-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ddd;
+	background-color: #f1f1f1;
+}
+#rootstrap .button-primary {
+	float:right;
+}
+#rootstrap .section:after {
+	content: "";
+	display: table;
+}
+#rootstrap .section:after {
+	clear: both;
+}
+
+
+/*own style*/
+
