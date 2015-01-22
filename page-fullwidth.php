@@ -13,7 +13,7 @@ Template Name: Page: page-fullwidth
 <div id="header-content" class="container"><!--start header-->
     <div class="row"><!--start row-->
         <div class="col-md-6">
-            <h1>Frequently Asked Questions</h1>
+            <h1>Frequently Asked Questions1</h1>
             <h2>If you do not find any suitable answer get in contact with us at the <a title="Mashshare support" href="https://mashshare.net/contact-support/">support area</a></h2>
         </div>
         <div class="col-md-6">
