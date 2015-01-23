@@ -1346,8 +1346,8 @@ text-align:center;
 }
 
 .btn-default, .label-default[href], .btn-default, #image-navigation .nav-previous, #image-navigation .nav-next {
-    background-color: #fff!important;
-    border-color: #1b926c!important;
+    background-color: #fff;
+    border-color: #1b926c;
 }
 
 .label[href] {
@@ -1653,5 +1653,3 @@ height: 1px;
     padding: 12px;
     text-align: center;
 }
-
-
