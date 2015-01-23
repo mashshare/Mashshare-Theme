@@ -1655,13 +1655,20 @@ height: 1px;
 }
 
 .title {
-    background-color: #00abed;
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
+    color: #00abed;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .addons-row {
     margin-right: 15px;
+}
+
+.row-content-addons {
+    margin-right: -45px;
+}
+
+.attachment-product-image.wp-post-image {
+    width: 100%;
 }
 
