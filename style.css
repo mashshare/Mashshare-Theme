@@ -1653,3 +1653,13 @@ height: 1px;
     padding: 12px;
     text-align: center;
 }
+
+.title {
+    background-color: #00abed;
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
