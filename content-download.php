@@ -48,13 +48,14 @@ get_header(); ?>
                 <div class="col-xs-12 col-md-4 col-lg-4"><!--start col outside product-->
                     <div class="row addons-row"><!--start row outside product-->
             <div class=" product<?php if($i % 3 == 0) { echo ' last'; } ?>"><!--start product-->
-                        <a href="<?php the_permalink(); ?>">
-                            <h2 class="title"><?php the_title(); ?></h2>
-                        </a>
+                        
                         <div class="product-image">
                             <a href="<?php the_permalink(); ?>">
                                 <?php the_post_thumbnail('product-image'); ?>
                             </a>
+                            <a href="<?php the_permalink(); ?>">
+                            <h2 class="title"><?php the_title(); ?></h2>
+                        </a>
                             <?php if(function_exists('edd_price')) { ?>
                                 <div class="product-price">
                                     <?php 
@@ -69,6 +70,7 @@ get_header(); ?>
                                 </div><!--end .product-price-->
                             <?php } ?>
                         </div>
+                
                         <?php if(function_exists('edd_price')) { ?>
                             <div class="product-buttons">
                                 <?php //if(!edd_has_variable_prices(get_the_ID())) { ?>
