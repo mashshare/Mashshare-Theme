@@ -1628,7 +1628,7 @@ height: 1px;
 
 .btn-default, .label-default {
     background-color: #00abed;
-    border-color: #1fa67a;
+    border-color: #00abed;
 }
 
 .home-widget  {
@@ -1670,5 +1670,16 @@ height: 1px;
 
 .attachment-product-image.wp-post-image {
     width: 100%;
+}
+
+.product {
+    margin-bottom: 15px;
+}
+
+.button.alternative-1.small {
+    background-color: #00abed;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px;
 }
 
