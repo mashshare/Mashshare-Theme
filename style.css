@@ -1,5 +1,5 @@
 /*
-Theme Name: Mashshare Theme4
+Theme Name: Mashshare Theme
 Theme URI: https://mashshare.net
 Author: Steffen Arnold, René Hermenau
 Author URI: https://mashshare.net
@@ -1345,12 +1345,12 @@ text-align:center;
 	padding:15px;
 }
 
-.btn-default, .label-default[href], , .btn-default, #image-navigation .nav-previous, #image-navigation .nav-next {
+.btn-default, .label-default[href], .btn-default, #image-navigation .nav-previous, #image-navigation .nav-next {
     background-color: #fff!important;
     border-color: #1b926c!important;
 }
 
-.label[href], {
+.label[href] {
     color: #00acee!important;
 }
 
@@ -1643,7 +1643,7 @@ height: 1px;
     padding-left: 15px;
 }
 
-.addon-offer {
+.addon-offer {;;  
     background: none repeat scroll 0 0 #fff;
     border: 2px solid #00abed;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
@@ -1653,4 +1653,5 @@ height: 1px;
     padding: 12px;
     text-align: center;
 }
+
 
