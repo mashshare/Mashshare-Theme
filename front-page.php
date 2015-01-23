@@ -1,4 +1,9 @@
 <?php
+
+/* Front-Page template 
+ * 
+ * @version 1.0.0
+ */
     
     if ( get_option( 'show_on_front' ) == 'posts' ) {
         get_template_part( 'index' );
