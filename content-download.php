@@ -29,7 +29,7 @@ get_header(); ?>
         <!-- <strong>BlackFriday - CyberMonday: </strong> 25% discount on all Add-Ons until Monday 23:59:59h. Discount code "blackfriday" -->
     </div>
         <div class="content container">
-            <div class="row"><!--start row products-->
+            <div class="row row-content-addons"><!--start row products-->
             <?php
             $current_page = get_query_var('page');
             $per_page = get_option('posts_per_page');
@@ -50,6 +50,8 @@ get_header(); ?>
             <div class=" product<?php if($i % 3 == 0) { echo ' last'; } ?>"><!--start product-->
                         
                         <div class="product-image">
+                            
+                                
                             <a href="<?php the_permalink(); ?>">
                                 <?php the_post_thumbnail('product-image'); ?>
                             </a>
@@ -69,6 +71,8 @@ get_header(); ?>
                                     ?>
                                 </div><!--end .product-price-->
                             <?php } ?>
+                                
+                            
                         </div>
                 
                         <?php if(function_exists('edd_price')) { ?>
