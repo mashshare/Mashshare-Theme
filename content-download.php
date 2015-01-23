@@ -46,8 +46,8 @@ get_header(); ?>
             <?php if ($products->have_posts()) : $i = 3; ?>
                 <?php while ($products->have_posts()) : $products->the_post(); ?>    
                 <div class="col-xs-12 col-md-4 col-lg-4"><!--start col outside product-->
+                    <div class="row addons-row"><!--start row outside product-->
             <div class=" product<?php if($i % 3 == 0) { echo ' last'; } ?>"><!--start product-->
-                <div class="row"><!--start class row inside product-->
                         <a href="<?php the_permalink(); ?>">
                             <h2 class="title"><?php the_title(); ?></h2>
                         </a>
@@ -77,8 +77,8 @@ get_header(); ?>
                                 <a href="<?php the_permalink(); ?>" class="button alternative-1 small">View Details</a>
                             </div><!--end .product-buttons-->
                         <?php } ?>
-                            </div><!--end class row inside product-->
                     </div><!--end .product-->
+                    </div><!--end row outside product-->
                     </div><!--end col outside product-->
                     <?php $i+=1; ?>
                 <?php endwhile; ?>
