@@ -28,7 +28,8 @@ get_header(); ?>
         Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase. 
         <!-- <strong>BlackFriday - CyberMonday: </strong> 25% discount on all Add-Ons until Monday 23:59:59h. Discount code "blackfriday" -->
     </div>
-        <div class="content clearfix">
+        <div class="content container">
+            <div class="row"><!--start row products-->
             <?php
             $current_page = get_query_var('page');
             $per_page = get_option('posts_per_page');
@@ -43,8 +44,10 @@ get_header(); ?>
             $products = new WP_Query($product_args);
             ?>
             <?php if ($products->have_posts()) : $i = 3; ?>
-                <?php while ($products->have_posts()) : $products->the_post(); ?>
-                    <div class=" product<?php if($i % 3 == 0) { echo ' last'; } ?>">
+                <?php while ($products->have_posts()) : $products->the_post(); ?>    
+                <div class="col-xs-12 col-md-4 col-lg-4"><!--start col outside product-->
+            <div class=" product<?php if($i % 3 == 0) { echo ' last'; } ?>"><!--start product-->
+                <div class="row"><!--start class row inside product-->
                         <a href="<?php the_permalink(); ?>">
                             <h2 class="title"><?php the_title(); ?></h2>
                         </a>
@@ -74,7 +77,9 @@ get_header(); ?>
                                 <a href="<?php the_permalink(); ?>" class="button alternative-1 small">View Details</a>
                             </div><!--end .product-buttons-->
                         <?php } ?>
+                            </div><!--end class row inside product-->
                     </div><!--end .product-->
+                    </div><!--end col outside product-->
                     <?php $i+=1; ?>
                 <?php endwhile; ?>
                 
@@ -96,6 +101,7 @@ get_header(); ?>
                 <?php get_search_form(); ?>
         
             <?php endif; ?>
+        </div> <!--end row products-->
         </div><!--end .content-->
     </div><!--end #main-content.row-->
 
