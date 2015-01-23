@@ -1,4 +1,8 @@
 <?php
+
+/* Frontpage template for mashshare 
+ * v. 1.0.1
+ */
     
     if ( get_option( 'show_on_front' ) == 'posts' ) {
         get_template_part( 'index' );
