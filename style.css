@@ -1658,6 +1658,8 @@ height: 1px;
     color: #00abed;
     font-size: 16px;
     font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .addons-row {
@@ -1670,10 +1672,24 @@ height: 1px;
 
 .attachment-product-image.wp-post-image {
     width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
 }
 
 .product {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.product-price {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+}
+
+.product-buttons {
+    padding-bottom: 25px;
 }
 
 .button.alternative-1.small {
@@ -1681,5 +1697,6 @@ height: 1px;
     border-radius: 4px;
     color: #fff;
     padding: 10px;
+    margin-left: 15px;
 }
 
