@@ -269,7 +269,7 @@ textarea {
 .hentry {
   margin: 0 0 0;
   padding: 20px;
-  background: #fff;
+  background: #f6f6f6;
 }
 .home-widget-area {
 	background: #fff;
@@ -1566,7 +1566,7 @@ font-size: 14px;
 }
 
 
-#content-affilate {
+#content-sidebar {
     margin: 0px;
 }
 
@@ -1591,7 +1591,7 @@ height: 1px;
 }
 
 #page-wrap {
-    background-color: #fff;
+    background-color: #f6f6f6;
 }
 
 .sidebar-on-right {
@@ -1700,3 +1700,26 @@ height: 1px;
     margin-left: 15px;
 }
 
+#content {
+    background-color: #F6F6F6;
+}
+
+.bbp-username, .bbp-password, .bbp-remember-me {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.bbp_login_widget-3 > span {
+    color: #fff;
+}
+
+#bbp_login_widget-3 h3 {
+    padding-top: 15px;
+    text-align: left;
+}
+
+.title > span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
