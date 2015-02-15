@@ -1736,3 +1736,30 @@ div.bbp-submit-wrapper {
     border-radius: 4px;
     color: #00abed;
 }
+
+.site-main {
+    background-color: #fff;
+}
+
+.doc_wrapper {
+    background-color: #fff;
+}
+
+.type-post {
+    background-color: #fff;
+}
+
+.entry-title > a {
+    color: #00abed;
+    font-size: 25px;
+}
+
+.entry-title > a:hover {
+    color: #00abed;
+}
+
+.entry-title {
+    margin-bottom: 20px;
+}
+    
+        
