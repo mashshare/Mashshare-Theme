@@ -1762,7 +1762,7 @@ div.bbp-submit-wrapper {
     margin-bottom: 20px;
 }
 
-.fa.fa-calendar, .fa.fa-comment-o, .fa.fa-folder-open-o, .fa.fa-pencil-square-o {
+.fa.fa-calendar, .fa.fa-comment-o, .fa.fa-folder-open-o, .fa.fa-pencil-square-o, .fa.fa-user {
     color: #00abed;
 }
 
@@ -1785,5 +1785,21 @@ div.bbp-submit-wrapper {
 #content-sidebar, #bbp_login_widget-3 {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.entry-title {
+    color: #00abed;
+    font-size: 25px;
+}
+
+.type-post {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-top: 15px;
+    padding-top: 1px !important;}
+
+
+.entry-content a {
+    color: #00abed;
 }
         
