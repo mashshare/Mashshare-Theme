@@ -1802,4 +1802,9 @@ div.bbp-submit-wrapper {
 .entry-content a {
     color: #00abed;
 }
+
+.comment-reply-title {
+    font-size: 25px;
+    text-align: left;
+}
         
