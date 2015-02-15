@@ -1761,5 +1761,29 @@ div.bbp-submit-wrapper {
 .entry-title {
     margin-bottom: 20px;
 }
+
+.fa.fa-calendar, .fa.fa-comment-o, .fa.fa-folder-open-o, .fa.fa-pencil-square-o {
+    color: #00abed;
+}
+
+.fa.fa-tags {
+    display: none;
+}
     
+.btn.btn-default.read-more {
+    background-color: #00abed;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+}
+
+.btn.btn-default.read-more:hover {
+    background-color: #fff;
+    color: #00abed;
+}
+
+#content-sidebar, #bbp_login_widget-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
         
