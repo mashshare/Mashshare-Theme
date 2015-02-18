@@ -272,23 +272,24 @@ function edd_version_shortcode() {
 add_shortcode( 'edd_version', 'edd_version_shortcode' );
 
 /**
- * Registers the download widget area.
+ * Registers our download widget area.
  *
- * @since Mashshare 1.0
+ * @since Twenty Twelve EDD 1.0
  */
-function theme_edd_widgets_init() {
+/*function theme_edd_widgets_init() {
 	if ( class_exists( 'Easy_Digital_Downloads' ) ) {
-		register_widget( 'Mashshare_EDD_Widget_Stats' );
+		register_widget( 'TwentyTwelve_EDD_Widget_Stats' );
 	}
 	
 	register_sidebar( array(
-		'name' => __( 'Download Widget Area', 'mashsb' ),
+		'name' => __( 'Download Widget Area', 'twentytwelve-edd' ),
 		'id' => 'sidebar-4',
-		'description' => __( 'Appears above the download description.', 'mashsb' ),
+		'description' => __( 'Appears above the download description.', 'twentytwelve-edd' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
 }
-add_action( 'widgets_init', 'theme_edd_widgets_init' );
+add_action( 'widgets_init', 'theme_edd_widgets_init' );*/
+
