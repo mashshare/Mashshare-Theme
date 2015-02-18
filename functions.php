@@ -226,6 +226,14 @@ require get_template_directory() . '/inc/navwalker.php';
 
 include_once('libs/sidebar-generator.php');
 
+function mashsb_edd_download_supports( $supports ) {
+	// add page-attributes
+	$add_support = array( 'page-attributes' );
+	// merge it back with the original array
+	return array_merge( $add_support, $supports );
+}
+add_filter( 'edd_download_supports', 'mashsb_edd_download_supports' );
+
 /* Change bbPress breadcrumbs from Forum to Support
 */
 add_filter('bbp_get_forum_archive_title', 'mashsb_forum_title');
@@ -253,3 +261,34 @@ function mashshare_edd_purchase_form_required_fields( $required_fields ) {
 	return $required_fields;
 }
 add_filter( 'edd_purchase_form_required_fields', 'mashshare_edd_purchase_form_required_fields' );
+
+/* Get EDD Download Version Shortcode
+ * 
+ */
+function edd_version_shortcode() {
+  $version = get_post_meta( get_the_ID(), '_edd_sl_version', TRUE );
+  return $version;
+}
+add_shortcode( 'edd_version', 'edd_version_shortcode' );
+
+/**
+ * Registers the download widget area.
+ *
+ * @since Mashshare 1.0
+ */
+function theme_edd_widgets_init() {
+	if ( class_exists( 'Easy_Digital_Downloads' ) ) {
+		register_widget( 'Mashshare_EDD_Widget_Stats' );
+	}
+	
+	register_sidebar( array(
+		'name' => __( 'Download Widget Area', 'mashsb' ),
+		'id' => 'sidebar-4',
+		'description' => __( 'Appears above the download description.', 'mashsb' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+}
+add_action( 'widgets_init', 'theme_edd_widgets_init' );
