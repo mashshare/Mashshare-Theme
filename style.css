@@ -269,7 +269,7 @@ textarea {
 .hentry {
   margin: 0 0 0;
   padding: 20px;
-  background: #fff;
+  background: #f6f6f6;
 }
 .home-widget-area {
 	background: #fff;
@@ -1566,7 +1566,7 @@ font-size: 14px;
 }
 
 
-#content-affilate {
+#content-sidebar {
     margin: 0px;
 }
 
@@ -1591,7 +1591,7 @@ height: 1px;
 }
 
 #page-wrap {
-    background-color: #fff;
+    background-color: #f6f6f6;
 }
 
 .sidebar-on-right {
@@ -1628,7 +1628,7 @@ height: 1px;
 
 .btn-default, .label-default {
     background-color: #00abed;
-    border-color: #1fa67a;
+    border-color: #00abed;
 }
 
 .home-widget  {
@@ -1655,9 +1655,156 @@ height: 1px;
 }
 
 .title {
-    background-color: #00abed;
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
+    color: #00abed;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.addons-row {
+    margin-right: 15px;
+}
+
+.row-content-addons {
+    margin-right: -45px;
+}
+
+.attachment-product-image.wp-post-image {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.product {
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.product-price {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+}
+
+.product-buttons {
+    padding-bottom: 25px;
+}
+
+.button.alternative-1.small {
+    background-color: #00abed;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+#content {
+    background-color: #F6F6F6;
+}
+
+.bbp-username, .bbp-password, .bbp-remember-me {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.bbp_login_widget-3 > span {
+    color: #fff;
+}
+
+#bbp_login_widget-3 h3 {
+    padding-top: 15px;
+    text-align: left;
+}
+
+.title > span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div.bbp-submit-wrapper {
+    float: left;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.button.submit.user-submit {
+    background-color: #fff;
+    border: medium none;
+    border-radius: 4px;
+    color: #00abed;
+}
+
+.site-main {
+    background-color: #fff;
+}
+
+.doc_wrapper {
+    background-color: #fff;
+}
+
+.type-post {
+    background-color: #fff;
+}
+
+.entry-title > a {
+    color: #00abed;
+    font-size: 25px;
+}
+
+.entry-title > a:hover {
+    color: #00abed;
+}
+
+.entry-title {
+    margin-bottom: 20px;
+}
+
+.fa.fa-calendar, .fa.fa-comment-o, .fa.fa-folder-open-o, .fa.fa-pencil-square-o, .fa.fa-user, .fa.fa-link {
+    color: #00abed;
+}
+
+.fa.fa-tags {
+    display: none;
+}
+    
+.btn.btn-default.read-more {
+    background-color: #00abed;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+}
+
+.btn.btn-default.read-more:hover {
+    background-color: #fff;
+    color: #00abed;
+}
+
+#content-sidebar, #bbp_login_widget-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.entry-title {
+    color: #00abed;
+    font-size: 25px;
+}
+
+.type-post {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-top: 15px;
+    padding-top: 1px !important;}
+
+
+.entry-content a {
+    color: #00abed;
+}
+
+.comment-reply-title {
+    font-size: 25px;
+    text-align: left;
+}
+        

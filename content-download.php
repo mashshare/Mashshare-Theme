@@ -29,7 +29,7 @@ get_header(); ?>
         <!-- <strong>BlackFriday - CyberMonday: </strong> 25% discount on all Add-Ons until Monday 23:59:59h. Discount code "blackfriday" -->
     </div>
         <div class="content container">
-            <div class="row"><!--start row products-->
+            <div class="row row-content-addons"><!--start row products-->
             <?php
             $current_page = get_query_var('page');
             $per_page = get_option('posts_per_page');
@@ -46,15 +46,18 @@ get_header(); ?>
             <?php if ($products->have_posts()) : $i = 3; ?>
                 <?php while ($products->have_posts()) : $products->the_post(); ?>    
                 <div class="col-xs-12 col-md-4 col-lg-4"><!--start col outside product-->
+                    <div class="row addons-row"><!--start row outside product-->
             <div class=" product<?php if($i % 3 == 0) { echo ' last'; } ?>"><!--start product-->
-                <div class="row"><!--start class row inside product-->
-                        <a href="<?php the_permalink(); ?>">
-                            <h2 class="title"><?php the_title(); ?></h2>
-                        </a>
+                        
                         <div class="product-image">
+                            
+                                
                             <a href="<?php the_permalink(); ?>">
                                 <?php the_post_thumbnail('product-image'); ?>
                             </a>
+                            <a href="<?php the_permalink(); ?>">
+                            <h2 class="title"><?php the_title(); ?></h2>
+                        </a>
                             <?php if(function_exists('edd_price')) { ?>
                                 <div class="product-price">
                                     <?php 
@@ -68,7 +71,10 @@ get_header(); ?>
                                     ?>
                                 </div><!--end .product-price-->
                             <?php } ?>
+                                
+                            
                         </div>
+                
                         <?php if(function_exists('edd_price')) { ?>
                             <div class="product-buttons">
                                 <?php //if(!edd_has_variable_prices(get_the_ID())) { ?>
@@ -77,8 +83,8 @@ get_header(); ?>
                                 <a href="<?php the_permalink(); ?>" class="button alternative-1 small">View Details</a>
                             </div><!--end .product-buttons-->
                         <?php } ?>
-                            </div><!--end class row inside product-->
                     </div><!--end .product-->
+                    </div><!--end row outside product-->
                     </div><!--end col outside product-->
                     <?php $i+=1; ?>
                 <?php endwhile; ?>
