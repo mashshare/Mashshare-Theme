@@ -225,3 +225,31 @@ require get_template_directory() . '/inc/navwalker.php';
  */
 
 include_once('libs/sidebar-generator.php');
+
+/* Change bbPress breadcrumbs from Forum to Support
+*/
+add_filter('bbp_get_forum_archive_title', 'mashsb_forum_title');
+function mashsb_forum_title() {
+return 'Support';
+}
+
+/*
+ * Plugin Name: Easy Digital Downloads - Disable Quantity Field on Download
+ * Description: Disables the quantity field on the purchase button added in EDD v2.2
+ * Author: Pippin Williamson
+ * Version: 1.0
+ */
+remove_action( 'edd_purchase_link_top', 'edd_download_purchase_form_quantity_field', 10 );
+
+/* Plugin Name: edd_vat 
+   Description: Make field State not required 
+   Author: René Hermenau
+*/
+function mashshare_edd_purchase_form_required_fields( $required_fields ) {
+
+	$required_fields['card_address'] = array( 'error_id' => 'invalid_card_address', 'error_message' => __( 'Please enter your Address, e.g. Street and Number.', 'edd' ) ); 
+	unset( $required_fields['card_state'] );
+	
+	return $required_fields;
+}
+add_filter( 'edd_purchase_form_required_fields', 'mashshare_edd_purchase_form_required_fields' );
