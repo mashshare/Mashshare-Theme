@@ -25,6 +25,7 @@ Template Name: page-faq
 <div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
             <div class="row"><!-- start row -->
 		<div id="content" class="col-xs-12 col-md-12 col-lg-12">
+                    <div class="container"><!-- start container -->
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -39,6 +40,7 @@ Template Name: page-faq
 	
                         </article>
 			<?php endwhile; endif; ?>
+                    </div><!-- end container -->
 		</div> <!-- end content -->
             </div><!-- end row -->
 	</div> <!-- end page-wrap -->
