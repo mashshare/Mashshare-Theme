@@ -23,7 +23,9 @@ get_header(); ?>
                                                     <div id="header-content" class="container">
                                                             <div class="row">
                                                                 <div class="col-md-6">
-                                                                    <h1>Mashshare</h1>
+                                                                    <svg width="100%" height="100%">
+                                                                    <image xlink:href="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare2.svg" src="svg.png" width="100%" height="100%"   />
+</svg>
                                                                     <h2>The ultimate Social Media ecosystem</h2>
                                                                     <?php echo do_shortcode('[mashshare]'); ?>
 
