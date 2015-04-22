@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: page-fullwidth
+Template Name: page-faq
 */
 ?>
 
