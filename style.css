@@ -1826,4 +1826,12 @@ div.bbp-submit-wrapper {
     font-size: 25px;
     text-align: left;
 }
+
+#header-image h2 {
+    margin-top: 0;
+}
+
+.entry-content {
+    background-color: #f6f6f6;
+}
         
