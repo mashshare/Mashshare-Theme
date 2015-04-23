@@ -53,7 +53,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/facebook-like-bar/"><span class="title_addon">Facebook Like-Bar</span></a>
                                                                             <p class="no_small">A highly customizable, full responsive and mobile optimized sticky Like-Bar with Google Analytics Integration. Track and trace “Likes” and “Unlikes”</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('17706'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/facebook-like-bar/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-fblike.png" alt="Facebook Like-Bar" /></a>
