@@ -32,7 +32,7 @@
 	</div>
         </div>
     <div class="row"> <!--start row-->
-	<div id="content" class="entry-single col-md-8"> <!--start content-->
+	<div id="content" class="entry-single col-lg-8 col-md-8 col-xs-12"> <!--start content-->
             
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -54,10 +54,11 @@
 		<?php endwhile; endif; ?>
             
 	</div> <!-- end content -->
-	</div><!--end row-->
-	<div class="sidebar-on-right">
+	
+	<div class="sidebar">
 		<?php get_sidebar( 'download' ); ?>
 	</div>
+        </div><!--end row-->
 	
 </div> <!-- end page-wrap -->
 	
