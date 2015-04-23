@@ -4,19 +4,19 @@
  *
  * @since Photo One 1.0
  */
-class TwentyTwelve_EDD_Widget_Stats extends TwentyTwelve_EDD_Widget {
+class Mashshare_EDD_Widget_Stats extends Mashshare_EDD_Widget {
 	
 	/**
 	 * Constructor
 	 */
 	public function __construct() {
-		$this->widget_cssclass    = 'twentytwelve_edd_widget_stats';
-		$this->widget_description = sprintf( __( 'Display useful statistics about a %s.', 'twentytwelve-edd' ), edd_get_label_singular() );
-		$this->widget_id          = 'twentytwelve_edd_widget_stats';
-		$this->widget_name        = sprintf( __( '%s Stats', 'twentytwelve-edd' ), edd_get_label_singular() );
+		$this->widget_cssclass    = 'mashshare_edd_widget_stats';
+		$this->widget_description = sprintf( __( 'Display useful statistics about a %s.', 'mashshare-edd' ), edd_get_label_singular() );
+		$this->widget_id          = 'mashshare_edd_widget_stats';
+		$this->widget_name        = sprintf( __( '%s Stats', 'mashshare-edd' ), edd_get_label_singular() );
 		$this->settings           = array(
 			'title' => array(
-				'label' => __( 'Title', 'twentytwelve-edd' ),
+				'label' => __( 'Title', 'mashshare-edd' ),
 				'type'  => 'text',
 				'std'   => ''
 			)
@@ -52,7 +52,7 @@ class TwentyTwelve_EDD_Widget_Stats extends TwentyTwelve_EDD_Widget {
 			<div class="item-stats">
 				<div class="item-stat">
 					<?php echo edd_get_download_sales_stats( $post->ID ); ?>
-					<small><?php echo _n( 'Purchase', 'Purchases', edd_get_download_sales_stats( $post->ID ), 'twentytwelve-edd' ); ?></small>
+					<small><?php echo _n( 'Purchase', 'Purchases', edd_get_download_sales_stats( $post->ID ), 'mashshare-edd' ); ?></small>
 				</div>
 
 				<?php if ( ! class_exists( 'EDD_Reviews' ) ) : ?>
@@ -60,7 +60,7 @@ class TwentyTwelve_EDD_Widget_Stats extends TwentyTwelve_EDD_Widget {
 				<div class="item-stat">
 					<a href="#comments">
 						<?php echo get_comments_number(); ?>
-						<small><?php echo _n( 'Comment', 'Comments', get_comments_number(), 'twentytwelve-edd' ); ?></small>
+						<small><?php echo _n( 'Comment', 'Comments', get_comments_number(), 'mashshare-edd' ); ?></small>
 					</a>
 				</div>
 
@@ -68,7 +68,7 @@ class TwentyTwelve_EDD_Widget_Stats extends TwentyTwelve_EDD_Widget {
 
 				<div class="item-stat">
 					<?php edd_reviews()->average_rating(); ?>
-					<small><?php _e( 'Average Rating', 'twentytwelve-edd' ); ?></small>
+					<small><?php _e( 'Average Rating', 'mashshare-edd' ); ?></small>
 				</div>
 				
 				<?php endif; ?>

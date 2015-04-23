@@ -283,13 +283,13 @@ require get_stylesheet_directory() . '/inc/class-widget-item-stats.php';
  */
 function mashsb_edd_widgets_init() {
 	if ( class_exists( 'Easy_Digital_Downloads' ) ) {
-		register_widget( 'TwentyTwelve_EDD_Widget_Stats' );
+		register_widget( 'Mashshare_EDD_Widget_Stats' );
 	}
 	
 	register_sidebar( array(
-		'name' => __( 'Download Widget Area', 'twentytwelve-edd' ),
+		'name' => __( 'Download Widget Area', 'mashshare-edd' ),
 		'id' => 'sidebar-4',
-		'description' => __( 'Appears above the download description.', 'twentytwelve-edd' ),
+		'description' => __( 'Appears above the download description.', 'mashshare-edd' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
 		'before_title' => '<h3 class="widget-title">',

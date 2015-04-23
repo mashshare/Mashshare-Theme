@@ -3,7 +3,7 @@
  * Widget Base Class
  *
  * @since Mashshare 1.0
- * @package mashshare-theme
+ * @package Mashshare
  */
 
 /**
