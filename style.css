@@ -1918,3 +1918,12 @@ div.bbp-submit-wrapper {
     font-weight: 400;
     text-align: left;
 }
+
+h6 {
+    background-color: #474747;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
