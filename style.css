@@ -1939,6 +1939,7 @@ div.bbp-submit-wrapper {
     padding-bottom: 25px;
     padding-top: 25px;
     text-align: center;
+    margin: 0px;
 }
 
 .first {
@@ -1956,6 +1957,15 @@ div.bbp-submit-wrapper {
 .bundle {
     text-align: center;
     background-color: #fff;
+    padding:0px;
+}
+
+.price {
+    
+}
+
+.bundle.first.col-md-4.col-xs-4 > p {
+    border-top: 1px solid #f2f1e7;
 }
 
 #toc_container {
