@@ -15,15 +15,15 @@ get_header(); ?>
     <div class="row"><!--start row-->
         <div class="col-md-6">
             <h1>Affilate</h1>
-            <h2>Earn money width directing vistor to mashshare.net. Just sign up and you’ll receive commission on each customer order you refer. </h2>
+            <h2>Earn money with directing vistor to mashshare.net. Just sign up and you’ll receive commission on each customer order you refer. </h2>
         </div>
         <div class="col-md-6">
-            <img src="https://mashshare.net/dev2/wp-content/themes/wp-rootstrap/images/packshot-affilate.png" alt="Packshot Affilate" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/packshot-affilate.png" alt="Packshot Affilate" />
         </div>
     </div><!--end row-->
 </div><!--end header-->
 </div><!--end header-image-->
-<div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" />
+<div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" />
 	<div class="row">
         <div id="content-sidebar" class=" col-xs-12 col-md-9 col-lg-9">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

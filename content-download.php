@@ -13,11 +13,11 @@ get_header(); ?>
             <div id="header-image"><!--start header-image-->
 <div id="header-content" class="container"><!--start header-->
     <div class="row"><!--start row-->
-        <div class="col-md-6">
-            <h1>Add-Ons</h1>
-            <h2>Get the newest Add-Ons</h2>
+        <div class="col-md-8">
+            <h1>Unleash the power with Add-Ons</h1>
+            <h2 style="display: none;">Get them separate or all included in one of our bundle packages starting at 39 EUR.</h2>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
             <img id="packshot-addons" src="https://mashshare.net/wp-content/uploads/v2/packshot.png" alt="Packshot Add-Ons" />
         </div>
     </div><!--end row-->

@@ -14,7 +14,7 @@ Template Name: page-faq
     <div class="row"><!--start row-->
         <div class="col-md-7">
             <h1>Frequently <br>Asked Questions</h1>
-            <h2>Read the FAQ first before <br>you  <a title="Mashshare support" href="<?php echo get_permalink('93'); ?>">open a ticket.</a></h2>
+            <h2>Please read this FAQ first <br>before  <a title="Mashshare support" href="<?php echo get_permalink('93'); ?>">opening a ticket.</a></h2>
         </div>
         <div class="col-md-5">
             <img src="https://mashshare.net/dev2/wp-content/themes/wp-rootstrap/images/packshot-faq.png" alt="Packshot FAQ" style="margin-bottom:30px;"/> 

@@ -939,7 +939,9 @@ p.logged-in-as {
 }
 
 #footer-area h4 {
-    color:#ffffff;
+  color: #ccc;
+  border-bottom: 1px solid #4d4d4d;
+  line-height: 23px;
 }
 
 #footer-area .container {
@@ -1037,7 +1039,7 @@ p.logged-in-as {
   -o-transition: background-color 0.1s linear;
 }
 .scroll-to-top:hover {
-  background: #1FA67A;
+  background: #ccc;
   opacity: .8;  
 }
 
@@ -1230,7 +1232,7 @@ background-color: #00ABED;
 
 h1 {
   margin-top: 50px;
-  font-weight: 200;
+  font-weight: 600;
   color: #ffffff;
     text-transform: uppercase;
 	font-size:60px;
@@ -1240,13 +1242,12 @@ h2 {
   margin-top: 20px;
   font-weight: 200;
   color: #ffffff;
-  text-transform: uppercase;
   font-size:25px;
 }
 
 .col-md-6 > ul {
   color: #b3b3b3;
-    font-size: 20px;
+  font-size: 20px;
   font-weight: lighter;
   text-transform: uppercase;
   list-style-type: square;
@@ -1834,6 +1835,18 @@ div.bbp-submit-wrapper {
     margin-top: 15px;
     padding-top: 1px !important;}
 
+.entry{
+  padding: 40px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.entry h4 {
+  color: #00ABED;
+  border-bottom: 1px solid #f3f3f3;
+  line-height: 25px;  
+}
 
 .entry-content a {
     color: #00abed;
@@ -1943,4 +1956,25 @@ div.bbp-submit-wrapper {
 .bundle {
     text-align: center;
     background-color: #fff;
+}
+
+#toc_container {
+  background: #f6f6f6;
+  border: 1px solid #EEE;
+  padding: 10px;
+  margin-bottom: 1em;
+  width: auto;
+  display: table;
+  font-size: 95%;
+}
+
+.toc_list a {
+  color: #00adef;
+  font-size: 14px;
+  line-height: 2.1rem;
+}
+
+#toc_container a:hover {
+  font-weight: bold;
+  text-decoration: none;
 }

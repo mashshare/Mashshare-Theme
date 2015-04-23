@@ -13,11 +13,11 @@ Template Name: page-fullwidth
 <div id="header-content" class="container"><!--start header-->
     <div class="row"><!--start row-->
         <div class="col-md-6">
-            <h1>Frequently Asked Questions1</h1>
-            <h2>If you do not find any suitable answer get in contact with us at the <a title="Mashshare support" href="https://mashshare.net/contact-support/">support area</a></h2>
+            <h1><?php the_title(); ?></h1>
+            <h2><?php the_excerpt();?></h2>
         </div>
         <div class="col-md-6">
-            <img src="https://mashshare.net/dev2/wp-content/themes/wp-rootstrap/images/packshot-faq.png" alt="Packshot FAQ" />
+            <img src="<?php echo the_post_thumbnail(127); ?>" alt="<?php the_title(); ?>" />
         </div>
     </div><!--end row-->
 </div><!--end header-->

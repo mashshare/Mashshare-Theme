@@ -11,11 +11,11 @@
             <div id="header-image"><!--start header-image-->
 <div id="header-content" class="container"><!--start header-->
     <div class="row"><!--start row-->
-        <div class="col-md-6">
+        <div class="col-md-7">
             <h1><?php echo get_the_title(); ?></h1>
-            <h2>Mashshare Add-On</h2>
+            <h2><?php the_excerpt();?></h2>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
             <?php the_post_thumbnail('product-image'); ?>
         </div>
     </div><!--end row-->

@@ -281,7 +281,7 @@ require get_stylesheet_directory() . '/inc/class-widget-item-stats.php';
  *
  * @since mashshare-theme 1.0
  */
-function mashsb_edd_widgets_init() {
+/*function mashsb_edd_widgets_init() {
 	if ( class_exists( 'Easy_Digital_Downloads' ) ) {
 		register_widget( 'Mashshare_EDD_Widget_Stats' );
 	}
@@ -296,5 +296,16 @@ function mashsb_edd_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 }
-add_action( 'widgets_init', 'mashsb_edd_widgets_init' );
+add_action( 'widgets_init', 'mashsb_edd_widgets_init' );*/
 
+/* Add excerpts to pages
+ */
+
+add_action( 'init', 'mashshare_add_excerpts_to_pages' );
+function mashshare_add_excerpts_to_pages() {
+     add_post_type_support( 'page', 'excerpt' );
+}
+
+
+/* remove jetpack open graph */
+remove_action( 'wp_head', 'jetpack_og_tags' );
