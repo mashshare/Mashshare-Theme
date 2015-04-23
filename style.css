@@ -1875,8 +1875,39 @@ div.bbp-submit-wrapper {
 #page-wrap-download .entry-single .hentry{
     background-color: #fff;
 }
+.widget.widget_edd_product_details {
+    background-color: #fff;
+}
 
-.sidebar .widget-area.col-sm-12.col-md-4 {
+.sidebar.col-lg-4.col-md-4.col-xs-12 {
     padding-right: 0;
 }
 
+.widget.widget_edd_product_details h3 {
+    border-bottom: 1px solid #aaa;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.title > span { 
+    color: #00adef;
+    font-size: 26px;
+}
+
+.widget.widget_edd_product_details form {
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.edd_price_options.edd_single_mode > ul {
+    font-size: 16px;
+}
+
+.edd_price_options.edd_single_mode > ul li label {
+    font-weight: 400;
+}
+
+.edd_purchase_submit_wrapper {
+    padding-bottom: 25px;
+}
