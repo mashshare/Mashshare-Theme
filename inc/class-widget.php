@@ -2,14 +2,14 @@
 /**
  * Widget Base Class
  *
- * @since Twenty Twelve 1.0
- * @package Twenty Twelve
+ * @since Mashshare 1.0
+ * @package mashshare-theme
  */
 
 /**
  * Widget base
  */
-class TwentyTwelve_EDD_Widget extends WP_Widget {
+class Mashshare_EDD_Widget extends WP_Widget {
 
 	public $widget_cssclass;
 	public $widget_description;
