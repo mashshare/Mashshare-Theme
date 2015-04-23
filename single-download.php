@@ -23,18 +23,20 @@
 </div><!--end header-image-->
 <div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
 <div id="page-wrap-download" class="container">
-	<div class="addon-offer notice info">
-		<a href="https://www.mashshare.net/pricing/"><img src="https://www.mashshare.net/wp-content/uploads/2015/04/bundle_three_packages.png"></a>
+    <div class="row">
+	<div class="addon-offer notice info col-md-12">
+		<a href="<?php echo get_permalink('21228'); ?>"><img src="https://www.mashshare.net/wp-content/uploads/2015/04/bundle_three_packages.png"></a>
 		<!--Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase 
 		<br>We charge EUR prices. During checkout your currency is automatically recalculated.-->
 		<!-- <strong>BlackFriday - CyberMonday: </strong> 25% discount on all Add-Ons until Monday 23:59:59h. Discount code "blackfriday" -->
 	</div>
-	<div id="content" class="sidebar-right twelve columns">
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<h1><?php the_title(); ?></h1>	
+        </div>
+	<div id="content" class="sidebar-right twelve columns"> <!--start content-->
+            <div class="row"> <!--start row-->
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		
-			<div class="entry">
+			<div class="entry entry-single col-md-8">
 
 				<?php the_content(); ?>
 
@@ -49,6 +51,7 @@
 		<?php } ?>
 
 		<?php endwhile; endif; ?>
+            </div><!--end row-->
 	</div> <!-- end content -->
 	
 	<div class="sidebar-on-right">
