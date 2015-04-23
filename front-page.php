@@ -24,7 +24,7 @@ get_header(); ?>
                                                             <div class="row">
                                                                 <div class="col-md-6">
                                                                     <svg width="100%" height="100%">
-                                                                    <image xlink:href="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare2.svg" src="svg.png" width="100%" height="100%"   />
+                                                                    <image xlink:href="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare2.svg" src="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare2.png" width="85%" height="85%" />
 </svg>
                                                                     <h2>The ultimate Social Media ecosystem</h2>
                                                                     <?php echo do_shortcode('[mashshare]'); ?>
@@ -174,7 +174,7 @@ get_header(); ?>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically. Rene's support is always professional and patient and he is very open to feature requests and general feedback. We use almost of the Mashshare add-ons and these are of the same high quality. More importantly to me as a publisher is Mashshare is a huge social traffic driver due to its crisp look and feel and ease of use for end users. Definitely recommended!
+                                                                    <p> We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically. Rene's support is always professional and patient and he is very open to feature requests and general feedback. We use almost of the Mashshare add-ons and these are of the same high quality. More importantly to me as a publisher is Mashshare is a huge social traffic driver due to its crisp look and feel and ease of use for end users. Definitely recommended!</p>
 
                                                                 </div>
                                                             </div>
@@ -192,7 +192,7 @@ get_header(); ?>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. Very clean visuals, easy to install and, best of all, the guy who runs the plugin seems really nice and answers emails if you have any support issues. This is quite rare, in my experience.I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top.
+                                                                    <p>Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. Very clean visuals, easy to install and, best of all, the guy who runs the plugin seems really nice and answers emails if you have any support issues. This is quite rare, in my experience.I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top.</p>
 
                                                                 </div>
                                                             </div>
@@ -209,13 +209,12 @@ get_header(); ?>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    I went through a long period where I tried out many WordPress sharing plugins. When I discovered Mashshare I knew I'd found what I was looking for. There's no other sharing plugin that has the depth of options that you get from this one, not even close. For me it's also important to see a plugin is being actively developed and maintained, with Mashshare there are new features added every month! Having a great selection of add-ons means you can keep the plugin super lightweight and just add the functions that are important to you and your site. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!
+                                                                    <p>I went through a long period where I tried out many WordPress sharing plugins. When I discovered Mashshare I knew I'd found what I was looking for. There's no other sharing plugin that has the depth of options that you get from this one, not even close. For me it's also important to see a plugin is being actively developed and maintained, with Mashshare there are new features added every month! Having a great selection of add-ons means you can keep the plugin super lightweight and just add the functions that are important to you and your site. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!</p>
 
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
                                             </div><!-- .entry-content -->
                                             <?php edit_post_link(__('Edit', 'rootstrap'), '<footer class="entry-meta"><i class="fa fa-pencil-square-o"></i><span class="edit-link">', '</span></footer>'); ?>
                                     <?php do_action('rootstrap_post_end'); ?>
