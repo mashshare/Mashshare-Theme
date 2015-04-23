@@ -25,7 +25,7 @@ get_header(); ?>
 </div><!--end header-image-->
 <div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" />
 	<div class="row">
-        <div id="content-sidebar" class=" col-xs-12 col-md-9 col-lg-9">
+        <div id="content-sidebar" class="doc_wrapper col-xs-12 col-md-9 col-lg-9">
 	<div id="main" class="site-main" role="main">
             <?php do_action( 'rootstrap_post_before' ); ?>
             <?php if ( have_posts() ) : ?>
