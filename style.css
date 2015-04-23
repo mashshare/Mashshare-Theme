@@ -1838,3 +1838,8 @@ div.bbp-submit-wrapper {
 .entry-content {
     background-color: #f6f6f6;
 }    
+
+#header-image svg {
+    max-height: 100px;
+    max-width: 550px;
+}
