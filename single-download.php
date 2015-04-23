@@ -7,8 +7,21 @@
  ?>
 
 <?php get_header(); ?>
-<?php //get_template_part( 'framework/inc/titlebar' ); ?>
-
+    <div id="main-content" class="container-fluid">
+            <div id="header-image"><!--start header-image-->
+<div id="header-content" class="container"><!--start header-->
+    <div class="row"><!--start row-->
+        <div class="col-md-6">
+            <h1><?php echo get_the_title(); ?></h1>
+            <h2>Mashshare Add-On</h2>
+        </div>
+        <div class="col-md-6">
+            <?php the_post_thumbnail('product-image'); ?>
+        </div>
+    </div><!--end row-->
+</div><!--end header-->
+</div><!--end header-image-->
+<div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
 <div id="page-wrap-download" class="container">
 	<div id="main-content" class="row store-template">
 		<div class="addon-offer notice info">
