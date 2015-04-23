@@ -1932,6 +1932,15 @@ div.bbp-submit-wrapper {
     margin-top: 25px;
 }
 
+.second {
+    border: 8px solid #00abed;
+}
+
 .third {
     margin-top: 25px;
+}
+
+.bundle {
+    text-align: center;
+    background-color: #fff;
 }
