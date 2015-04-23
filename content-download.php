@@ -34,7 +34,8 @@ get_header(); ?>
             <div class="row row-content-addons"><!--start row products-->
             <?php
             $current_page = get_query_var('page');
-            $per_page = get_option('posts_per_page');
+            //$per_page = get_option('posts_per_page');
+            $per_page = 30;
             $offset = $current_page > 0 ? $per_page * ($current_page-1) : 0;
             $product_args = array(
                 'post_type' => 'download',
