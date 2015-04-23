@@ -1423,7 +1423,7 @@ padding:0px;
   border:1px solid #00ABED;
 }*/
 
-.thumbnail_ratings h6 {
+.thumbnail_ratings h6 a {
   color:#fff; 
 }
 
@@ -1454,7 +1454,12 @@ font-size: 14px;
     padding-left: 0;
 }
 
-.thumbnail_ratings .col-xs-12.col-md-12.col-lg-12 {
+.thumbnail_ratings .col-xs-12.col-md-12.col-lg-12  {
+    padding-left: 0;
+    color: #fff;
+}
+
+.thumbnail_ratings .col-xs-12.col-md-12.col-lg-12 a {
     padding-left: 0;
     color: #fff;
 }
