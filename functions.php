@@ -271,12 +271,17 @@ function edd_version_shortcode() {
 }
 add_shortcode( 'edd_version', 'edd_version_shortcode' );
 
+/* Includes some custom widgets 
+ */
+require get_stylesheet_directory() . '/inc/class-widget.php';
+require get_stylesheet_directory() . '/inc/class-widget-item-stats.php';
+
 /**
  * Registers our download widget area.
  *
- * @since Twenty Twelve EDD 1.0
+ * @since mashshare-theme 1.0
  */
-/*function theme_edd_widgets_init() {
+function mashsb_edd_widgets_init() {
 	if ( class_exists( 'Easy_Digital_Downloads' ) ) {
 		register_widget( 'TwentyTwelve_EDD_Widget_Stats' );
 	}
@@ -291,5 +296,5 @@ add_shortcode( 'edd_version', 'edd_version_shortcode' );
 		'after_title' => '</h3>',
 	) );
 }
-add_action( 'widgets_init', 'theme_edd_widgets_init' );*/
+add_action( 'widgets_init', 'mashsb_edd_widgets_init' );
 
