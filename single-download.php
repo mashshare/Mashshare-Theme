@@ -23,10 +23,10 @@
 </div><!--end header-image-->
 <div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
 <div id="page-wrap-download" class="container">
-	<div id="main-content" class="row store-template">
-		<div class="addon-offer notice info">
-		Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase 
-		<br>We charge EUR prices. During checkout your currency is automatically recalculated. Rate: 1 USD ~ 1.13 EUR
+	<div class="addon-offer notice info">
+		<a href="https://www.mashshare.net/pricing/"><img src="https://www.mashshare.net/wp-content/uploads/2015/04/bundle_three_packages.png"></a>
+		<!--Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase 
+		<br>We charge EUR prices. During checkout your currency is automatically recalculated.-->
 		<!-- <strong>BlackFriday - CyberMonday: </strong> 25% discount on all Add-Ons until Monday 23:59:59h. Discount code "blackfriday" -->
 	</div>
 	<div id="content" class="sidebar-right twelve columns">
