@@ -947,8 +947,9 @@ p.logged-in-as {
 }
 
 #footer-area a {
-  color: #00adef;
+  color: #cccccc;
   text-decoration: underline;
+  font-weight: bold;
 }
 #footer-area .footer-widget-area {
   padding: 40px 0 20px 0;
@@ -972,6 +973,11 @@ p.logged-in-as {
   color: inherit;
   margin-top: 0px;
 }
+
+#footer-area ul{
+    padding-left:15px;
+}
+
 #footer-area #social ul li {
   border-bottom: none;
 }
@@ -1667,7 +1673,6 @@ height: 1px;
 
 .addon-offer {
     background: none repeat scroll 0 0 #fff;
-    border: 2px solid #00abed;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     font-weight: bold;
     margin-bottom: 20px;
