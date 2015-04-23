@@ -1715,6 +1715,7 @@ height: 1px;
 .product {
     margin-bottom: 30px;
     background-color: #fff;
+    min-height: 450px;
 }
 
 .product-price {
@@ -1910,4 +1911,10 @@ div.bbp-submit-wrapper {
 
 .edd_purchase_submit_wrapper {
     padding-bottom: 25px;
+}
+
+.entry h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
 }
