@@ -18,16 +18,17 @@
 			<?php get_sidebar( 'footer' ); ?>
                     <div class="col-sm-6 col-md-4">
                     <h4>What is Mashshare?</h4>
-<p>Mashshare is a extensible free Share Button ecosystem for the best possible social sharing optimization of your website. You find Add-Ons for Velocity Graph, Google Analytics integration, mobile sharing optimization, responsive design and much more in the <a href="https://www.mashshare.net/downloads">Add-On section</a></p>
+<p>Mashshare is a extensible free social share media ecosystem for the best possible social sharing optimization of your website. You find Add-Ons for Velocity Graph, Google Analytics integration, mobile sharing optimization, responsive design and much more in the <a href="https://www.mashshare.net/downloads">Add-On section</a></p>
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmashshare.net&amp;width=270&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=80&amp;appId=529531527150598&amp;colorscheme=dark" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:80px;" allowTransparency="true"></iframe>
+
                     </div>
                     <div class="col-sm-6 col-md-4">
                     <h4>Are you a developer?</h4>
-                    <p style="border-bottom: 1px solid #ccc;">
+                    <p>
                         Do you like to create a official Mashshare extension and host it here? <br> <a id="mail" href="https://www.mashshare.net/contact-developer/">Get in touch with us</a> for more information or check out latest Mashshare revision at <a href="https://github.com/mashshare/Mashshare" target="_blank">GitHub</a></p>
 <!--
 <h4>Help and Support</h4><p>We respond to all support requests as soon as possible, weekdays between 9am – 6pm. Our Support Team is based in Germany (GMT+2) so please be aware of time differences.<br /></p>
 -->
-<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmashshare.net&amp;width=270&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=80&amp;appId=529531527150598&amp;colorscheme=dark" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:80px;" allowTransparency="true"></iframe>
                     </p>
                     </div>
                     <div class="col-sm-6 col-md-4">
