@@ -25,7 +25,7 @@ get_header(); ?>
 </div><!--end header-image-->
 <div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
         <div class="addon-offer notice info container">
-		<a href="https://www.mashshare.net/pricing/"><img src="https://www.mashshare.net/wp-content/uploads/2015/04/bundle_three_packages.png"></a>
+		<a href="<?php echo get_permalink('21228'); ?>"><img src="https://www.mashshare.net/wp-content/uploads/2015/04/bundle_three_packages.png"></a>
 		<!--Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase 
 		<br>We charge EUR prices. During checkout your currency is automatically recalculated.-->
 		<!-- <strong>BlackFriday - CyberMonday: </strong> 25% discount on all Add-Ons until Monday 23:59:59h. Discount code "blackfriday" -->
