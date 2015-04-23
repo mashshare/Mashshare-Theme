@@ -1704,9 +1704,7 @@ height: 1px;
     padding-right: 15px;
 }
 
-
-
-#header_image .attachment-product-image.wp-post-image {
+#header-image .attachment-product-image.wp-post-image {
     border: 1px solid #fff;
     margin-bottom: 40px;
     margin-left: 45px;
