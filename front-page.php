@@ -38,7 +38,7 @@ get_header(); ?>
                                                     <div class="container">
                                                         <div class="teaser col-md-8 col-md-offset-2">
                                                             <h3>Mashshare</h3>
-                                                            Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Than you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.
+                                                            <p>Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Than you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
 
                                                         </div>
                                                     </div>
