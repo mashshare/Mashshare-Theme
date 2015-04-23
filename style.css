@@ -1919,11 +1919,19 @@ div.bbp-submit-wrapper {
     text-align: left;
 }
 
-h6 {
+.col-md-4.col-xs-4 > h6 {
     background-color: #474747;
     color: #fff;
-    font-size: 50px;
+    font-size: 2.5em;
     padding-bottom: 25px;
     padding-top: 25px;
     text-align: center;
+}
+
+.first {
+    margin-top: 25px;
+}
+
+.third {
+    margin-top: 25px;
 }
