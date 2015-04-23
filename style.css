@@ -1876,3 +1876,7 @@ div.bbp-submit-wrapper {
     background-color: #fff;
 }
 
+.sidebar .widget-area.col-sm-12.col-md-4 {
+    padding-right: 0;
+}
+
