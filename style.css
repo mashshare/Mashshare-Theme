@@ -1868,7 +1868,11 @@ div.bbp-submit-wrapper {
     color: #00adef;
 }
 
-.entry-single{
+#page-wrap-download .entry-single{
+    background-color: #fff;
+}
+
+#page-wrap-download .entry-single .hentry{
     background-color: #fff;
 }
 
