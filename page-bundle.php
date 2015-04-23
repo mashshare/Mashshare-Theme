@@ -26,24 +26,24 @@ Template Name: page-bundle
                         <div class="row">
                             <div class="bundle first col-md-4 col-xs-4">
                                 <h6>Personal</h6>
-                                <p>1 Site</p>
-                                <p>&euro;39</p>
+                                <p class="price">1 Site</p>
+                                <p class="price">&euro;39</p>
                                 <p>1 Year of Updates & Support**</p>
                                 <p>30 Days Satisfied or Refunded</p>
                                 <p>10 professional add-ons</p>
                             </div>
                             <div class="bundle second col-md-4 col-xs-4">
                                 <h6>Business</h6>
-                                <p>3 Site</p>
-                                <p>&euro;99</p>
+                                <p class="price">3 Site</p>
+                                <p class="price">&euro;99</p>
                                 <p>1 Year of Updates & Support**</p>
                                 <p>30 Days Satisfied or Refunded</p>
                                 <p>10 professional add-ons</p>
                             </div>
                             <div class="bundle third col-md-4 col-xs-4">
                                 <h6>Pro</h6>
-                                <p>1 Site</p>
-                                <p>&euro;199</p>
+                                <p class="price">1 Unlimited Sites</p>
+                                <p class="price">&euro;199</p>
                                 <p>1 Year of Updates & Support**</p>
                                 <p>30 Days Satisfied or Refunded</p>
                                 <p>10 professional add-ons</p>
