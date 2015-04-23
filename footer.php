@@ -41,10 +41,10 @@
                     <h4>Support</h4>
                     <p>
                     <ul>  
-                        <li><a href="<?php get_permalink(); ?>">FAQ</a></li>
-                        <li><a href="<?php get_permalink(); ?>">Affiliate</a></li>
-                        <li><a href="<?php get_permalink(); ?>">Legal</a></li>
-                        <li><a id="mail" href="https://www.mashshare.net/contact-developer/">Contact us</a></li>
+                        <li><a href="<?php echo get_permalink('59'); ?>">FAQ</a></li>
+                        <li><a href="<?php echo get_permalink('1185'); ?>">Affiliate</a></li>
+                        <li><a href="<?php echo get_permalink('127'); ?>">Legal</a></li>
+                        <li><a href="<?php echo get_permalink('93'); ?>">Contact us</a></li>
                     </ul>
                     </p>
                     </div>
