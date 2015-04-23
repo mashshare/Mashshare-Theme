@@ -53,7 +53,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/facebook-like-bar/"><span class="title_addon">Facebook Like-Bar</span></a>
                                                                             <p class="no_small">A highly customizable, full responsive and mobile optimized sticky Like-Bar with Google Analytics Integration. Track and trace “Likes” and “Unlikes”</p>
-                                                                            <a href="<?php echo get_permalink('17706'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
+                                                                            <a href="<?php echo get_permalink('11991'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/facebook-like-bar/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-fblike.png" alt="Facebook Like-Bar" /></a>
@@ -64,7 +64,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-social-networks-addon/"><span class="title_addon">Masshare Social Networks</span></a>
                                                                             <p class="no_small">Extend Mashshare with: Google+, Whatsapp, Pinterest, Digg, Linkedin, Reddit, Stumbleupon, Vk,Print, Delicious, Buffer, Weibo, Pocket, Xing, Tumblr …</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('70'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/mashshare-social-networks-addon/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-networks.png" alt="Mashshare Social Networks Addon" /></a>
@@ -75,7 +75,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/sticky-sharebar/"><span class="title_addon">Sticky ShareBar</span></a>
                                                                             <p class="no_small">Full responsive all time visible ShareBar on top or bottom of your page which slides down after scrolling.</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('5650'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/sticky-sharebar/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-sticky.png" alt="Mashshare Sticky ShareBar" /></a>
@@ -86,7 +86,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-responsive/"><span class="title_addon">Mashshare Responsive</span></a>
                                                                             <p class="no_small">Automatic responsive behavior for Mashshare on mobile devices, smartphones and tablets. Downsizes buttons to pure icons fitting in one line.</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('468'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/mashshare-responsive/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-responsive.png" alt="Mashshare Responsive Add-on" /></a>
@@ -97,7 +97,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/google-analytics-integration/"><span class="title_addon">Mashshare Google Analytics Integration</span></a>
                                                                             <p class="no_small">Get full integration of Mashshare into Google Analytics. Track and count every single click on all Share Buttons.</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('4272'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/google-analytics-integration/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-google.png" alt="Mashshare Google Analytics Integration" /></a>
@@ -108,7 +108,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-pageviews/"><span class="title_addon">Mashshare PageViews</span></a>
                                                                             <p class="no_small">Realtime Pageview Counter Increase user interaction and interest with this ajax based Pageview Counter</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('6705'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/mashshare-pageviews/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-pageviews.png" alt="Mashshare PageViews" /> </a>
@@ -119,7 +119,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-open-graph/"><span class="title_addon">Mashshare Open Graph</span></a>
                                                                             <p class="no_small">Share your content in the best possible way. Social sharing optimization with Open Graph implementation</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('4469'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/mashshare-open-graph/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-open.png" alt="Mashshare Open Graph" /></a>
@@ -130,7 +130,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-likeaftershare/"><span class="title_addon">Mashshare LikeAfterShare</span></a>
                                                                             <p class="no_small">Share a post and get a Facebook Like Pop-Up overlay as seen on heftig.co or sfglobe.com.</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('1439'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/mashshare-likeaftershare/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-like.jpg" alt="Mashshare LikeAfterShare" /></a>
@@ -141,7 +141,7 @@ get_header(); ?>
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/shorturls-integration/"><span class="title_addon">Mashshare ShortURL Integration</span></a>
                                                                             <p class="no_small">Short URL Integration for twitter. Convert page URL into a short URL – Save space when posting longer tweets</p>
-                                                                            <button class="btn btn-primary btn-cons no_small" type="button">view Details</button>
+                                                                            <a href="<?php echo get_permalink('5202'); ?>"><button class="btn btn-primary btn-cons no_small" type="button"> view Details</button></a>
 
                                                                         </div>
                                                                         <a href="https://www.mashshare.net/downloads/shorturls-integration/"><img class="col-md-12" src="<?php echo get_template_directory_uri(); ?>/images/mash-short.png" alt="Mashshare ShortURL Integration" /></a>
