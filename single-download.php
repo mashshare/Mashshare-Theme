@@ -31,12 +31,13 @@
 		<!-- <strong>BlackFriday - CyberMonday: </strong> 25% discount on all Add-Ons until Monday 23:59:59h. Discount code "blackfriday" -->
 	</div>
         </div>
-	<div id="content" class="sidebar-right twelve columns"> <!--start content-->
-            <div class="row"> <!--start row-->
+    <div class="row"> <!--start row-->
+	<div id="content" class="entry-single col-md-8"> <!--start content-->
+            
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		
-			<div class="entry entry-single col-md-8">
+			<div class="entry">
 
 				<?php the_content(); ?>
 
@@ -51,9 +52,9 @@
 		<?php } ?>
 
 		<?php endwhile; endif; ?>
-            </div><!--end row-->
+            
 	</div> <!-- end content -->
-	
+	</div><!--end row-->
 	<div class="sidebar-on-right">
 		<?php get_sidebar( 'download' ); ?>
 	</div>
