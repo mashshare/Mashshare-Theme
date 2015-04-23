@@ -1848,3 +1848,11 @@ div.bbp-submit-wrapper {
     max-height: 100px;
     max-width: 550px;
 }
+
+.toc_toggle > a {
+    color: #00adef;
+}
+
+.toc_list a {
+    color: #00adef;
+}
