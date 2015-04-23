@@ -1807,4 +1807,7 @@ div.bbp-submit-wrapper {
     font-size: 25px;
     text-align: left;
 }
-        
+
+.entry-content {
+    background-color: #f6f6f6;
+}    
