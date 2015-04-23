@@ -932,12 +932,23 @@ p.logged-in-as {
 ----------------------------------------------- */
 
 #footer-area {
-  background-color: #ffffff;
+  background-color: #282828;
   color: #CCC;
   font-size: 12px;
+  border-top: 5px solid #ffffff;
 }
+
+#footer-area h4 {
+    color:#ffffff;
+}
+
+#footer-area .container {
+    margin-top:10px;
+}
+
 #footer-area a {
-  color: #ccc;
+  color: #00adef;
+  text-decoration: underline;
 }
 #footer-area .footer-widget-area {
   padding: 40px 0 20px 0;
@@ -1024,6 +1035,14 @@ p.logged-in-as {
 .scroll-to-top:hover {
   background: #1FA67A;
   opacity: .8;  
+}
+
+.pluginConnectTextDark {
+  color: #ccc !important;
+}
+
+span#u_0_2{
+        color: #ccc !important;
 }
 
 /* =Mobile Styling
@@ -1808,6 +1827,14 @@ div.bbp-submit-wrapper {
     text-align: left;
 }
 
+#header-image h2 {
+    margin-top: 0;
+}
+
+.entry-content {
+    background-color: #f6f6f6;
+}
+        
 .entry-content {
     background-color: #f6f6f6;
 }    
