@@ -18,12 +18,12 @@ get_header(); ?>
             <h2 style="display: none;">Get them separate or all included in one of our bundle packages starting at 39 EUR.</h2>
         </div>
         <div class="col-md-4">
-            <img id="packshot-addons" src="https://mashshare.net/wp-content/uploads/v2/packshot.png" alt="Packshot Add-Ons" />
+            <img id="packshot-addons" src="<?php echo get_template_directory_uri(); ?>/images/packshot.jpg" alt="Packshot Add-Ons" style="margin-bottom:30px;margin-top:15px;" />
         </div>
     </div><!--end row-->
 </div><!--end header-->
 </div><!--end header-image-->
-<div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
+<div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
         <div class="addon-offer notice info container">
 		<a href="<?php echo get_permalink('21228'); ?>"><img src="https://www.mashshare.net/wp-content/uploads/2015/04/bundle_three_packages.png"></a>
 		<!--Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase 
