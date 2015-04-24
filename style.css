@@ -1973,7 +1973,21 @@ div.bbp-submit-wrapper {
 }
 
 .second_box {
-    border: 8px solid #00ABED;
+    border: 10px solid #00ABED;
+}
+
+.mash_bundle h6 {
+    color: #00ABED;
+    font-size: 17px;
+}
+
+.mash_bundle a {
+    color: #00ABED;
+}
+.mash_police {
+    background-color: #fff;
+    padding:40px; 
+    font-size: 16px;
 }
 
 #toc_container {
