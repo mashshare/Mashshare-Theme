@@ -10,6 +10,7 @@ Template Name: page-fullwidth
             <div id="header-image"><!--start header-image-->
 <div id="header-content" class="container" style="padding-bottom:40px;"><!--start header-->
     <div class="row"><!--start row-->
+        <?php if(has_post_thumbnail()){?>
         <div class="col-md-8">
             <h1><?php the_title(); ?></h1>
             <h2><?php the_excerpt();?></h2>
@@ -17,6 +18,12 @@ Template Name: page-fullwidth
         <div class="col-md-4">
             <?php the_post_thumbnail(); ?>
         </div>
+        <?php } else { ?>
+        <div class="col-xs-12 col-md-offset-2 col-md-8" style="text-align:center;">
+            <h1><?php the_title(); ?></h1>
+            <h2><?php the_excerpt();?></h2>
+        </div>
+        <?php } ?>
     </div><!--end row-->
 </div><!--end header-->
 </div><!--end header-image-->
