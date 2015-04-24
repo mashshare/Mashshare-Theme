@@ -31,6 +31,7 @@ Template Name: page-bundle
                                 <p>1 Year of Updates & Support**</p>
                                 <p>30 Days Satisfied or Refunded</p>
                                 <p>10 professional add-ons</p>
+                                <p><?php echo do_shortcode( '[purchase_link id="21330" text="Buy Now" style="button" direct="true"]' ) ?></p>
                             </div>
                             <div class="bundle second col-md-4 col-xs-4">
                                 <h6>Business</h6>
@@ -39,6 +40,7 @@ Template Name: page-bundle
                                 <p>1 Year of Updates & Support**</p>
                                 <p>30 Days Satisfied or Refunded</p>
                                 <p>10 professional add-ons</p>
+                                <p><?php echo do_shortcode( '[purchase_link id="21345" text="Buy Now" style="button" direct="true"]' ) ?></p>
                             </div>
                             <div class="bundle third col-md-4 col-xs-4">
                                 <h6>Pro</h6>
@@ -47,6 +49,7 @@ Template Name: page-bundle
                                 <p>1 Year of Updates & Support**</p>
                                 <p>30 Days Satisfied or Refunded</p>
                                 <p>10 professional add-ons</p>
+                                <p><?php echo do_shortcode( '[purchase_link id="21347" text="Buy Now" style="button" direct="true"]' ) ?></p>
                             </div>
                         </div>
                     </div><!-- end container -->
