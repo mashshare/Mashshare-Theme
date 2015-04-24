@@ -1925,47 +1925,55 @@ div.bbp-submit-wrapper {
 .edd_purchase_submit_wrapper {
     padding-bottom: 25px;
 }
-
-.entry h3 {
-    font-size: 20px;
-    font-weight: 400;
-    text-align: left;
-}
-
-.col-md-4.col-xs-4 > h6 {
+    
+        .panel.price,
+        .panel.price>.panel-heading{
+            border-radius:0px;
+             -moz-transition: all .3s ease;
+            -o-transition:  all .3s ease;
+            -webkit-transition:  all .3s ease;
+        }
+        .panel.price:hover{
+            box-shadow: 0px 0px 30px rgba(0,0,0, .2);
+        }
+        .panel.price:hover>.panel-heading{
+            box-shadow: 0px 0px 30px rgba(0,0,0, .2) inset;
+        }
+        
+                
+        .panel.price>.panel-heading{
+            box-shadow: 0px 5px 0px rgba(50,50,50, .2) inset;
+            text-shadow:0px 3px 0px rgba(50,50,50, .6);
+        }
+        
+.panel.price > h3 {
     background-color: #474747;
     color: #fff;
-    font-size: 2.5em;
+    font-size: 25px;
+    margin-bottom: 0;
     padding-bottom: 25px;
     padding-top: 25px;
-    text-align: center;
-    margin: 0px;
+    font-weight: 500;
 }
 
-.first {
-    margin-top: 25px;
+.mash_license {
+    font-size: 30px;
+}
+.mash_etc {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.second {
-    border: 8px solid #00abed;
+.mash_btn {
+    border: 0px;
 }
 
-.third {
-    margin-top: 25px;
+.fist_box, .third_box {
+    margin-top: 30px;
 }
 
-.bundle {
-    text-align: center;
-    background-color: #fff;
-    padding:0px;
-}
-
-.price {
-    
-}
-
-.bundle.first.col-md-4.col-xs-4 > p {
-    border-top: 1px solid #f2f1e7;
+.second_box {
+    border: 8px solid #00ABED;
 }
 
 #toc_container {
