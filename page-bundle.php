@@ -66,7 +66,7 @@ Template Name: page-bundle
 			</div>
             
 </div>
-                    <div class="container">
+                    <div class="container mash_star">
                         <div class="row">
                             <div class="col-md-12" style="text-align: center;">
                                 <p>*A license allows to install and use Mashshare and all Add-Ons on a site for an unlimited period of time. This is not a subscription!<br />
