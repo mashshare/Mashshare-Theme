@@ -10,11 +10,11 @@ Template Name: page-fullwidth
             <div id="header-image"><!--start header-image-->
 <div id="header-content" class="container" style="padding-bottom:40px;"><!--start header-->
     <div class="row"><!--start row-->
-        <div class="col-md-7">
+        <div class="col-md-8">
             <h1><?php the_title(); ?></h1>
             <h2><?php the_excerpt();?></h2>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-4">
             <?php the_post_thumbnail(); ?>
         </div>
     </div><!--end row-->
