@@ -42,7 +42,7 @@
 					<div id="logo" <!-- Your site title as branding in the menu -->
                                             <?php if(!is_front_page()){?>			    
                                             <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Mashshare " rel="home">
-                                                <img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/logo_mashshare.jpg" alt="Logo Mashshare">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare.jpg" alt="Logo Mashshare">
                                             </a>
                                              <?php } ?>
 					</div>
