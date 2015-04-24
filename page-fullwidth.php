@@ -6,23 +6,21 @@ Template Name: page-fullwidth
 
 <?php get_header(); ?>
 
-	
-
 	<div id="page-wrap" class="container-fluid">
             <div id="header-image"><!--start header-image-->
-<div id="header-content" class="container"><!--start header-->
+<div id="header-content" class="container" style="padding-bottom:40px;"><!--start header-->
     <div class="row"><!--start row-->
         <div class="col-md-6">
             <h1><?php the_title(); ?></h1>
             <h2><?php the_excerpt();?></h2>
         </div>
         <div class="col-md-6">
-            <img src="<?php echo the_post_thumbnail(127); ?>" alt="<?php the_title(); ?>" />
+            <?php the_post_thumbnail(); ?>
         </div>
     </div><!--end row-->
 </div><!--end header-->
 </div><!--end header-image-->
-<div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
+<div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
             <div class="row"><!-- start row -->
 		<div id="content" class="col-xs-12 col-md-12 col-lg-12">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
