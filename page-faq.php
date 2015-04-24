@@ -17,12 +17,12 @@ Template Name: page-faq
             <h2>Please read this FAQ first <br>before  <a title="Mashshare support" href="<?php echo get_permalink('93'); ?>">opening a ticket.</a></h2>
         </div>
         <div class="col-md-5">
-            <img src="https://mashshare.net/dev2/wp-content/themes/wp-rootstrap/images/packshot-faq.png" alt="Packshot FAQ" style="margin-bottom:30px;"/> 
+            <img src="<?php echo get_template_directory_uri(); ?>/images/images/packshot-faq.png" alt="Packshot FAQ" style="margin-bottom:30px;"/> 
         </div>
     </div><!--end row-->
 </div><!--end header-->
 </div><!--end header-image-->
-<div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
+<div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
             <div class="row"><!-- start row -->
 		<div class="col-xs-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
