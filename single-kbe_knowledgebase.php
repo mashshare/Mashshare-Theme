@@ -21,9 +21,9 @@
 </div><!--end header-->
 </div><!--end header-image-->
 <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
-<div id="page-wrap" class="container">
+<div id="page-wrap" class="container" style="margin-top:40px;">
 	<!--<div id="content" class="sidebar-right twelve columns blog blog-large">-->
-	<div id="content" class="sidebar-right twelve columns">
+	<div id="content" class="sidebar-right twelve columns" style="">
 
             <div id="kbe_container" style="margin-bottom: 40px;">
     <div class="container">
