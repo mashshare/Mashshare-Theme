@@ -659,7 +659,7 @@ li.recentcomments {
   margin-top: -2px;
   border-bottom: 1px solid #eee;
   position: relative;
-  z-index: 999999;
+  z-index: 99999;
   width: 100%;
 }
 
