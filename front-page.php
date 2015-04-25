@@ -36,7 +36,7 @@ get_header(); ?>
                                                     </div>
                                                     <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
                                                     <div class="container">
-                                                        <div class="teaser col-md-8 col-md-offset-2">
+                                                        <div class="teaser col-md-8 col-md-offset-2" style="margin-top: 30px;">
                                                             <h3>Mashshare</h3>
                                                             <p>Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Than you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
 
@@ -44,7 +44,7 @@ get_header(); ?>
                                                     </div>
                                                     <div class="addons_container container-fluid">
                                                         <div class="decor-bottom container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_white.png" alt="white" /></div>
-                                                        <div class="container">
+                                                        <div class="container" style="margin-top: 30px;">
                                                             <h3>Add-Ons for Mashshare</h3>
                                                         </div>
                                                         <div class="container frontpage_addons">
@@ -154,13 +154,57 @@ get_header(); ?>
 
                                                     </div>
                                                     <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
-                                                    <div class="container">
-                                                        <h3>Satisfied Customers Say</h3>
+                                                    <div class="container" style="margin-top: 30px;">
+                                                        <h3>Who is Sharing With Us?</h3>
                                                     </div>
                                                     <div class="testimonials container-fluid">
                                                         <div class="decor-bottom container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_white.png" alt="white" /></div>
                                                         <div class="container">
-                                                            <div class="testimonial_border col-xs-12 col-sm-4 col-md-4">
+                                                            <div class="row">
+                                                            <!--test slider beginn-->
+                                                            <div id="carousel-example-generic" class="carousel slide col-md-10 col-md-offset-1" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/slider.png" alt="slider" />
+      <div class="carousel-caption">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" /><p>iculture.nl<br />
+        by Jean-Paul Horn</p>
+          <p>We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/slider.png" alt="slider" />
+      <div class="carousel-caption">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" /><p>blogtyrant.com<br />
+        by Ramsay</p>
+          <p>Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top.</p>
+      </div>
+    </div>
+      <div class="item">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/slider.png" alt="slider" />
+      <div class="carousel-caption">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" /><p>DanCarrPhotography.com<br />
+        by Dan Carr
+</p>
+          <p>There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+</div>
+                                                            </div>
+                                                            </div>
+                                                            <!--test slider end-->
+                                                            <!--<div class="testimonial_border col-xs-12 col-sm-4 col-md-4">
                                                                 <div class="thumbnail_ratings">
                                                                     <div class="row first_line">
                                                                         <div class="col-xs-4 cold-md-4 col-lg-4"><img src="<?php echo get_template_directory_uri(); ?>/images/iculture.png" alt="iculture" /></div>
@@ -212,7 +256,7 @@ get_header(); ?>
                                                                     <p>I went through a long period where I tried out many WordPress sharing plugins. When I discovered Mashshare I knew I'd found what I was looking for. There's no other sharing plugin that has the depth of options that you get from this one, not even close. For me it's also important to see a plugin is being actively developed and maintained, with Mashshare there are new features added every month! Having a great selection of add-ons means you can keep the plugin super lightweight and just add the functions that are important to you and your site. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!</p>
 
                                                                 </div>
-                                                            </div>
+                                                            </div>-->
                                                         </div>
                                                     </div>
                                             </div><!-- .entry-content -->
