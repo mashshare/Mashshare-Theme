@@ -9,7 +9,6 @@
         return;
     }
 ?>
-
 <!-- You can start editing here. -->
 <div class="clear"></div>
 <?php
