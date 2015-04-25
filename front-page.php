@@ -162,7 +162,11 @@ get_header(); ?>
                                                         <div class="container">
                                                             <div class="row">
                                                             <!--test slider beginn-->
-                                                            <div id="carousel-example-generic" class="carousel slide col-md-10 col-md-offset-1" data-ride="carousel">
+                                                            
+<script>$('.carousel').carousel({
+    interval: 6000
+})</script>
+                                                            <div id="carousel-example-generic" class="carousel slide col-md-12" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
