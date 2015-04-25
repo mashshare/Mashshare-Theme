@@ -309,3 +309,24 @@ function mashshare_add_excerpts_to_pages() {
 
 /* remove jetpack open graph */
 remove_action( 'wp_head', 'jetpack_og_tags' );
+
+/* Login function incl. purchase history redirect */
+
+// Add Shortcode
+function mash_purchase_history() {
+    if (is_user_logged_in()){
+        echo do_shortcode('[purchase_history]');
+        echo do_shortcode('[download_history]');
+        echo do_shortcode('[edd_profile_editor]');
+    } else {
+        echo do_shortcode('[edd_login redirect="https://mashshare.net/dev4/checkout/purchase-history/"]');
+    }
+}
+add_shortcode( 'mashshare_purchase_history', 'mash_purchase_history' );
+
+/* Get taxonomy title */
+
+function mash_get_tax_title(){
+    $term = get_term_by( 'slug', esc_url(get_query_var( 'term' )), esc_url(get_query_var( 'taxonomy' ) ) ); 
+    return $term->name;
+}
