@@ -39,7 +39,7 @@ Template Name: page-sidebar-right
 			<?php endwhile; endif; ?>
 		</div> <!-- end content -->
                 <div id="secondary" class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="margin-top:30px;"><!-- Sidebar right -->
-                    <div style="min-width: 250px;">
+                    <div id="divdiv" style="min-width: 250px;">
                     <?php dynamic_sidebar( 'support-forum' ); ?>
                     </div>
                 </div> <!-- end Sidebar right -->
