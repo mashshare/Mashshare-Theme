@@ -268,7 +268,7 @@ textarea {
 }
 .hentry {
   margin: 0 0 0;
-  padding: 20px;
+  padding: 0px;
   background: #f6f6f6;
 }
 .home-widget-area {
@@ -1185,7 +1185,7 @@ span#u_0_2{
 
 .nav > li > a {
     padding: 13px 10px;
-    color: #fff;
+    /*color: #fff;*/
 }
 
 /*.navbar-nav > li > a {
@@ -1216,9 +1216,9 @@ span#u_0_2{
 #header-image {
 background-color: #00ABED;
 }
-.hentry {
+/*.hentry {
   padding: 0px!important;
-}
+}*/
 
 .page-content, .entry-content, .entry-summary {
     margin: 0 0 0!important;
@@ -2040,5 +2040,24 @@ border-bottom: 1px solid #F1F1F1;
 padding-left:0px;
 }
 
+.bbp-tickets {
+    padding: 10px;
+}
+
+.bbp-tickets li a{
+    text-decoration: none;
+}
+
+.bbp-tickets form .btn-default{
+    margin-left:10px;
+}
+
+#support-tabs li a {
+    text-decoration: none;
+}
+
+#bbpress-forums{
+    margin-bottom:0px;
+}
 
 
