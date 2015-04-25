@@ -68,8 +68,8 @@ body {
 }
 
 a {
-  color: #1FA67A;
-  text-decoration: none;
+  color: #00adef;
+  text-decoration: underline;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -78,8 +78,8 @@ a {
 
 a:hover,
 a:focus {
-  color: #333;
-  text-decoration: none;
+  color: #008EC3;
+  text-decoration: underline;
 }
 
 a:focus {
