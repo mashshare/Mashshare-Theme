@@ -49,7 +49,7 @@ get_header(); ?>
                                                         </div>
                                                         <div class="container frontpage_addons">
                                                             <div class="row">
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="col-xs-6 col col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/facebook-like-bar/"><span class="title_addon">Facebook Like-Bar</span></a>
                                                                             <p class="no_small">A highly customizable, full responsive and mobile optimized sticky Like-Bar with Google Analytics Integration. Track and trace “Likes” and “Unlikes”</p>
