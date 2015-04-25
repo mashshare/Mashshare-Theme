@@ -447,8 +447,8 @@ object {
 ----------------------------------------------- */
 
 #secondary  .widget {
-  margin: 0 0 1.5em;
-  padding: 10px;
+  margin: 0 0 30px;
+  padding: 30px;
   background: #fff;
 }
 .widget .nav>li>a {
@@ -1743,8 +1743,8 @@ height: 1px;
 }
 
 .bbp-username, .bbp-password, .bbp-remember-me {
-    color: #fff;
-    padding-left: 15px;
+    color: #666;
+    padding-left: 0px;
 }
 
 .bbp_login_widget-3 > span {
@@ -1769,10 +1769,10 @@ div.bbp-submit-wrapper {
 }
 
 .button.submit.user-submit {
-    background-color: #fff;
+    background-color: #00abed;
     border: medium none;
-    border-radius: 4px;
-    color: #00abed;
+    border-radius: 2px;
+    color: #fff;
 }
 
 .site-main {
@@ -1837,7 +1837,7 @@ div.bbp-submit-wrapper {
     padding-top: 1px !important;}
 
 .entry{
-  padding: 40px;
+  padding: 30px;
   background-color: white;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -2021,9 +2021,24 @@ div.bbp-submit-wrapper {
     text-decoration: none;
 }
 
-.bbp-tickets a{}
-
-
-.carousel-caption > p {
-    font-size: 18px;
+.textwidget h4 {
+    margin-top: 0px;
 }
+.textwidget p {
+    margin-bottom: 0px;
+}
+
+#secondary .widget h3 span {
+  font-family: arial, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #666666;
+}
+#secondary .widget h3 {
+text-align: left;
+border-bottom: 1px solid #F1F1F1;
+padding-left:0px;
+}
+
+
+
