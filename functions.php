@@ -327,6 +327,12 @@ add_shortcode( 'mashshare_purchase_history', 'mash_purchase_history' );
 /* Get taxonomy title */
 
 function mash_get_tax_title(){
-    $term = get_term_by( 'slug', esc_url(get_query_var( 'term' )), esc_url(get_query_var( 'kbe_taxonomy' ) ) ); 
+$taxonomy = 'kbe_taxonomy';
+$queried_term = get_query_var($taxonomy);
+$terms = get_terms($taxonomy, 'slug='.$queried_term);
+if ($terms) {
+  foreach($terms as $term) {
     return $term->name;
+  }
+}
 }
