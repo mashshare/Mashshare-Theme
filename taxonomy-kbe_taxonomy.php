@@ -33,6 +33,7 @@
         <?php } else { ?>
         <div class="col-xs-12 col-md-offset-2 col-md-8" style="text-align:center;">
             <h1><?php echo mash_get_tax_title(); ?></h1>
+            <h2>Documentation</h2>
         </div>
         <?php } ?>
     </div><!--end row-->
@@ -46,6 +47,17 @@
           <div class="container">
         <div class="row">
             <div class="col-md-12" style="text-align: center; margin-top: 40px;">  
+                <!--Breadcrum-->
+    <?php
+        if(KBE_BREADCRUMBS_SETTING == 1){
+    ?>
+            <div class="kbe_breadcrum">
+                <?php echo kbe_breadcrumbs(); ?>
+            </div>
+    <?php
+        }
+    ?>
+    <!--/Breadcrum-->
     <!--search field-->
     <?php
         if(KBE_SEARCH_SETTING == 1){

@@ -32,7 +32,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" style="text-align: center; margin-top: 40px;">
-    <!--search field-->
+                    <!--Breadcrum-->
+    <?php
+        if(KBE_BREADCRUMBS_SETTING == 1){
+    ?>
+            <div class="kbe_breadcrum">
+                <?php echo kbe_breadcrumbs(); ?>
+            </div>
+    <?php
+        }
+    ?>
+    <!--/Breadcrum-->
+                <!--search field-->
   
   <?php
         if(KBE_SEARCH_SETTING == 1){
