@@ -19,21 +19,33 @@
     );
     $kbe_tax_post_qry = new WP_Query($kbe_tax_post_args);
 ?>
-<div id="page-wrap" class="container">
+<div class="container-fluid">
+            <div id="header-image"><!--start header-image-->
+<div id="header-content" class="container" style="padding-bottom:40px;"><!--start header-->
+    <div class="row"><!--start row-->
+        <?php if(has_post_thumbnail()){?>
+        <div class="col-md-8">
+            <h1><?php the_title(); ?></h1>
+        </div>
+        <div class="col-md-4">
+            <?php the_post_thumbnail(); ?>
+        </div>
+        <?php } else { ?>
+        <div class="col-xs-12 col-md-offset-2 col-md-8" style="text-align:center;">
+            <h1><?php echo mash_get_tax_title(); ?></h1>
+        </div>
+        <?php } ?>
+    </div><!--end row-->
+</div><!--end header-->
+</div><!--end header-image-->
+<div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
+<div id="page-wrap" class="container" style="margin-top: 40px;">
 	<div id="content" class="sidebar-right twelve columns blog blog-large">
-<div id="kbe_container">
-    <!--Breadcrum-->
-    <?php
-        if(KBE_BREADCRUMBS_SETTING == 1){
-    ?>
-            <div class="kbe_breadcrum">
-                <?php echo kbe_breadcrumbs(); ?>
-            </div>
-    <?php
-        }
-    ?>
-    <!--/Breadcrum-->
-        
+<div id="kbe_container" style="margin-bottom: 40px;">
+
+          <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="text-align: center; margin-top: 40px;">  
     <!--search field-->
     <?php
         if(KBE_SEARCH_SETTING == 1){
@@ -41,8 +53,13 @@
         }
     ?>
     <!--/search field-->
-        
+              </div>
+    </div>
+    </div>
 <!--content-->
+<div class="container">
+        <div class="row">
+            <div class="col-md-12" style="padding-left:50px; padding-right: 70px; padding-bottom: 40px;">
 <?php
     if(KBE_SIDEBAR_INNER == 0){
 ?>
@@ -87,6 +104,9 @@
             <!--/leftcol-->
         
 	</div>
+            </div>
+            </div>
+            </div>
         <!--/content-->
     
 	<!--aside-->
@@ -114,6 +134,7 @@
 </div>
 </div>
 </div>
+            </div>
 <?php
     get_footer();
 ?>
