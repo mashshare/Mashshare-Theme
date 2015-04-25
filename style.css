@@ -2022,3 +2022,8 @@ div.bbp-submit-wrapper {
 }
 
 .bbp-tickets a{}
+
+
+.carousel-caption > p {
+    font-size: 18px;
+}
