@@ -48,7 +48,7 @@ get_header(); ?>
             ?>
             <?php if ($products->have_posts()) : $i = 3; ?>
                 <?php while ($products->have_posts()) : $products->the_post(); ?>    
-                <div class="col-xs-12 col-md-4 col-lg-4"><!--start col outside product-->
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4"><!--start col outside product-->
                     <div class="row addons-row"><!--start row outside product-->
             <div class=" product<?php if($i % 3 == 0) { echo ' last'; } ?>"><!--start product-->
                         
