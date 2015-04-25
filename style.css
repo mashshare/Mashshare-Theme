@@ -1382,7 +1382,7 @@ text-align:center;
 
 .btn-default:hover, .label-default[href]:hover, .label-default[href]:focus, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, #image-navigation .nav-previous a:hover, #image-navigation .nav-next a:hover {
     background-color: #00acee;
-    border-color: #1b926c;
+    border-color: #007DAD;
 }
 
 .label[href]:hover, .label[href]:focus {
@@ -2016,3 +2016,9 @@ div.bbp-submit-wrapper {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
+#menu-main_manue li a{
+    text-decoration: none;
+}
+
+.bbp-tickets a{}
