@@ -2077,3 +2077,8 @@ tbody a {
     height: 50px;
     margin-left: 10px;
 }
+
+
+#edd_user_history > tbody >tr:nth-child(even) {
+       background-color: #000;
+}
