@@ -34,7 +34,7 @@ Template Name: page-purchase
 				
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
-				<div class="entry" style="background-color: #fff;">
+				<div class="entry" style="background-color: #f6f6f6;">
 	
 					<?php the_content(); ?>
 	
