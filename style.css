@@ -936,6 +936,9 @@ p.logged-in-as {
   color: #CCC;
   font-size: 12px;
   border-top: 5px solid #ffffff;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 
 #footer-area h4 {
