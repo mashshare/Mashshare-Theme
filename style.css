@@ -2062,7 +2062,7 @@ padding-left:0px;
 .well {
     box-shadow: none;
     border-radius: 0px;
-    background-color: none;
+    background: none;
     border: none;
 }
 .nav-tabs > li > a  {
@@ -2077,6 +2077,12 @@ tbody a {
     height: 50px;
     margin-left: 10px;
 }
+
+.btn-default a {
+    color:white;
+    text-decoration: none;
+}
+
 
 
 #edd_user_history > tbody >tr:nth-child(even) {
