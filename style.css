@@ -727,7 +727,7 @@ li.recentcomments {
 }
 .dropdown-menu > .active > a, 
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a {
-  background-color: #1FA67A;
+  background-color: #282828;
   color: #fff;
 }
   
@@ -2087,4 +2087,20 @@ tbody a {
 
 #edd_user_history > tbody >tr:nth-child(even) {
        background-color: #000;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu> li a:hover, .dropdown-menu>.active>a:focus{
+      background-color: #00adef;
+}
+
+.dropdown-menu> li a:hover {
+    background-color:#f3f3f3;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  border-radius: 0px;
+}
+
+.menu-main_manue{
+    min-height: 180px;
 }
