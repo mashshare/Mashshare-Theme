@@ -2062,7 +2062,7 @@ padding-left:0px;
 .well {
     box-shadow: none;
     border-radius: 0px;
-    background-color: #fff;
+    background: none;
     border: none;
 }
 .nav-tabs > li > a  {
@@ -2086,6 +2086,39 @@ tbody a {
 
 
 #edd_user_history > tbody >tr:nth-child(even) {
+       background-color: #e6e6e6;
+}
+
+#edd_user_history th {
+    background: none repeat scroll 0 0 #b3b3b3;
+    font-weight: 600;
+    color: #000;
+}
+
+tbody {
+    background-color: #fff;
+}
+
+#tab3 fieldset {
+background-color: #fff;
+}
+
+#tab3 legend {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #b3b3b3;
+}
+
+#tab3 p {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tab3 label {
+    padding-top: 10px;
+    padding-bottom: 10px;
        background-color: #000;
 }
 
