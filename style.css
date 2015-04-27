@@ -2137,3 +2137,11 @@ background-color: #fff;
 .menu-main_manue{
     min-height: 180px;
 }
+
+#bbpress-forums .status-closed, #bbpress-forums .status-closed a {
+    color:#00adef;
+}
+
+.bbp-topic-title .resolved{
+    color:green;
+}
