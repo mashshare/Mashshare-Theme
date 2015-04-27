@@ -2059,5 +2059,21 @@ padding-left:0px;
 #bbpress-forums{
     margin-bottom:0px;
 }
+.well {
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: #fff;
+    border: none;
+}
+.nav-tabs > li > a  {
+    text-decoration: none;
+}
 
+tbody a {
+    text-decoration: none;
+}
 
+#edd_user_history > thead {
+    height: 50px;
+    margin-left: 10px;
+}
