@@ -2060,4 +2060,10 @@ padding-left:0px;
     margin-bottom:0px;
 }
 
+.btn-default a {
+    color:white;
+    text-decoration: none;
+}
+
+
 
