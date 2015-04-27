@@ -315,32 +315,31 @@ remove_action( 'wp_head', 'jetpack_og_tags' );
 // Add Shortcode
 function mash_purchase_history() {
     if (is_user_logged_in()){
-        if(condition){
      echo '<div class="well">
     <ul class="nav nav-tabs">
-      <li class="active"><a href="#home" data-toggle="tab">Profile</a></li>
-      <li><a href="#profile" data-toggle="tab">Password</a></li>
+      <li class="active"><a href="#home" data-toggle="tab">Purchases</a></li>
+      <li><a href="#download" data-toggle="tab">Download</a></li>
+      <li><a href="#profile" data-toggle="tab">Profile</a></li>
     </ul>
     <div id="myTabContent" class="tab-content">
       <div class="tab-pane active in" id="home">
-        <form id="tab">
-            
-        </form>
+        <form id="tab">'.
+        do_shortcode('[purchase_history]').
+        '</form>
+      </div>
+      <div class="tab-pane fade" id="download">
+    	<form id="tab2">'.
+        do_shortcode('[download_history]').	
+    	'</form>
       </div>
       <div class="tab-pane fade" id="profile">
-    	<form id="tab2">
-        	<label>New Password</label>
-        	<input type="password" class="input-xlarge">
-        	<div>
-        	    <button class="btn btn-primary">Update</button>
-        	</div>
-    	</form>
+    	<form id="tab3">'.
+        do_shortcode('[edd_profile_editor]').	
+    	'</form>
       </div>
   </div>';
-}
-        echo do_shortcode('[purchase_history]');
-        echo do_shortcode('[download_history]');
-        echo do_shortcode('[edd_profile_editor]');
+        
+        
     } else {
         echo do_shortcode('[edd_login redirect="https://mashshare.net/dev4/checkout/purchase-history/"]');
     }
