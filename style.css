@@ -2145,3 +2145,18 @@ background-color: #fff;
 .bbp-topic-title .resolved{
     color:green;
 }
+
+.carousel-caption {
+    font-size: 16px;
+}
+
+.carousel-caption img {
+    border: 5px solid white;
+    border-radius: 64px;
+    margin-bottom:10px;
+}
+
+.carousel-inner>.item {
+    min-height: 340px;
+}
+

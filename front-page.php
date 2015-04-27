@@ -163,10 +163,14 @@ get_header(); ?>
                                                             <div class="row">
                                                             <!--test slider beginn-->
                                                             
-<script>$('.carousel').carousel({
+<script>
+    jQuery( document ).ready(function() {
+    jQuery('.carousel').carousel({
     interval: 6000
-})</script>
-                                                            <div id="carousel-example-generic" class="carousel slide col-md-12" data-ride="carousel">
+})
+    })
+</script>
+  <div id="carousel-example-generic" class="carousel slide col-md-12" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -177,28 +181,25 @@ get_header(); ?>
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/slider.png" alt="slider" />
+         
       <div class="carousel-caption">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" /><p>iculture.nl<br />
-        by Jean-Paul Horn</p>
-          <p>We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!</p>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" />
+          <p>"We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!"</p>
+          <p>Jean-Paul Horn from iculture.nl</p>
       </div>
     </div>
     <div class="item">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/slider.png" alt="slider" />
       <div class="carousel-caption">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" /><p>blogtyrant.com<br />
-        by Ramsay</p>
-          <p>Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top.</p>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" />
+          <p>"Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top."</p>
+          <p>Ramsay from blogtyrant.com</p>
       </div>
     </div>
       <div class="item">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/slider.png" alt="slider" />
       <div class="carousel-caption">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" /><p>DanCarrPhotography.com<br />
-        by Dan Carr
-</p>
-          <p>There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!</p>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" />
+          <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
+          <p>Dan Carr from DanCarrPhotography.com</p>
       </div>
     </div>
   </div>
@@ -264,7 +265,6 @@ get_header(); ?>
                                                         </div>
                                                     </div>
                                             </div><!-- .entry-content -->
-                                            <?php edit_post_link(__('Edit', 'rootstrap'), '<footer class="entry-meta"><i class="fa fa-pencil-square-o"></i><span class="edit-link">', '</span></footer>'); ?>
                                     <?php do_action('rootstrap_post_end'); ?>
 		</div><!-- #main -->
 	</div><!-- #primary -->
