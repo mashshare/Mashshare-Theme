@@ -24,7 +24,7 @@ Template Name: page-faq
 </div><!--end header-image-->
 <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
             <div class="row"><!-- start row -->
-		<div class="col-xs-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+		<div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-3 col-lg-6">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="entry">
