@@ -161,25 +161,27 @@ get_header(); ?>
                                                         <div class="decor-bottom container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_white.png" alt="white" /></div>
                                                         <div class="container">
                                                             <div class="row">
-                                                            <!--test slider beginn-->
                                                             
-<script>
+                                                                <!--test slider beginn-->
+                                                           
+                                                            
+<!--<script>
     jQuery( document ).ready(function() {
     jQuery('.carousel').carousel({
     interval: 6000
 })
     })
-</script>
-  <div id="carousel-example-generic" class="carousel slide col-md-12" data-ride="carousel">
+</script>-->
+ <!-- <div id="carousel-example-generic" class="carousel slide col-md-12" data-ride="carousel">-->
   <!-- Indicators -->
-  <ol class="carousel-indicators">
+  <!--<ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+  </ol>-->
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+ <!-- <div class="carousel-inner" role="listbox">
     <div class="item active">
          
       <div class="carousel-caption">
@@ -202,66 +204,141 @@ get_header(); ?>
           <p>Dan Carr from DanCarrPhotography.com</p>
       </div>
     </div>
+  </div>-->
+ 
+ <div class="row box hidden-xs">
+  <div class="col-lg-10 col-lg-offset-1">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <div class="row vorteile-bg">
+        
+        <div class="col-xs-12">
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="carousel-caption">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" />
+          <p>"We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!"</p>
+          <p>Jean-Paul Horn from iculture.nl</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption">
+                <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-erfolgreich"]; ?> <i class="fa fa-quote-left"></i></h3>
+                <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_erfolgreich"] );?>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption">
+                <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-schnell"]; ?> <i class="fa fa-quote-left"></i></h3>
+                <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_schnell"] );?>
+              </div>
+            </div>
+          </div>
+          <ol class="carousel-indicators hidden-xs">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="subnav">
+      <hr>
+      <nav class="nav nav-pills" role="navigation">
+        <?php
+          if (has_nav_menu('mediation_subnavigation')) :
+            wp_nav_menu(array('theme_location' => 'mediation_subnavigation', 'walker' => new Roots_Nav_Walker(), 'menu_class' => 'nav nav-pills'));
+          endif;
+        ?>
+      </nav>
+    </div>
   </div>
+</div>
+
+<div class="vorteile-mobile visible-xs">
+  <div class="row box">
+    <div class="col-lg-10 col-lg-offset-1">
+      <div class="box-icon">
+        <span class="fa fa-4x fa-check"></span>
+      </div>     
+      <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-positiv"]; ?> <i class="fa fa-quote-left"></i></h3>
+      <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_positiv"] );?>
+    </div>
+  </div>
+  <div class="row box white">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-erfolgreich"]; ?> <i class="fa fa-quote-left"></i></h3>
+      <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_erfolgreich"] );?>
+    </div>
+  </div>
+  <div class="row box">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-schnell"]; ?> <i class="fa fa-quote-left"></i></h3>
+      <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_schnell"] );?>
+    </div>
+  </div>
+  <div class="row box white">
+    <div class="col-lg-10 col-lg-offset-1">
+          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-diskret"]; ?> <i class="fa fa-quote-left"></i></h3>
+          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_diskret"] );?>
+    </div>
+  </div>
+  <div class="row box">
+    <div class="col-lg-10 col-lg-offset-1">      
+          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-zukunftsgerichtet"]; ?> <i class="fa fa-quote-left"></i></h3>
+          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_zukunftsgerichtet"] );?>
+    </div>
+  </div>
+  <div class="row box white">
+    <div class="col-lg-10 col-lg-offset-1"> 
+          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-flexibel"]; ?> <i class="fa fa-quote-left"></i></h3>
+          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_flexibel"] );?>
+    </div>
+  </div>
+  <div class="row box">
+    <div class="col-lg-10 col-lg-offset-1"> 
+          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-tiefer"]; ?> <i class="fa fa-quote-left"></i></h3>
+          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_tiefer"] );?>
+    </div>
+  </div>
+  <div class="row box white">
+    <div class="col-lg-10 col-lg-offset-1"> 
+          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-selbstbestimmt"]; ?> <i class="fa fa-quote-left"></i></h3>
+          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_selbstbestimmt"] );?>
+    </div>
+  </div>
+  <div class="row box">
+    <div class="col-lg-10 col-lg-offset-1"> 
+          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-preiswert"]; ?> <i class="fa fa-quote-left"></i></h3>
+          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_preiswert"] );?>
+    </div>
+  </div>
+  <div class="row box white">
+    <div class="col-lg-10 col-lg-offset-1"> 
+          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-respektvoll"]; ?> <i class="fa fa-quote-left"></i></h3>
+          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_respektvoll"] );?>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1"> 
+      <nav class="nav nav-pills" role="navigation">
+        <?php
+          if (has_nav_menu('mediation_subnavigation')) :
+            wp_nav_menu(array('theme_location' => 'mediation_subnavigation', 'walker' => new Roots_Nav_Walker(), 'menu_class' => 'nav nav-pills'));
+          endif;
+        ?>
+      </nav>
+    </div>
+  </div>
+
+</div>
 
   <!-- Controls -->
 </div>
                                                             </div>
                                                             </div>
                                                             <!--test slider end-->
-                                                            <!--<div class="testimonial_border col-xs-12 col-sm-4 col-md-4">
-                                                                <div class="thumbnail_ratings">
-                                                                    <div class="row first_line">
-                                                                        <div class="col-xs-4 cold-md-4 col-lg-4"><img src="<?php echo get_template_directory_uri(); ?>/images/iculture.png" alt="iculture" /></div>
-                                                                        <div class="col-xs-8 cold-md-8 col-lg-8">
-                                                                            <div class="row">
-                                                                                <h6><a href="http://www.iculture.nl" target="_blank" rel="nofollow">iculture.nl</a></h6>
-                                                                            </div>
-                                                                            <div class="row"></div>
-                                                                            <div class="row">
-                                                                                <div class="col-xs-12 col-md-12 col-lg-12">by <a href="http://www.iculture.nl" target="_blank" rel="nofollow">Jean-Paul Horn</a></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <p> We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically. Rene's support is always professional and patient and he is very open to feature requests and general feedback. We use almost of the Mashshare add-ons and these are of the same high quality. More importantly to me as a publisher is Mashshare is a huge social traffic driver due to its crisp look and feel and ease of use for end users. Definitely recommended!</p>
-
-                                                                </div>
-                                                            </div>
-                                                            <div class="testimonial_border col-xs-12 col-sm-4 col-md-4">
-                                                                <div class="thumbnail_ratings">
-                                                                    <div class="row first_line">
-                                                                        <div class="col-xs-4 cold-md-4 col-lg-4"><img src="<?php echo get_template_directory_uri(); ?>/images/ramsay.png" alt="Ramsay" /></div>
-                                                                        <div class="col-xs-8 cold-md-8 col-lg-8">
-                                                                            <div class="row">
-                                                                                <h6><a href="http://www.blogtyrant.com/" target="_blank" rel="nofollow">blogtyrant.com</a></h6>
-                                                                            </div>
-                                                                            <div class="row"></div>
-                                                                            <div class="row">
-                                                                                <div class="col-xs-12 col-md-12 col-lg-12">by <a href="http://www.blogtyrant.com/" target="_blank" rel="nofollow">Ramsay</a></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <p>Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. Very clean visuals, easy to install and, best of all, the guy who runs the plugin seems really nice and answers emails if you have any support issues. This is quite rare, in my experience.I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top.</p>
-
-                                                                </div>
-                                                            </div>
-                                                            <div class="testimonial_border col-xs-12 col-sm-4 col-md-4">
-                                                                <div class="thumbnail_ratings">
-                                                                    <div class="row first_line">
-                                                                        <div class="col-xs-4 cold-md-4 col-lg-4"><img src="<?php echo get_template_directory_uri(); ?>/images/dan.png" alt="Dan Carr" /></div>
-                                                                        <div class="col-xs-8 cold-md-8 col-lg-8">
-                                                                            <div class="row">
-                                                                                <h6><a href="http://DanCarrPhotography.com" target="_blank" rel="nofollow">DanCarrPhotography.com</a></h6>
-                                                                            </div>
-                                                                            <div class="row">
-                                                                                <div class="col-xs-12 col-md-12 col-lg-12">by <a href="http://DanCarrPhotography.com" target="_blank" rel="nofollow">Dan Carr</a></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <p>I went through a long period where I tried out many WordPress sharing plugins. When I discovered Mashshare I knew I'd found what I was looking for. There's no other sharing plugin that has the depth of options that you get from this one, not even close. For me it's also important to see a plugin is being actively developed and maintained, with Mashshare there are new features added every month! Having a great selection of add-ons means you can keep the plugin super lightweight and just add the functions that are important to you and your site. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!</p>
-
-                                                                </div>
-                                                            </div>-->
+                                                            
                                                         </div>
                                                     </div>
                                             </div><!-- .entry-content -->
