@@ -2187,3 +2187,28 @@ background-color: #fff;
 }
 }
 
+.modal.fade.in {
+    z-index: 99999;
+}
+
+.modal-dialog {
+    margin-top: 0px;
+    width: 100%;
+    height: 200px;
+}
+
+.modal-content {
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.modal-header {
+    border-bottom: none;
+    height: 55px;
+    color: #00ABED;
+}
+
+.modal-header h4 {
+    color: #fff;
+}
