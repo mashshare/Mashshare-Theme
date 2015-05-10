@@ -222,14 +222,16 @@ get_header(); ?>
             </div>
             <div class="item">
               <div class="carousel-caption">
-                <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-erfolgreich"]; ?> <i class="fa fa-quote-left"></i></h3>
-                <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_erfolgreich"] );?>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" />
+          <p>"Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top."</p>
+          <p>Ramsay from blogtyrant.com</p>
               </div>
             </div>
             <div class="item">
               <div class="carousel-caption">
-                <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-schnell"]; ?> <i class="fa fa-quote-left"></i></h3>
-                <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_schnell"] );?>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" />
+          <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
+          <p>Dan Carr from DanCarrPhotography.com</p>
               </div>
             </div>
           </div>
@@ -255,83 +257,56 @@ get_header(); ?>
   </div>
 </div>
 
-<div class="vorteile-mobile visible-xs">
+<div class="fans-mobile visible-xs">
   <div class="row box">
     <div class="col-lg-10 col-lg-offset-1">
-      <div class="box-icon">
-        <span class="fa fa-4x fa-check"></span>
-      </div>     
-      <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-positiv"]; ?> <i class="fa fa-quote-left"></i></h3>
-      <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_positiv"] );?>
-    </div>
-  </div>
-  <div class="row box white">
-    <div class="col-lg-10 col-lg-offset-1">
-      <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-erfolgreich"]; ?> <i class="fa fa-quote-left"></i></h3>
-      <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_erfolgreich"] );?>
-    </div>
-  </div>
-  <div class="row box">
-    <div class="col-lg-10 col-lg-offset-1">
-      <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-schnell"]; ?> <i class="fa fa-quote-left"></i></h3>
-      <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_schnell"] );?>
+           
+      <img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" />
+          <p>"We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!"</p>
+          <p>Jean-Paul Horn from iculture.nl</p>
     </div>
   </div>
   <div class="row box white">
     <div class="col-lg-10 col-lg-offset-1">
-          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-diskret"]; ?> <i class="fa fa-quote-left"></i></h3>
-          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_diskret"] );?>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" />
+          <p>"Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top."</p>
+          <p>Ramsay from blogtyrant.com</p>
     </div>
   </div>
   <div class="row box">
-    <div class="col-lg-10 col-lg-offset-1">      
-          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-zukunftsgerichtet"]; ?> <i class="fa fa-quote-left"></i></h3>
-          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_zukunftsgerichtet"] );?>
-    </div>
-  </div>
-  <div class="row box white">
-    <div class="col-lg-10 col-lg-offset-1"> 
-          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-flexibel"]; ?> <i class="fa fa-quote-left"></i></h3>
-          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_flexibel"] );?>
-    </div>
-  </div>
-  <div class="row box">
-    <div class="col-lg-10 col-lg-offset-1"> 
-          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-tiefer"]; ?> <i class="fa fa-quote-left"></i></h3>
-          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_tiefer"] );?>
-    </div>
-  </div>
-  <div class="row box white">
-    <div class="col-lg-10 col-lg-offset-1"> 
-          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-selbstbestimmt"]; ?> <i class="fa fa-quote-left"></i></h3>
-          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_selbstbestimmt"] );?>
-    </div>
-  </div>
-  <div class="row box">
-    <div class="col-lg-10 col-lg-offset-1"> 
-          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-preiswert"]; ?> <i class="fa fa-quote-left"></i></h3>
-          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_preiswert"] );?>
-    </div>
-  </div>
-  <div class="row box white">
-    <div class="col-lg-10 col-lg-offset-1"> 
-          <h3><i class="fa fa-quote-right"></i> <?php echo $meta["headline-mediation-vorteile-respektvoll"]; ?> <i class="fa fa-quote-left"></i></h3>
-          <?php echo apply_filters('meta_content', $meta["box_mediation_vorteile_respektvoll"] );?>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1"> 
-      <nav class="nav nav-pills" role="navigation">
-        <?php
-          if (has_nav_menu('mediation_subnavigation')) :
-            wp_nav_menu(array('theme_location' => 'mediation_subnavigation', 'walker' => new Roots_Nav_Walker(), 'menu_class' => 'nav nav-pills'));
-          endif;
-        ?>
-      </nav>
+    <div class="col-lg-10 col-lg-offset-1">
+       <img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" />
+          <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
+          <p>Dan Carr from DanCarrPhotography.com</p>
     </div>
   </div>
 
 </div>
+ 
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Hall of Fame</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
 
   <!-- Controls -->
 </div>
