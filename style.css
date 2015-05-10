@@ -2206,9 +2206,12 @@ background-color: #fff;
 .modal-header {
     border-bottom: none;
     height: 55px;
-    color: #00ABED;
+    color: #000;
+    
+    z-index: 999999;
 }
 
 .modal-header h4 {
-    color: #fff;
+    color: #000;
+    background-color: #000;
 }
