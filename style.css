@@ -2151,12 +2151,39 @@ background-color: #fff;
 }
 
 .carousel-caption img {
-    border: 5px solid white;
+    border: 2px solid white;
     border-radius: 64px;
     margin-bottom:10px;
 }
 
 .carousel-inner>.item {
     min-height: 340px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {  
+    .carousel { margin-top: 20px;
+    }
+    .item {
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 768px) {  
+    .fans-mobile {
+        color: #fff;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .col-lg-10.col-lg-offset-1  {
+    font-size: 16px;
+    text-align: center;
+}
+
+    .fans-mobile img {
+    border: 2px solid white;
+    border-radius: 64px;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
 }
 
