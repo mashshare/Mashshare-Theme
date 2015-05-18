@@ -481,7 +481,17 @@ li.recentcomments {
     padding: 10px 10px;
 }
 .widget-title {
-  border-bottom: 1px solid #eee;
+  font-family: helvetica, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: #444;
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid #AAA;
+  padding: 10px 0;
 }
 .widget ul.nav.nav-tabs {
   padding: 0;
@@ -1902,7 +1912,7 @@ div.bbp-submit-wrapper {
     border-bottom: 1px solid #aaa;
     margin-left: 25px;
     margin-right: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     padding-top: 25px;
 }
 .title > span { 
@@ -2128,14 +2138,11 @@ background-color: #fff;
 
 .dropdown-menu> li a:hover {
     background-color:#f3f3f3;
+    opacity: 1;
 }
 
 .navbar-nav>li>.dropdown-menu {
   border-radius: 0px;
-}
-
-.menu-main_manue{
-    min-height: 180px;
 }
 
 #bbpress-forums .status-closed, #bbpress-forums .status-closed a {
@@ -2160,3 +2167,11 @@ background-color: #fff;
     min-height: 340px;
 }
 
+.mashpv .mashsb-sharetext, .mashpv .count {
+    color:white;
+}
+
+.edd-submit.button.blue{
+    background-color: #00adef;
+    border-color: #0099D3;
+}
