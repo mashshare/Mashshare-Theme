@@ -2102,9 +2102,9 @@ tbody a {
 }
 
 #edd_user_history th {
-    background: none repeat scroll 0 0 #b3b3b3;
+    background: none repeat scroll 0 0 #dbdada;
     font-weight: 600;
-    color: #000;
+    color: #474747;
 }
 
 tbody {
@@ -2119,7 +2119,7 @@ background-color: #fff;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+    background-color: #b3b3b3;
 }
 
 #tab3 p {
@@ -2131,7 +2131,6 @@ background-color: #fff;
 #tab3 label {
     padding-top: 10px;
     padding-bottom: 10px;
-       background-color: #000;
 }
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu> li a:hover, .dropdown-menu>.active>a:focus{
