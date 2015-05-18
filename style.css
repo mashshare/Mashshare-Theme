@@ -669,7 +669,7 @@ li.recentcomments {
   margin-top: -2px;
   border-bottom: 1px solid #eee;
   position: relative;
-  z-index: 99999;
+  z-index: 999;
   width: 100%;
 }
 
@@ -1290,7 +1290,7 @@ h3 {
 .teaser.col-md-8 > p {
     color: #3e3e3e;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -1483,7 +1483,7 @@ font-size: 14px;
 } 
 
 .testimonials {
-  background-color: #00ABED;
+  background-color: #f6f6f6;
 }   
 
 .navbar-brand {
@@ -2119,7 +2119,7 @@ background-color: #fff;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #b3b3b3;
+    
 }
 
 #tab3 p {
@@ -2157,16 +2157,32 @@ background-color: #fff;
 
 .carousel-caption {
     font-size: 16px;
+    color: #373737;
+    font-weight: 300;
+    text-shadow: none;
 }
 
 .carousel-caption img {
-    border: 2px solid white;
+    border: 2px solid #373737;
     border-radius: 64px;
     margin-bottom:10px;
 }
 
 .carousel-inner>.item {
     min-height: 340px;
+}
+
+.subnav {
+    display: none;
+}
+
+.carousel-indicators li {
+   
+    border: 1px solid #00adef;
+}
+
+.carousel-indicators .active {
+    background-color: #00adef;
 }
 
 .site-main .mashpv .mashsb-sharetext, 
