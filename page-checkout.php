@@ -4,7 +4,7 @@ Template Name: Checkout page Template EDD
 */
 ?>
 
-<?php get_header(); ?>
+<?php  include_once('header-checkout.php');?>
 
 	<div id="page-wrap" class="container-fluid">
             <div id="header-image"><!--start header-image-->

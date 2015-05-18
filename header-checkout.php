@@ -39,15 +39,12 @@
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
 		            </button>						
-					<div id="logo">
+					<div id="logo" style="line-height: 40px;">
                                             <?php if(!is_front_page()){?>			    
-                                            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Mashshare " rel="home">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare.jpg" alt="Logo Mashshare">
-                                            </a>
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare.jpg" alt="Logo Mashshare" style="height: 25px;">
                                              <?php } ?>
 					</div>
 		        </div>
-				<?php rootstrap_header_menu(); ?>
 		    </div>
 		</nav><!-- .site-navigation -->	
 		<?php do_action( 'nav-after' ); ?>
