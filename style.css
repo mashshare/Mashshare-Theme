@@ -1399,19 +1399,6 @@ text-align:center;
     color: #fff;
 }
 
-.counts {
-    color: #fff;
-}
-
-.mashsb-sharetext {
-    color: #fff;
-}
-
-.mashsb-count {
-    font-size: 40px;
-    line-height: 11px;
-}
-
 .navbar-brand > img {
     height: 25px;
 }
@@ -1766,11 +1753,11 @@ height: 1px;
     text-align: left;
 }
 
-.title > span {
+/*.title > span {
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-}
+}*/
 
 div.bbp-submit-wrapper {
     float: left;
@@ -1900,15 +1887,15 @@ div.bbp-submit-wrapper {
 #page-wrap-download .entry-single .hentry{
     background-color: #fff;
 }
-.widget.widget_edd_product_details {
+/*.widget.widget_edd_product_details {
     background-color: #fff;
-}
+}*/
 
 .sidebar.col-lg-4.col-md-4.col-xs-12 {
     padding-right: 0;
 }
 
-.widget.widget_edd_product_details h3 {
+/*.widget.widget_edd_product_details h3 {
     border-bottom: 1px solid #aaa;
     margin-left: 25px;
     margin-right: 25px;
@@ -1918,11 +1905,26 @@ div.bbp-submit-wrapper {
 .title > span { 
     color: #00adef;
     font-size: 26px;
-}
+}*/
 
-.widget.widget_edd_product_details form {
+/*.widget.widget_edd_product_details form {
     padding-left: 50px;
     padding-top: 25px;
+}*/
+
+
+.widget_edd_product_details h3 {
+  margin: 0 0 15px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: 10px 0;
+}
+
+.widget_edd_product_details h3 span{
+    color:#666;
 }
 
 .edd_price_options.edd_single_mode > ul {
@@ -2167,11 +2169,39 @@ background-color: #fff;
     min-height: 340px;
 }
 
-.mashpv .mashsb-sharetext, .mashpv .count {
+.site-main .mashpv .mashsb-sharetext, 
+.site-main .mashpv .count,
+.site-main .counts, 
+.site-main .mashsb-sharetext
+{
     color:white;
+}
+
+
+
+.mashsb-count {
+    font-size: 40px;
+    line-height: 11px;
 }
 
 .edd-submit.button.blue{
     background-color: #00adef;
     border-color: #0099D3;
+}
+
+.mash-jumbotron {
+  background: #f8f8f8;
+  padding: 30px 30px;
+  border-radius: 4px;
+  margin: 0 0 20px 0;
+}
+
+.sidebar .widget-container{
+    background-color: white;
+    margin-left: 50px;
+    padding: 50px;
+}
+
+.single-download .edd_download_purchase_form {
+  margin-bottom: 0px;
 }
