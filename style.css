@@ -659,7 +659,7 @@ li.recentcomments {
   margin-top: -2px;
   border-bottom: 1px solid #eee;
   position: relative;
-  z-index: 99999;
+  z-index: 999;
   width: 100%;
 }
 
@@ -1280,7 +1280,7 @@ h3 {
 .teaser.col-md-8 > p {
     color: #3e3e3e;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -1486,7 +1486,7 @@ font-size: 14px;
 } 
 
 .testimonials {
-  background-color: #00ABED;
+  background-color: #f6f6f6;
 }   
 
 .navbar-brand {
@@ -2148,16 +2148,32 @@ background-color: #fff;
 
 .carousel-caption {
     font-size: 16px;
+    color: #373737;
+    font-weight: 300;
+    text-shadow: none;
 }
 
 .carousel-caption img {
-    border: 2px solid white;
+    border: 2px solid #373737;
     border-radius: 64px;
     margin-bottom:10px;
 }
 
 .carousel-inner>.item {
     min-height: 340px;
+}
+
+.subnav {
+    display: none;
+}
+
+.carousel-indicators li {
+   
+    border: 1px solid #00adef;
+}
+
+.carousel-indicators .active {
+    background-color: #00adef;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {  
@@ -2170,7 +2186,7 @@ background-color: #fff;
 
 @media (max-width: 768px) {  
     .fans-mobile {
-        color: #fff;
+        color: #373737;
         padding-left: 40px;
         padding-right: 40px;
     }
@@ -2180,7 +2196,7 @@ background-color: #fff;
 }
 
     .fans-mobile img {
-    border: 2px solid white;
+    border: 2px solid #373737;
     border-radius: 64px;
     margin-bottom:20px;
     margin-top: 20px;
@@ -2216,11 +2232,31 @@ background-color: #fff;
     font-size: 36px;
     font-weight: 300;
     padding-bottom: 20px;
-    background-color: red;
+    background-color: #00ABED;
 }
 
 .header-color {
     height: 150px;
     color: #000;
        
+}
+.wall {
+    background-color: #090908;
+    color: #a1a1a1;
+    margin-top: 45px;
+}
+
+.wall_testimonial {
+    padding: 25px;
+}
+
+.close > span {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 300;
+    margin-right: 25px;
+}
+
+.close {
+    opacity: 1.0;
 }
