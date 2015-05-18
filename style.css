@@ -481,7 +481,17 @@ li.recentcomments {
     padding: 10px 10px;
 }
 .widget-title {
-  border-bottom: 1px solid #eee;
+  font-family: helvetica, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: #444;
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid #AAA;
+  padding: 10px 0;
 }
 .widget ul.nav.nav-tabs {
   padding: 0;
@@ -1389,19 +1399,6 @@ text-align:center;
     color: #fff;
 }
 
-.counts {
-    color: #fff;
-}
-
-.mashsb-sharetext {
-    color: #fff;
-}
-
-.mashsb-count {
-    font-size: 40px;
-    line-height: 11px;
-}
-
 .navbar-brand > img {
     height: 25px;
 }
@@ -1756,11 +1753,11 @@ height: 1px;
     text-align: left;
 }
 
-.title > span {
+/*.title > span {
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-}
+}*/
 
 div.bbp-submit-wrapper {
     float: left;
@@ -1890,29 +1887,44 @@ div.bbp-submit-wrapper {
 #page-wrap-download .entry-single .hentry{
     background-color: #fff;
 }
-.widget.widget_edd_product_details {
+/*.widget.widget_edd_product_details {
     background-color: #fff;
-}
+}*/
 
 .sidebar.col-lg-4.col-md-4.col-xs-12 {
     padding-right: 0;
 }
 
-.widget.widget_edd_product_details h3 {
+/*.widget.widget_edd_product_details h3 {
     border-bottom: 1px solid #aaa;
     margin-left: 25px;
     margin-right: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     padding-top: 25px;
 }
 .title > span { 
     color: #00adef;
     font-size: 26px;
-}
+}*/
 
-.widget.widget_edd_product_details form {
+/*.widget.widget_edd_product_details form {
     padding-left: 50px;
     padding-top: 25px;
+}*/
+
+
+.widget_edd_product_details h3 {
+  margin: 0 0 15px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: 10px 0;
+}
+
+.widget_edd_product_details h3 span{
+    color:#666;
 }
 
 .edd_price_options.edd_single_mode > ul {
@@ -2128,14 +2140,11 @@ background-color: #fff;
 
 .dropdown-menu> li a:hover {
     background-color:#f3f3f3;
+    opacity: 1;
 }
 
 .navbar-nav>li>.dropdown-menu {
   border-radius: 0px;
-}
-
-.menu-main_manue{
-    min-height: 180px;
 }
 
 #bbpress-forums .status-closed, #bbpress-forums .status-closed a {
@@ -2176,87 +2185,39 @@ background-color: #fff;
     background-color: #00adef;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {  
-    .carousel { margin-top: 20px;
-    }
-    .item {
-        margin-top: 7px;
-    }
+.site-main .mashpv .mashsb-sharetext, 
+.site-main .mashpv .count,
+.site-main .counts, 
+.site-main .mashsb-sharetext
+{
+    color:white;
 }
 
-@media (max-width: 768px) {  
-    .fans-mobile {
-        color: #373737;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .col-lg-10.col-lg-offset-1  {
-    font-size: 16px;
-    text-align: center;
+
+
+.mashsb-count {
+    font-size: 40px;
+    line-height: 11px;
 }
 
-    .fans-mobile img {
-    border: 2px solid #373737;
-    border-radius: 64px;
-    margin-bottom:20px;
-    margin-top: 20px;
-}
+.edd-submit.button.blue{
+    background-color: #00adef;
+    border-color: #0099D3;
 }
 
-.modal.fade.in {
-    z-index: 99999;
+.mash-jumbotron {
+  background: #f8f8f8;
+  padding: 30px 30px;
+  border-radius: 4px;
+  margin: 0 0 20px 0;
 }
 
-.modal-dialog {
-    margin-top: 0px;
-    width: 100%;
-    height: 200px;
+.sidebar .widget-container{
+    background-color: white;
+    margin-left: 50px;
+    padding: 50px;
 }
 
-.modal-content {
-    box-shadow: none;
-    border: none;
-    border-radius: 0px;
-}
-
-.modal-header {
-    border-bottom: none;
-    height: 55px;
-    padding:0px;
-}
-
-.modal-header h4 {
-    color: #fff;
-    padding-top: 20px;
-    padding-left: 50px;
-    font-size: 36px;
-    font-weight: 300;
-    padding-bottom: 20px;
-    background-color: #00ABED;
-}
-
-.header-color {
-    height: 150px;
-    color: #000;
-       
-}
-.wall {
-    background-color: #090908;
-    color: #a1a1a1;
-    margin-top: 45px;
-}
-
-.wall_testimonial {
-    padding: 25px;
-}
-
-.close > span {
-    color: #fff;
-    font-size: 75px;
-    font-weight: 300;
-    margin-right: 25px;
-}
-
-.close {
-    opacity: 1.0;
+.single-download .edd_download_purchase_form {
+  margin-bottom: 0px;
 }

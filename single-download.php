@@ -56,7 +56,9 @@
 	</div> <!-- end content -->
 	
 	<div class="sidebar col-lg-4 col-md-4 col-xs-12">
+            <div class="widget-container">
 		<?php dynamic_sidebar( 'download' ); ?>
+            </div>
 	</div>
         </div><!--end row-->
 	
