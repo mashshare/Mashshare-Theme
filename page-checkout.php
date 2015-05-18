@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Default page Template
+Template Name: Checkout page Template EDD
 */
 ?>
 
