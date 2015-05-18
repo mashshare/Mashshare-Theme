@@ -2221,3 +2221,43 @@ background-color: #fff;
 .single-download .edd_download_purchase_form {
   margin-bottom: 0px;
 }
+
+.page-template-page-checkout h1{
+    margin-top:0px;
+}
+
+#edd_checkout_form_wrap #edd_final_total_wrap {
+  text-align: center;
+  padding: 25px;
+}
+
+#edd_final_total_wrap .edd_cart_amount, #edd_final_total_wrap strong {
+  font-weight: 300;
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+
+#edd_final_total_wrap .edd_cart_amount {
+  font-weight: bold;
+}
+
+#edd-purchase-button, .edd-submit, input[type=submit].edd-submit {
+  display: block;
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin: 8px auto auto;
+  padding: 16px 30px;
+  font-weight: 300;
+}
+
+#edd_checkout_cart a.edd-cart-saving-button{
+    display: none;
+}
+
+#edd_final_total_wrap {
+  font-size: 17px;
+  padding: 20px;
+  background: #f7f9fa;
+  border-top: 2px solid #e9ecef;
+  border-bottom: 2px solid #e9ecef;
+}

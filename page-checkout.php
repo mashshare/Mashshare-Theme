@@ -8,12 +8,11 @@ Template Name: Checkout page Template EDD
 
 	<div id="page-wrap" class="container-fluid">
             <div id="header-image"><!--start header-image-->
-<div id="header-content" class="container" style="padding-bottom:40px;"><!--start header-->
+<div id="header-content" class="container"><!--start header-->
     <div class="row"><!--start row-->
         <?php if(has_post_thumbnail()){?>
         <div class="col-md-8">
             <h1><?php the_title(); ?></h1>
-            <h2><?php the_excerpt();?></h2>
         </div>
         <div class="col-md-4">
             <?php the_post_thumbnail(); ?>
@@ -21,7 +20,6 @@ Template Name: Checkout page Template EDD
         <?php } else { ?>
         <div class="col-xs-12 col-md-offset-2 col-md-8" style="text-align:center;">
             <h1><?php the_title(); ?></h1>
-            <h2><?php the_excerpt();?></h2>
         </div>
         <?php } ?>
     </div><!--end row-->
@@ -49,4 +47,4 @@ Template Name: Checkout page Template EDD
 	</div> <!-- end page-wrap -->
 			<?php do_action( 'rootstrap_post_after' ); ?>
 		<?php get_sidebar( 'home' ); ?>
-<?php get_footer(); ?>
+<?php include_once('footer-checkout.php'); ?>
