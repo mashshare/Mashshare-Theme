@@ -158,7 +158,6 @@ get_header(); ?>
                                                         <h3>Who is Sharing With Us?</h3>
                                                     </div>
                                                     <div class="testimonials container-fluid">
-                                                        <div class="decor-bottom container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_white.png" alt="white" /></div>
                                                         <div class="container">
                                                             <div class="row">
                                                             
@@ -301,12 +300,51 @@ get_header(); ?>
       <div class="modal-body">
         <div class="container">
   <div class="row">
-    <h2>Pinterest Responsive Grid</h2>
-
-    <p>Best viewed <a href="http://bootsnipp.com/iframe/Zkk0O" target="_blank">full screen</a>
-    </p>
-    <hr>
-    <section id="pinBoot">
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
+          <div class=" wall">
+            <div class="row wall_testimonial">
+                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" /></div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <p>We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!</p>
+                    <p style="color:#474747;">Jean-Paul Horn from iculture.nl</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
+          <div class=" wall">
+            <div class="row wall_testimonial">
+                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" /></div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <p>Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top."</p>
+                    <p style="color:#474747;">Ramsay from blogtyrant.com</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
+          <div class="wall">
+            <div class="row wall_testimonial">
+                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" /></div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
+                    <p style="color:#474747;">Dan Carr from DanCarrPhotography.com</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
+          <div class="wall">
+            <div class="row wall_testimonial">
+                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" /></div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
+                    <p style="color:#474747;">Dan Carr from DanCarrPhotography.com</p>
+                </div>
+            </div>
+          </div>
+      </div>
+    <!--<section id="pinBoot">
 
       <article class="white-panel"><img src="http://i.imgur.com/sDLIAZD.png" alt="">
         <h4><a href="#">Title 1</a></h4>
@@ -356,19 +394,12 @@ get_header(); ?>
         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
 
-    </section>
+    </section>-->
 
-
-    <hr>
 
 
   </div>
-  <p>
-    <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fbootsnipp.com%2Fiframe%2FZkk0O" target="_blank"><small>HTML</small><sup>5</sup></a>
-    <br>
-    <br>
-
-  </p>
+ 
 
 </div>
       </div>
