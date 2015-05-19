@@ -2317,7 +2317,7 @@ background-color: #fff;
 }
 
 .modal.fade.in {
-    z-index: 99999;
+    z-index: 999999;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {  
@@ -2358,4 +2358,14 @@ background-color: #fff;
     background: #3276b1 none repeat scroll 0 0;
     border: 1px solid #285e8e;
     color: #fff;
+}
+
+
+@media (max-width: 768px) {  
+   
+.nav.navbar-nav.main-nav {
+    height: 201px;
+}
+
+
 }
