@@ -17,7 +17,7 @@ Template Name: page-faq
             <h2>Please read this FAQ first <br>before  <a title="Mashshare support" href="<?php echo get_permalink('93'); ?>">opening a ticket.</a></h2>
         </div>
         <div class="col-md-5">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/packshot-faq.jpg" alt="Packshot FAQ" style="margin-bottom:30px;margin-top:30px;"/> 
+            <img src="<?php echo get_template_directory_uri(); ?>/images/packshot-faq.png" alt="Packshot FAQ" style="margin-bottom:30px;margin-top:30px;"/> 
         </div>
     </div><!--end row-->
 </div><!--end header-->
