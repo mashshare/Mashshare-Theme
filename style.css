@@ -1735,6 +1735,10 @@ height: 1px;
     margin-left: 15px;
 }
 
+.button.alternative-1.small {
+    text-decoration: none;
+}
+
 #content {
     background-color: #F6F6F6;
 }
