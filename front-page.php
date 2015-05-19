@@ -239,7 +239,7 @@ get_header(); ?>
 </div>
  
  <!-- Button trigger modal -->
- <div class="row" style="text-align: center;">
+ <div class="row" style="text-align: center; margin-bottom: 40px;">
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Wall of excited people
 </button>
