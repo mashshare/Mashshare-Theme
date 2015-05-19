@@ -159,52 +159,7 @@ get_header(); ?>
                                                     </div>
                                                     <div class="testimonials container-fluid">
                                                         <div class="container">
-                                                            <div class="row">
-                                                            
-                                                                <!--test slider beginn-->
-                                                           
-                                                            
-<!--<script>
-    jQuery( document ).ready(function() {
-    jQuery('.carousel').carousel({
-    interval: 6000
-})
-    })
-</script>-->
- <!-- <div id="carousel-example-generic" class="carousel slide col-md-12" data-ride="carousel">-->
-  <!-- Indicators -->
-  <!--<ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>-->
-
-  <!-- Wrapper for slides -->
- <!-- <div class="carousel-inner" role="listbox">
-    <div class="item active">
-         
-      <div class="carousel-caption">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" />
-          <p>"We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!"</p>
-          <p>Jean-Paul Horn from iculture.nl</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="carousel-caption">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" />
-          <p>"Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top."</p>
-          <p>Ramsay from blogtyrant.com</p>
-      </div>
-    </div>
-      <div class="item">
-      <div class="carousel-caption">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" />
-          <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
-          <p>Dan Carr from DanCarrPhotography.com</p>
-      </div>
-    </div>
-  </div>-->
- 
+                                                            <div class="row"> 
  <div class="row box hidden-xs">
   <div class="col-lg-10 col-lg-offset-1">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -300,7 +255,7 @@ get_header(); ?>
       <div class="modal-body">
         <div class="container">
   <div class="row">
-      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
+      <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
           <div class=" wall">
             <div class="row wall_testimonial">
                 <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" /></div>
@@ -311,7 +266,7 @@ get_header(); ?>
             </div>
           </div>
       </div>
-      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
+      <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
           <div class=" wall">
             <div class="row wall_testimonial">
                 <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" /></div>
@@ -322,7 +277,7 @@ get_header(); ?>
             </div>
           </div>
       </div>
-      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
+      <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
           <div class="wall">
             <div class="row wall_testimonial">
                 <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" /></div>
@@ -333,71 +288,6 @@ get_header(); ?>
             </div>
           </div>
       </div>
-      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
-          <div class="wall">
-            <div class="row wall_testimonial">
-                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" /></div>
-                <div class="col-md-9 col-sm-9 col-xs-12">
-                    <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
-                    <p style="color:#474747;">Dan Carr from DanCarrPhotography.com</p>
-                </div>
-            </div>
-          </div>
-      </div>
-    <!--<section id="pinBoot">
-
-      <article class="white-panel"><img src="http://i.imgur.com/sDLIAZD.png" alt="">
-        <h4><a href="#">Title 1</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>
-
-      <article class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
-        <h4><a href="#">Title 2</a></h4>
-        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>
-
-      <article class="white-panel"> <img src="http://i.imgur.com/xOIMvAe.jpg" alt="">
-        <h4><a href="#">Title 3</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      </article>
-
-
-      <article class="white-panel"> <img src="http://i.imgur.com/3gXW3L3.jpg" alt="">
-        <h4><a href="#">Title 4</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>
-
-      <article class="white-panel"> <img src="http://i.imgur.com/o2RVMqm.jpg" alt="">
-        <h4><a href="#">Title 5</a></h4>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>
-
-      <article class="white-panel"> <img src="http://i.imgur.com/kFFpuKA.jpg" alt="">
-        <h4><a href="#">Title 6</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      </article>
-
-
-
-      <article class="white-panel"><img src="http://i.imgur.com/E9RmLPA.jpg" alt="">
-        <h4><a href="#">Title 7</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>
-
-      <article class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
-        <h4><a href="#">Title 8</a></h4>
-        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>
-
-    </section>-->
-
-
-
   </div>
  
 
