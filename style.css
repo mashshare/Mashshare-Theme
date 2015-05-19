@@ -2377,3 +2377,7 @@ background-color: #fff;
 .col-md-3.col-sm-3.col-xs-12 > img {
     border-radius: 50px;
 }
+
+#mashbar-header {
+  z-index: 99999;
+}
