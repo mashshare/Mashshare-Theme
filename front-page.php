@@ -240,7 +240,7 @@ get_header(); ?>
  <!-- Button trigger modal -->
  <div id="btn_modal">
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Hall of ...
+  Hall of Mashsharer
 </button>
  </div>
 
@@ -251,7 +251,7 @@ get_header(); ?>
       <div class="modal-header">
           <div class="header-color">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Hall of Fame</h4>
+          <h4 class="modal-title" id="myModalLabel"> Hall of Mashsharer</h4>
           </div>
       </div>
       <div class="modal-body">
