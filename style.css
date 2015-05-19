@@ -2353,3 +2353,16 @@ background-color: #fff;
     margin-right: auto;
     width: 105px;
 }
+
+.btn.btn-primary.btn-lg {
+    background-color: #00adef;
+    border: 1px solid #0099d3;
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn.btn-primary.btn-lg:hover {
+    background: #3276b1 none repeat scroll 0 0;
+    border: 1px solid #285e8e;
+    color: #fff;
+}
