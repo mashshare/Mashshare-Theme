@@ -69,7 +69,6 @@ body {
 
 a {
   color: #00adef;
-  text-decoration: underline;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -535,8 +534,10 @@ li.recentcomments {
   display: block;
 }
 .tab-content > .active {
-  border: 1px solid #E8E8E8;
-  border-top: none;
+  background-color: #ededed;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 6px rgba(29,58,82,.1);
+  box-shadow: 0 2px 6px rgba(29,58,82,.1);
 }
 .tab-content ul li:last-child {
   border-bottom: 0;
@@ -2115,6 +2116,10 @@ tbody {
     background-color: #fff;
 }
 
+.edd_profile_billing_address_label legend{
+    color: #666;
+}
+
 #tab3 fieldset {
 background-color: #fff;
 }
@@ -2123,7 +2128,10 @@ background-color: #fff;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #b3b3b3;
+    background-color: #ededed;
+      border-radius: 3px;
+  -webkit-box-shadow: 0 2px 6px rgba(29,58,82,.1);
+  box-shadow: 0 2px 6px rgba(29,58,82,.1);
 }
 
 #tab3 p {
