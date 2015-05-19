@@ -2260,3 +2260,89 @@ background-color: #fff;
   border-top: 2px solid #e9ecef;
   border-bottom: 2px solid #e9ecef;
 }
+
+.close {
+    opacity: 1.0;
+}
+
+.close > span {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 300;
+    margin-right: 25px;
+    
+}
+
+.wall_testimonial {
+    padding: 25px;
+}
+
+.wall {
+    background-color: #090908;
+    color: #a1a1a1;
+    margin-top: 45px;
+}
+
+.header-color {
+    height: 150px;
+    color: #000;      
+}
+
+.modal-header h4 {
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 36px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    background-color: #00ABED;
+}
+
+.modal-header {
+    border-bottom: none;
+    height: 55px;
+    padding:0px;
+}
+
+.modal-content {
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.modal-dialog {
+    margin-top: 0px;
+    width: 100%;
+    height: 200px;
+}
+
+.modal.fade.in {
+    z-index: 99999;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {  
+    .carousel { margin-top: 20px;
+    }
+    .item {
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 768px) {  
+    .fans-mobile {
+        color: #373737;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .col-lg-10.col-lg-offset-1  {
+    font-size: 16px;
+    text-align: center;
+}
+
+    .fans-mobile img {
+    border: 2px solid #373737;
+    border-radius: 64px;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+}
