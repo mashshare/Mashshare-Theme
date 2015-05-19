@@ -238,9 +238,11 @@ get_header(); ?>
 </div>
  
  <!-- Button trigger modal -->
+ <div id="btn_modal">
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Hall of ...
 </button>
+ </div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
