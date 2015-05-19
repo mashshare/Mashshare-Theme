@@ -22,7 +22,7 @@ get_header(); ?>
 						<div id="header-image">
                                                     <div id="header-content" class="container">
                                                             <div class="row">
-                                                                <div class="col-md-6">
+                                                                <div class="col-md-7">
                                                                     <svg width="100%" height="100%">
                                                                     <image xlink:href="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare2.svg" src="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare2.png" width="85%" height="85%" />
 </svg>
@@ -30,7 +30,7 @@ get_header(); ?>
                                                                     <?php echo do_shortcode('[mashshare]'); ?>
 
                                                                 </div>
-                                                                <div class="col-md-6"><img src="<?php echo get_template_directory_uri(); ?>/images/packshot.png" alt="Packshot" /></div>
+                                                                <div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/images/packshot.png" alt="Packshot" /></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -49,7 +49,7 @@ get_header(); ?>
                                                         </div>
                                                         <div class="container frontpage_addons">
                                                             <div class="row">
-                                                                <div class="col-xs-6 col col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/facebook-like-bar/"><span class="title_addon">Facebook Like-Bar</span></a>
                                                                             <p class="no_small">A highly customizable, full responsive and mobile optimized sticky Like-Bar with Google Analytics Integration. Track and trace “Likes” and “Unlikes”</p>
@@ -60,7 +60,7 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-social-networks-addon/"><span class="title_addon">Masshare Social Networks</span></a>
                                                                             <p class="no_small">Extend Mashshare with: Google+, Whatsapp, Pinterest, Digg, Linkedin, Reddit, Stumbleupon, Vk,Print, Delicious, Buffer, Weibo, Pocket, Xing, Tumblr …</p>
@@ -71,7 +71,7 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/sticky-sharebar/"><span class="title_addon">Sticky ShareBar</span></a>
                                                                             <p class="no_small">Full responsive all time visible ShareBar on top or bottom of your page which slides down after scrolling.</p>
@@ -82,7 +82,7 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-responsive/"><span class="title_addon">Mashshare Responsive</span></a>
                                                                             <p class="no_small">Automatic responsive behavior for Mashshare on mobile devices, smartphones and tablets. Downsizes buttons to pure icons fitting in one line.</p>
@@ -93,7 +93,7 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/google-analytics-integration/"><span class="title_addon">Mashshare Google Analytics Integration</span></a>
                                                                             <p class="no_small">Get full integration of Mashshare into Google Analytics. Track and count every single click on all Share Buttons.</p>
@@ -104,7 +104,7 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-pageviews/"><span class="title_addon">Mashshare PageViews</span></a>
                                                                             <p class="no_small">Realtime Pageview Counter Increase user interaction and interest with this ajax based Pageview Counter</p>
@@ -115,7 +115,7 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-open-graph/"><span class="title_addon">Mashshare Open Graph</span></a>
                                                                             <p class="no_small">Share your content in the best possible way. Social sharing optimization with Open Graph implementation</p>
@@ -126,7 +126,7 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/mashshare-likeaftershare/"><span class="title_addon">Mashshare LikeAfterShare</span></a>
                                                                             <p class="no_small">Share a post and get a Facebook Like Pop-Up overlay as seen on heftig.co or sfglobe.com.</p>
@@ -137,7 +137,7 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-6 col-sm-4 col-md-4">
+                                                                <div class="hidden-xs col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/shorturls-integration/"><span class="title_addon">Mashshare ShortURL Integration</span></a>
                                                                             <p class="no_small">Short URL Integration for twitter. Convert page URL into a short URL – Save space when posting longer tweets</p>
