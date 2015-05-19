@@ -19,7 +19,7 @@ Template Name: page-bundle
     </div><!--end row-->
 </div><!--end header-->
 </div><!--end header-image-->
-<div class="decor-top container"><img src="https://mashshare.net/dev2/wp-content/uploads/2014/12/decor_top.png" alt="blue" /></div>
+<div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
             <div class="row"><!-- start row -->
 		<div id="content" class="col-md-12 col-lg-12 col-xs-12">
                     <div class="container">
