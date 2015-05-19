@@ -163,7 +163,7 @@ get_header(); ?>
  <div class="row box hidden-xs">
   <div class="col-lg-10 col-lg-offset-1">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <div class="row vorteile-bg">
+        <div class="row vorteile-bg" style="text-align: center;">
         
         <div class="col-xs-12">
           <div class="carousel-inner" role="listbox">
@@ -238,9 +238,9 @@ get_header(); ?>
 </div>
  
  <!-- Button trigger modal -->
- <div id="btn_modal">
+ <div class="row" style="text-align: center;">
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Hall of Mashsharer
+  Wall of reviews
 </button>
  </div>
 
@@ -251,7 +251,7 @@ get_header(); ?>
       <div class="modal-header">
           <div class="header-color">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel"> Hall of Mashsharer</h4>
+          <h4 class="modal-title" id="myModalLabel">Wall of reviews</h4>
           </div>
       </div>
       <div class="modal-body">
