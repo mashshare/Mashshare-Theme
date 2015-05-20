@@ -1,7 +1,7 @@
 <?php
-    /*=========
-    Template Name: KBE
-    =========*/
+    /*
+     * Template Name: Documentation / KBE
+     */
     get_header();
 ?>
 <div id="page-wrap" class="container-fluid">
@@ -26,7 +26,7 @@
 </div><!--end header-->
 </div><!--end header-image-->
 <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
-<div id="page-wrap" class="container">
+<div id="page-wrap" class="container" style="margin-top:25px;">
 	<div id="content" class="sixteen columns">
 <div id="kbe_container" style="margin-bottom: 40px;">
     <div class="container">
