@@ -36,11 +36,11 @@ get_header(); ?>
                                                     </div>
                                                     <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
                                                     <div class="container">
-                                                        <div class="teaser col-md-8 col-md-offset-2" style="margin-top: 30px;">
+                                                        <div class="teaser col-md-10 col-md-offset-1" style="margin-top: 30px;text-align: center;">
                                                             <h3>Mashshare</h3>
-                                                            <p style="font-size:25px;color:#666;font-weight:600;">Make Your Site’s Share Count Skyrocket with this Supercharged Share Buttons for WordPress. </h2>
+                                                            <p style="font-size:36px;color:#666;font-weight:600;line-height: 48px;">Make Your Site’s Share Count Skyrocket with this Supercharged Share Buttons for WordPress. </h2>
                                                             <p style="font-size:20px;color:#666;font-weight:500;">Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Than you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
-                                                            <p><a href="https://wordpress.org/plugins/mashsharer/" target="_blank" rel="nofollow external" class="edd-submit btn btn-default" style="max-width: 235px;">Download Mashshare</a></p>
+                                                            <p><a href="https://wordpress.org/plugins/mashsharer/" target="_blank" rel="nofollow external" class="download-button"><i class="fa fa-cloud-download"></i> Download</a></p>
                                                         </div>
                                                     </div>
                                                     <div class="addons_container container-fluid">
@@ -49,7 +49,7 @@ get_header(); ?>
                                                             <h3>Unleash the power of Mashshare<br> with add-ons</h3>
                                                         </div>
                                                         <div class="container frontpage_addons">
-                                                            <div class="row">
+                                                            <div class="row" style="margin-bottom:30px;">
                                                                 <div class="hidden-xs col col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/facebook-like-bar/"><span class="title_addon">Facebook Like-Bar</span></a>
@@ -240,8 +240,8 @@ get_header(); ?>
  
  <!-- Button trigger modal -->
  <div class="row" style="text-align: center; margin-bottom: 40px;">
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Wall of excited people
+<button type="button" class="download-button" data-toggle="modal" data-target="#myModal">
+  <i class="fa fa-comments"></i> More satisfied people
 </button>
  </div>
 
@@ -252,7 +252,7 @@ get_header(); ?>
       <div class="modal-header">
           <div class="header-color">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Wall of excited people</h4>
+          <h4 class="modal-title" id="myModalLabel"> More satisfied people</h4>
           </div>
       </div>
       <div class="modal-body">

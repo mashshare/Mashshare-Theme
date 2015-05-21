@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: page-purchase
+Template Name: page-account
 */
 ?>
 
@@ -34,7 +34,7 @@ Template Name: page-purchase
 				
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
-				<div class="entry" style="background-color: #f6f6f6;">
+				<div class="entry" style="background-color: #f6f6f6;padding:0px;">
 	
 					<?php the_content(); ?>
 	
