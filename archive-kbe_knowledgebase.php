@@ -8,14 +8,14 @@
     <div class="row"><!--start row-->
         <?php if(has_post_thumbnail()){?>
         <div class="col-md-8">
-            <h1><?php the_title(); ?></h1>
+            <h1>Documentation</h1>
         </div>
         <div class="col-md-4">
             <?php the_post_thumbnail(); ?>
         </div>
         <?php } else { ?>
         <div class="col-xs-12 col-md-offset-2 col-md-8" style="text-align:center;">
-            <h1><?php the_title(); ?></h1>
+            <h1>Documentation</h1>
         </div>
         <?php } ?>
     </div><!--end row-->
