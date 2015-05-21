@@ -22,7 +22,7 @@ Template Name: page-bundle
 <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
             <div class="row"><!-- start row -->
 		<div id="content" class="col-md-12 col-lg-12 col-xs-12">
-                    <div class="container">
+                    <div class="container" style="margin-top:40px;">
 	<div class="row">
     			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<div class="panel price fist_box">
