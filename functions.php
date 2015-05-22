@@ -341,7 +341,7 @@ function mash_purchase_history() {
         
         
     } else {
-        echo do_shortcode('[edd_login redirect="' . get_permalink(22175) . '"]');
+        echo do_shortcode('[edd_login redirect="' . get_permalink(69) . '"]');
     }
 }
 add_shortcode( 'mashshare_purchase_history', 'mash_purchase_history' );

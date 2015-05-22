@@ -46,7 +46,7 @@
 
           <div class="container">
         <div class="row">
-            <div class="col-md-12" style="text-align: center; margin-top: 40px;">  
+            <div class="col-md-12" style="text-align: center;">  
                 <!--Breadcrum-->
     <?php
         if(KBE_BREADCRUMBS_SETTING == 1){

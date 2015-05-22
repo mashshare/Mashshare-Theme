@@ -37,7 +37,7 @@ get_header(); ?>
                                                     <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
                                                     <div class="container">
                                                         <div class="teaser col-md-10 col-md-offset-1" style="margin-top: 30px;text-align: center;">
-                                                            <h3>Mashshare</h3>
+                                                            <h3 class="front_h">Mashshare</h3>
                                                             <p style="font-size:36px;color:#666;font-weight:600;line-height: 48px;">Make Your Site’s Share Count Skyrocket with this Supercharged Share Buttons for WordPress. </h2>
                                                             <p style="font-size:20px;color:#666;font-weight:500;">Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Than you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
                                                             <p><a href="https://wordpress.org/plugins/mashsharer/" target="_blank" rel="nofollow external" class="download-button"><i class="fa fa-cloud-download"></i> Download</a></p>
@@ -46,7 +46,7 @@ get_header(); ?>
                                                     <div class="addons_container container-fluid">
                                                         <div class="decor-bottom container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_white.png" alt="white" /></div>
                                                         <div class="container" style="margin-top: 30px;">
-                                                            <h3>Unleash the power of Mashshare<br> with add-ons</h3>
+                                                            <h3 class="front_h">Unleash the power of Mashshare<br> with add-ons</h3>
                                                         </div>
                                                         <div class="container frontpage_addons">
                                                             <div class="row" style="margin-bottom:30px;">
@@ -156,7 +156,7 @@ get_header(); ?>
                                                     </div>
                                                     <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
                                                     <div class="container" style="margin-top: 30px;">
-                                                        <h3>Who is Sharing With Us?</h3>
+                                                        <h3 class="front_h">Who is Sharing With Us?</h3>
                                                     </div>
                                                     <div class="testimonials container-fluid">
                                                         <div class="container">

@@ -58,7 +58,7 @@ mashshare is based on Underscores http://underscores.me/, (C) 2012-2013 Automatt
 /* =Global
 ----------------------------------------------- */
 body {
-  color: #6B6B6B;
+  color: #555;
   word-wrap: break-word;
   line-height: 1.7;
   font-size: 14px;
@@ -162,7 +162,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: #666;
+  color: #555;
   border: 1px solid #E8E8E8;
   border-radius: 3px;
 }
@@ -331,7 +331,7 @@ footer.entry-meta {
   color: #444;
 }
 .entry-title a:hover {
-  color: #666;
+  color: #555;
 }
 .btn.btn-default.read-more {
   float: right;
@@ -797,7 +797,7 @@ li.recentcomments {
 	display: none;
 }
 .top-link ul li a  {
-	color: #666;
+	color: #555;
 }
 .top-link ul li a:hover  {
 	color: #fff;
@@ -821,7 +821,7 @@ li.recentcomments {
 	display: none !important;
 }
 .footer-nav li a  {
-	color: #666;
+	color: #555;
 }
 .footer-nav li a:hover  {
 	color: #fff;
@@ -837,7 +837,7 @@ li.recentcomments {
 	padding: 3px 10px;
 }
 #menu-secondarymenu li a  {
-	color: #666;
+	color: #555;
 }
 #menu-secondarymenu li a:hover  {
 	color: #fff;
@@ -1180,7 +1180,7 @@ span#u_0_2{
 	display: block;
 }
 .nav>li ul li a {
-	color: #666;
+	color: #555;
 }
 
 /* =own style
@@ -1531,7 +1531,7 @@ font-size: 14px;
 }
 
 .nav > li ul li a {
-    color: #3e3e3e;
+    color: #00abed;
     font-size: 12px;
 }
 
@@ -1759,7 +1759,7 @@ height: 1px;
 }
 
 .bbp-username, .bbp-password, .bbp-remember-me {
-    color: #666;
+    color: #555;
     padding-left: 0px;
 }
 
@@ -1943,7 +1943,7 @@ div.bbp-submit-wrapper {
 }
 
 .widget_edd_product_details h3 span{
-    color:#666;
+    color:#555;
 }
 
 .edd_price_options.edd_single_mode > ul {
@@ -2063,7 +2063,7 @@ div.bbp-submit-wrapper {
   font-family: arial, Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: bold;
-  color: #666666;
+  color: #555555;
 }
 #secondary .widget h3 {
 text-align: left;
@@ -2131,7 +2131,7 @@ tbody {
 }
 
 .edd_profile_billing_address_label legend{
-    color: #666;
+    color: #555;
 }
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu> li a:hover, .dropdown-menu>.active>a:focus{
@@ -2139,13 +2139,14 @@ tbody {
 }
 
 .dropdown-menu> li a:hover {
-    background-color:#f3f3f3;
+    background-color:#f6f6f6;
     opacity: 1;
 }
 
 .navbar-nav>li>.dropdown-menu {
   border-radius: 0px;
 }
+
 
 #bbpress-forums .status-closed, #bbpress-forums .status-closed a {
     color:#00adef;
@@ -2157,7 +2158,7 @@ tbody {
 
 .carousel-caption {
     font-size: 16px;
-    color: #666;
+    color: #555;
     font-weight: 300;
     text-shadow: none;
 }
@@ -2392,7 +2393,7 @@ tbody {
 #myTabContent legend {
     background-color: #f1f1f1;
     padding-left:20px;
-    color: #666;
+    color: #555;
     border-bottom:0px;
     font-size: 17px;
 }
@@ -2468,4 +2469,9 @@ tbody {
     font-weight: 200;
     text-align: center;
     margin-top:0px;
+}
+
+.kbe_breadcrum {
+  margin-left: 30px;
+  margin-top: 40px;
 }
