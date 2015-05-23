@@ -24,7 +24,7 @@
 <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
 <div id="page-wrap-download" class="container">
     <div class="row">
-	<div class="addon-offer notice info col-md-12">
+	<div class="addon-offer notice info col-md-12" style="display: none;">
 		<a href="<?php echo get_permalink('21228'); ?>"><img src="https://www.mashshare.net/wp-content/uploads/2015/04/bundle_three_packages.png"></a>
 		<!--Purchase 3 or more Add-Ons at once and save an automatic 10% off your purchase 
 		<br>We charge EUR prices. During checkout your currency is automatically recalculated.-->
@@ -37,18 +37,18 @@
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		
-			<div class="entry">
+			
 
 				<?php the_content(); ?>
 
 				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
 
-			</div>
+			
 
 		</article>
 		
 		<?php if(!$data['check_disablecomments']) { ?>
-			<?php comments_template(); ?>
+			<?php //comments_template(); ?>
 		<?php } ?>
 
 		<?php endwhile; endif; ?>
