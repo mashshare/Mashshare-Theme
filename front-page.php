@@ -241,7 +241,7 @@ get_header(); ?>
  <!-- Button trigger modal -->
  <div class="row" style="text-align: center; margin-bottom: 40px;">
 <button type="button" class="download-button" data-toggle="modal" data-target="#myModal">
-  <i class="fa fa-comments"></i> More satisfied people
+  <i class="fa fa-comments"></i> They love Mashshare
 </button>
  </div>
 
@@ -252,7 +252,7 @@ get_header(); ?>
       <div class="modal-header">
           <div class="header-color">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel"> More satisfied people</h4>
+          <h4 class="modal-title" id="myModalLabel"> They love Mashshare</h4>
           </div>
       </div>
       <div class="modal-body">
