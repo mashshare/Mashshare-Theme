@@ -13,8 +13,7 @@ Template Name: 404 error template
 <div id="header-content" class="container"><!--start header-->
     <div class="row"><!--start row-->
         <div class="col-md-12">
-            <h1>404</h1>
-            
+            <h1 style="text-align:center;">404</h1>
         </div>
         
     </div><!--end row-->

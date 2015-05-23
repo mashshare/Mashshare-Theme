@@ -1849,8 +1849,9 @@ div.bbp-submit-wrapper {
 .type-post {
     padding-left: 15px !important;
     padding-right: 15px !important;
-    margin-top: 15px;
-    padding-top: 1px !important;}
+    /*margin-top: 15px;
+    padding-top: 1px !important;*/
+    }
 
 .entry{
   padding: 30px;

@@ -1,8 +1,8 @@
 <?php 
 /**
- * Template Name: template-page-affilate
+ * Template Name: download-category
  *
- * This is the template that displays full width page without sidebar
+ * This is the template that displays full all addons
  *
  * @package rootstrap
  */
