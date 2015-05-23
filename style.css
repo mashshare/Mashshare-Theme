@@ -1729,7 +1729,7 @@ height: 1px;
 .product {
     margin-bottom: 30px;
     background-color: #fff;
-    min-height: 450px;
+    min-height: 410px;
 }
 
 .product-price {
@@ -1738,9 +1738,9 @@ height: 1px;
     font-size: 13px;
 }
 
-.product-buttons {
+/*.product-buttons {
     padding-bottom: 25px;
-}
+}*/
 
 .button.alternative-1.small {
     background-color: #00abed;
@@ -1905,7 +1905,10 @@ div.bbp-submit-wrapper {
 
 #page-wrap-download .entry-single .hentry{
     background-color: #fff;
+	padding:30px;
 }
+
+
 /*.widget.widget_edd_product_details {
     background-color: #fff;
 }*/
@@ -2020,6 +2023,7 @@ div.bbp-submit-wrapper {
     background-color: #fff;
     padding:40px; 
     font-size: 16px;
+    margin-bottom: 40px;
 }
 
 #toc_container {
@@ -2215,7 +2219,7 @@ tbody {
 .sidebar .widget-container{
     background-color: white;
     margin-left: 50px;
-    padding: 50px;
+    padding: 40px;
 }
 
 .single-download .edd_download_purchase_form {
@@ -2473,5 +2477,18 @@ tbody {
 
 .kbe_breadcrum {
   margin-left: 30px;
+}
+
+#page-wrap-download.container{
   margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.addons-row.last.product {
+margin-bottom:0px;
+}
+
+.post-type-archive-kbe_knowledgebase #kbe_container {
+margin-top:40px;
+margin-bottom:40px;
 }
