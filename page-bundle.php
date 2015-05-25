@@ -24,54 +24,68 @@ Template Name: page-bundle
 		<div id="content" class="col-md-12 col-lg-12 col-xs-12">
                     <div class="container" style="margin-top:40px;">
 	<div class="row">
-    			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<div class="panel price fist_box">
-						<h3>Personal</h3>
+    			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <div class="panel price fist_box">
+						<h3>Ultimate</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">Support for 1 Site</li>
-							<li class="list-group-item mash_license">&euro; 49</li>
-							<li class="list-group-item mash_etc">1 Year of Updates & Support**</li>
-                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">7 add-ons included</a></strong></li>
-                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On not included </a></li>
-							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="21330" text="Buy Now" style="button" direct="true"]' ) ?></li>
+                                                        <li class="list-group-item">Unlimited Updates & Support</li>
+							<li class="list-group-item mash_license">&euro; 449</li>
+							<li class="list-group-item mash_etc">Unlimited Updates & Support</li>
+                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">All add-ons included</a></strong></li>
+                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On included </a></li>
+							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="25692" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
 					</div>
+					
 			</div>
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 					<div class="panel price second_box">
 						
                                                 <h3>Pro</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">Support for 100 Sites</li>
-							<li class="list-group-item mash_license">&euro; 239</li>
-                                                        <li class="list-group-item mash_etc">1 Year of Updates & <strong>Premium Support**</strong></li>
+                                                        <li class="list-group-item">Unlimited site licences</li>
+                                                        <li class="list-group-item mash_license"><span style="text-decoration: line-through;color:#999;font-size:36px;font-weight: 600;">&euro;  239</span> &euro; 199</li>
+                                                        <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
 							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/pro-license/"><strong>All add-ons included</strong></a></li>
                                                         <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/"><strong>Video Add-On included</strong> </a></li>
 							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="21347" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
 					</div>
 			</div>
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 					<div class="panel price third_box">
 						<h3>Business</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">Support for 5 Sites</li>
-							<li class="list-group-item mash_license">&euro; 89</li>
-							<li class="list-group-item mash_etc">1 Year of Updates & Support**</li>
+                                                        <li class="list-group-item">3 site licenses</li>
+							<li class="list-group-item mash_license">&euro; 99</li>
+							<li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
 							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/business/">All add-ons included</a></li>
                                                         <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On included </a></li>
 							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="21345" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
 					</div>
 			</div>
-			</div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                        <div class="panel price fist_box">
+                                                <h3>Personal</h3>
+                                                <ul class="list-group list-group-flush text-center">
+                                                    <li class="list-group-item">1 site license</li>
+                                                    <li class="list-group-item mash_license">&euro; 49</li>
+                                                    <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
+                                                    <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">7 add-ons included</a></strong></li>
+                                                    <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On not included </a></li>
+                                                    <li class="list-group-item mash_btn"> <?php echo do_shortcode('[purchase_link id="21330" text="Buy Now" style="button" direct="true"]') ?></li>
+                                                </ul>
+                                        </div>
+                        </div>
+            </div>
             
 </div>
                     <div class="container mash_star">
                         <div class="row">
                             <div class="col-md-12" style="text-align: center;">
                                 <p>*A license allows to install and use Mashshare and all Add-Ons on a site for an unlimited period of time. This is not a subscription!<br />
-**To continue to receive support and updates, all licenses must be renewed after one year (not compulsory).</p>
+To continue to receive support and updates, all licenses must be renewed after one year (not compulsory).</p>
                             </div>
                         </div>
                         
@@ -90,7 +104,7 @@ Template Name: page-bundle
                         <div class="row">
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do I get access to add-ons?</h6>
-                                    <p>With your payment you can download <a href="<?php echo get_permalink('477'); ?>" target="_blank">10 professional add-ons</a>. This add-ons can be also downloaded from your purchase account.</p>
+                                    <p>With your payment you can download all professional add-ons*. (Video Add-On only included in Pro and Business bundle). This add-ons can be also downloaded from your purchase account.</p>
                             </div>
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do I get updates for the plugin?</h6>

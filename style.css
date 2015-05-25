@@ -1983,17 +1983,18 @@ div.bbp-submit-wrapper {
         }
         
 .panel.price > h3 {
-    background-color: #474747;
-    color: #fff;
+    /*background-color: #474747;*/
+    color: #555;
     font-size: 25px;
     margin-bottom: 0;
     padding-bottom: 25px;
     padding-top: 25px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .mash_license {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight:700;
 }
 .mash_etc {
     padding-top: 15px;
