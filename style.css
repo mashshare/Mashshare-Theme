@@ -2494,3 +2494,24 @@ margin-bottom:0px;
 margin-top:40px;
 margin-bottom:40px;
 }
+
+.email-subscription .btn-default {
+background-color: #faee40;
+color:#555;
+}
+
+.email-subscription .wysija-paragraph {
+display:block;
+float:left;
+max-width:310px;
+width:183px;
+}
+
+.email-subscription .wysija-input {
+margin-top:1px;
+width:180px;
+}
+
+.mashsb-toggle-container {
+  background-color: #00adef;
+}

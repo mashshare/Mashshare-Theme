@@ -49,7 +49,7 @@ get_header(); ?>
                                                             <h3 class="front_h">Unleash the power of Mashshare<br> with add-ons</h3>
                                                         </div>
                                                         <div class="container frontpage_addons">
-                                                            <div class="row" style="margin-bottom:30px;">
+                                                            <div class="row" style="margin-bottom:10px;">
                                                                 <div class="hidden-xs col col-sm-4 col-md-4">
                                                                     <div class="thumbnail">
                                                                         <div class="hidden-xs caption"><a href="https://www.mashshare.net/downloads/facebook-like-bar/"><span class="title_addon">Facebook Like-Bar</span></a>
@@ -149,6 +149,9 @@ get_header(); ?>
 
                                                                     </div>
                                                                 </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="hidden-xs col col-sm-12 col-md-12" style="text-align: center;font-size:16px;text-decoration: underline;"><a href="https://mashshare.net/dev5/?page_id=25280" style="color: #fff;">See all available Add-Ons</a></div>
                                                             </div>
                                                         </div>
                                                         <!-- /.container -->
