@@ -55,6 +55,18 @@ mashshare is based on Underscores http://underscores.me/, (C) 2012-2013 Automatt
 15. Call For Action
 */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+@font-face{
+           font-family:"mashshare";
+           src:url("fonts/mashshare.eot");
+           src:url("fonts/mashshare.eot?#iefix") format("embedded-opentype"),
+               url("fonts/mashshare.woff") format("woff"),
+               url("fonts/mashshare.ttf") format("truetype"),
+               url("fonts/mashshare.svg#mashshare") format("svg");
+           font-weight:normal;font-style:normal
+}
+
 /* =Global
 ----------------------------------------------- */
 body {
@@ -1261,7 +1273,7 @@ h1 {
   font-weight: 600;
   color: #ffffff;
     text-transform: uppercase;
-	font-size:60px;
+	font-size:40px;
 }
 
 h2 {
@@ -1522,16 +1534,16 @@ font-size: 14px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-color: #fff;
-    opacity: 0.75;
+    background-color: #00B1F6;
+    opacity: 1;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #3e3e3e;
+    color: #fff;
 }
 
 .nav > li ul li a {
-    color: #00abed;
+    color: #555;
     font-size: 12px;
 }
 
@@ -2147,6 +2159,7 @@ tbody {
 .dropdown-menu> li a:hover {
     background-color:#f6f6f6;
     opacity: 1;
+    color:#555;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -2333,24 +2346,6 @@ tbody {
     }
 }
 
-@media (max-width: 768px) {  
-    .fans-mobile {
-        color: #373737;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .col-lg-10.col-lg-offset-1  {
-    font-size: 16px;
-    text-align: center;
-}
-
-    .fans-mobile img {
-    border: 2px solid #373737;
-    border-radius: 64px;
-    margin-bottom:20px;
-    margin-top: 20px;
-}
-}
 
 .btn.btn-primary.btn-lg {
     background-color: #00adef;
@@ -2366,13 +2361,29 @@ tbody {
 }
 
 
-@media (max-width: 768px) {  
-   
-.nav.navbar-nav.main-nav {
-    height: 201px;
-}
+@media screen and (max-width: 768px) {    
+    .nav.navbar-nav.main-nav {
+        height: 270px;
+    }
+    .menu-item-25288 {
+        margin-top:100px;
+    }
+    .fans-mobile {
+        color: #373737;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .col-lg-10.col-lg-offset-1  {
+        font-size: 16px;
+        text-align: center;
+    }
 
-
+    .fans-mobile img {
+        border: 2px solid #373737;
+        border-radius: 64px;
+        margin-bottom:20px;
+        margin-top: 20px;
+    }
 }
 
 .col-md-3.col-sm-3.col-xs-12 > img {
@@ -2515,3 +2526,38 @@ width:180px;
 .mashsb-toggle-container {
   background-color: #00adef;
 }
+
+
+
+@media screen and (min-width:700px) { 
+  li.purchase>a:before {
+  font-family: 'mashshare';
+  content: "\e008";
+}
+li.menu-item>a:before {
+  font-size: 26px;
+  font-family: "mashshare" !important;
+  speak: none;
+  line-height: 1;
+  display: block;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  bottom: 1rem;
+  opacity: 1;
+  color: #fff;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  margin-bottom: 5px;
+}
+#menu-main_manue .purchase{
+   background-color: #009CD7;
+}
+}
+
+
+
+
