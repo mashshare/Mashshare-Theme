@@ -151,7 +151,7 @@ get_header(); ?>
                                                                 </div>
                                                             </div>
                                                             <div class="row">
-                                                                <div class="hidden-xs col col-sm-12 col-md-12" style="text-align: center;font-size:16px;text-decoration: underline;"><a href="https://mashshare.net/dev5/?page_id=25280" style="color: #fff;">See all available Add-Ons</a></div>
+                                                                <div class="hidden-xs col col-sm-12 col-md-12" style="text-align: center;font-size:16px;text-decoration: underline;"><a href="https://www.mashshare.net/add-ons/" style="color: #fff;">See all available Add-Ons</a></div>
                                                             </div>
                                                         </div>
                                                         <!-- /.container -->
