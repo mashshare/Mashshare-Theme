@@ -2534,6 +2534,7 @@ width:180px;
   font-family: 'mashshare';
   content: "\e008";
 }
+
 li.menu-item>a:before {
   font-size: 26px;
   font-family: "mashshare" !important;
@@ -2553,7 +2554,12 @@ li.menu-item>a:before {
   transition: all .25s ease-in-out;
   margin-bottom: 5px;
 }
+
 #menu-main_manue .purchase{
+   background-color: #009CD7;
+}
+#menu-main_manue .purchase a{
+   position: absolute;
    background-color: #009CD7;
 }
 }
