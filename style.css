@@ -2562,6 +2562,10 @@ li.menu-item>a:before {
    position: absolute;
    background-color: #009CD7;
 }
+#menu-main_manue .purchase a:hover {
+    background-color: #00B1F6;
+    transition: all 0.25s ease-in-out 0s;
+}
 }
 
 

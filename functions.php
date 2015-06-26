@@ -342,6 +342,7 @@ function mash_purchase_history() {
         
     } else {
         echo do_shortcode('[edd_login redirect="' . get_permalink(69) . '"]');
+        echo '<a href="https://www.mashshare.net/register-support/">Register an account</a>';
     }
 }
 add_shortcode( 'mashshare_purchase_history', 'mash_purchase_history' );
