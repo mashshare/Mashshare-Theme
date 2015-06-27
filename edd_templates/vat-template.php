@@ -196,7 +196,11 @@ function eddpdfi_pdf_template_vat( $eddpdfi_pdf, $eddpdfi_payment, $eddpdfi_paym
 	$eddpdfi_pdf->SetFont( $font, '', 18 );
 	$eddpdfi_pdf->SetTextColor( $colors['title'][0], $colors['title'][1], $colors['title'][2] );
 	$eddpdfi_pdf->SetY(45);
+	if ($eddpdfi_payment_status === 'Refunded'){
+	$eddpdfi_pdf->Cell( 0, 0, 'Invoice Correction', 0, 2, 'L', false );	
+	} else {
 	$eddpdfi_pdf->Cell( 0, 0, __('Invoice', 'eddpdfi'), 0, 2, 'L', false );
+	}
 
 	$eddpdfi_pdf->SetTextColor( $colors['body'][0], $colors['body'][1], $colors['body'][2] );		
 	$eddpdfi_pdf->SetXY( 8, 60 );
@@ -503,7 +507,11 @@ function eddpdfi_pdf_template_vat( $eddpdfi_pdf, $eddpdfi_payment, $eddpdfi_paym
 		$eddpdfi_pdf->SetX( 61 );
 		$eddpdfi_pdf->SetFont( $fontb, '', 11 );
 		$eddpdfi_pdf->Cell( 102, 10, __('Total Due', 'eddpdfi'), 'B', 0, 'L', false );
-		$eddpdfi_pdf->Cell( 38, 10, html_entity_decode( edd_currency_filter( edd_format_amount( edd_get_payment_amount( $eddpdfi_payment->ID ) ) ), ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', false );
+		if ($eddpdfi_payment_status === 'Refunded'){
+		$eddpdfi_pdf->Cell( 38, 10, '-' . html_entity_decode( edd_currency_filter( edd_format_amount( edd_get_payment_amount( $eddpdfi_payment->ID ) ) ), ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', false );
+		}else{
+		$eddpdfi_pdf->Cell( 38, 10, html_entity_decode( edd_currency_filter( edd_format_amount( edd_get_payment_amount( $eddpdfi_payment->ID ) ) ), ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', false );	
+		}
 		
 		$eddpdfi_pdf->Ln( 10 );
 		
