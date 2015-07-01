@@ -56,6 +56,7 @@ class sidebar_generator {
 			foreach($sidebars as $sidebar){
 				$sidebar_class = sidebar_generator::name_to_class($sidebar);
 				register_sidebar(array(
+                                        'id' => '%1$s',
 					'name'=>$sidebar,
                                         'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		   			'after_widget' => '</div>',
@@ -175,7 +176,7 @@ class sidebar_generator {
 		add_theme_page('Sidebars', 'Sidebars', 'manage_options', 'multiple_sidebars', array('sidebar_generator','admin_page'));
 	}
 	
-	function admin_page(){
+	public static function admin_page(){
 		?>
 		<script>
 			function remove_sidebar_link(name,num){
