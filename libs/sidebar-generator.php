@@ -57,7 +57,6 @@ class sidebar_generator {
 				$sidebar_class = sidebar_generator::name_to_class($sidebar);
 				register_sidebar(array(
 					'name'=>$sidebar,
-                                        'id' => $sidebar,
                                         'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		   			'after_widget' => '</div>',
 		   			'before_title' => '<h3 class="title"><span>',
@@ -176,7 +175,7 @@ class sidebar_generator {
 		add_theme_page('Sidebars', 'Sidebars', 'manage_options', 'multiple_sidebars', array('sidebar_generator','admin_page'));
 	}
 	
-	public static function admin_page(){
+	function admin_page(){
 		?>
 		<script>
 			function remove_sidebar_link(name,num){
@@ -243,7 +242,7 @@ class sidebar_generator {
 	/**
 	 * for saving the pages/post
 	*/
-	function save_form($post_id){
+	static function save_form($post_id){
 		if (isset($_POST['sbg_edit'])) { 
 		$is_saving = $_POST['sbg_edit'];
 		}
