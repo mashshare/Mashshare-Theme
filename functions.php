@@ -5,6 +5,16 @@
  * @package rootstrap
  */
 
+/* Add title-tag support
+ */
+
+add_action( 'after_setup_theme', 'theme_slug_setup' );
+
+function theme_slug_setup() {
+
+	add_theme_support( 'title-tag' );
+}
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
