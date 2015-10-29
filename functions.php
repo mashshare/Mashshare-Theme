@@ -9,6 +9,8 @@
  */
 
 add_action( 'after_setup_theme', 'theme_slug_setup' );
+add_filter('widget_text', 'do_shortcode');
+
 
 function theme_slug_setup() {
 
@@ -276,8 +278,10 @@ add_filter( 'edd_purchase_form_required_fields', 'mashshare_edd_purchase_form_re
  * 
  */
 function edd_version_shortcode() {
-  $version = get_post_meta( get_the_ID(), '_edd_sl_version', TRUE );
-  return $version;
+    global $post;
+    $the_post_ID = $post->ID;
+    $version = get_post_meta( $the_post_ID, '_edd_sl_version', TRUE );
+    return $version;
 }
 add_shortcode( 'edd_version', 'edd_version_shortcode' );
 
