@@ -692,6 +692,7 @@ li.recentcomments {
   text-align: right;
 }
 .navbar.navbar-default {
+  display: -webkit-box;
   background-color: #fff;
   font-weight: 200;
   margin-bottom: 0;
@@ -1945,20 +1946,55 @@ div.bbp-submit-wrapper {
 /*.widget.widget_edd_product_details form {
     padding-left: 50px;
     padding-top: 25px;
-}*/
+.}*/
 
-
-.widget_edd_product_details h3 {
-  margin: 0 0 15px;
-  font-weight: 400;
-  font-size: 18px;
-  text-align: center;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
-  padding: 10px 0;
+.mash-add-on-detail-label {
+    float: left;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 12px;
+    width: 39%;
+}
+.mash-add-on-detail {
+    float: right;
+    text-align: right;
+    width: 58%;
 }
 
-.widget_edd_product_details h3 span{
+.widget_text{
+margin-bottom:40px;
+}
+
+.license-box-small{
+    background-color: #f1f1f1;
+    color: #777;
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 10px !important;
+    border-radius: 4px;
+}
+
+.widget_text h3 {
+  margin: 0 0 5px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  /*border-top: 1px solid #aaa;*/
+  border-bottom: 2px solid #eaeaea;
+  padding: 5px 0;
+}
+
+.widget_edd_product_details h3 {
+  margin: 0 0 5px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  /*border-top: 1px solid #aaa;*/
+  border-bottom: 2px solid #eaeaea;
+  padding: 5px 0;
+}
+
+.widget_edd_product_details h3 span, .widget_text h3 span{
     color:#555;
 }
 
@@ -2225,7 +2261,7 @@ tbody {
 }
 
 .mash-jumbotron {
-  background: #FAFAFA;
+  background: #f8f8f8;
   padding: 30px 30px;
   border-radius: 4px;
   margin: 0 0 20px 0;
