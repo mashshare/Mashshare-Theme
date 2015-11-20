@@ -115,7 +115,7 @@ function rootstrap_widgets_init() {
       'after_title' => '</h3>',
     ));	
     
-    register_sidebar(array(
+    (array(
     	'id' => 'footer-widget-1',
     	'name' =>  __( 'Footer Widget 1', 'rootstrap' ),
     	'description' =>  __( 'Used for footer widget area', 'rootstrap' ),
@@ -379,7 +379,7 @@ Use ful when widgets should be only visible for non logged in user
 */
 
 function mashDiscreetText() {
-class mashDiscreetTextWidget extends WP_Widget_Text
+class mashDiscreetTextWidget extends WP_Widget
 {
 	public function __construct() {
 		$widget_ops = array('classname' => 'discreet_text_widget', 'description' => __('Arbitrary text or HTML, only shown if not empty'));
@@ -388,7 +388,7 @@ class mashDiscreetTextWidget extends WP_Widget_Text
    
 	}
 
-	function widget( $args, $instance ) {
+	public function widget( $args, $instance ) {
 		extract($args, EXTR_SKIP);
 		$text = apply_filters( 'widget_text', $instance['text'] );
 		if (empty($text)) return;
@@ -399,6 +399,24 @@ class mashDiscreetTextWidget extends WP_Widget_Text
 		<?php
 		echo $after_widget;
 	}
+        	/**
+	 * @param array $instance
+	 */
+	public function form( $instance ) {
+		$instance = wp_parse_args( (array) $instance, array( 'title' => '', 'text' => '' ) );
+		$title = strip_tags($instance['title']);
+		$text = esc_textarea($instance['text']);
+?>
+		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label>
+		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" /></p>
+
+		<p><label for="<?php echo $this->get_field_id( 'text' ); ?>"><?php _e( 'Content:' ); ?></label>
+		<textarea class="widefat" rows="16" cols="20" id="<?php echo $this->get_field_id('text'); ?>" name="<?php echo $this->get_field_name('text'); ?>"><?php echo $text; ?></textarea></p>
+
+		<p><input id="<?php echo $this->get_field_id('filter'); ?>" name="<?php echo $this->get_field_name('filter'); ?>" type="checkbox" <?php checked(isset($instance['filter']) ? $instance['filter'] : 0); ?> />&nbsp;<label for="<?php echo $this->get_field_id('filter'); ?>"><?php _e('Automatically add paragraphs'); ?></label></p>
+<?php
+	}
+
 }
 return register_widget("mashDiscreetTextWidget");
 }
