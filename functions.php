@@ -381,10 +381,11 @@ Use ful when widgets should be only visible for non logged in user
 function mashDiscreetText() {
 class mashDiscreetTextWidget extends WP_Widget_Text
 {
-	function mashDiscreetTextWidget() {
+	public function __construct() {
 		$widget_ops = array('classname' => 'discreet_text_widget', 'description' => __('Arbitrary text or HTML, only shown if not empty'));
 		$control_ops = array('width' => 400, 'height' => 350);
-		$this->WP_Widget('discrete_text', __('Discreet Text'), $widget_ops, $control_ops);
+		parent::__construct('discrete_text', __('Discreet Text'), $widget_ops, $control_ops);
+   
 	}
 
 	function widget( $args, $instance ) {
