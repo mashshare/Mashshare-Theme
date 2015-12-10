@@ -39,7 +39,7 @@ get_header(); ?>
                                                         <div class="teaser col-md-10 col-md-offset-1" style="margin-top: 30px;text-align: center;">
                                                             <h3 class="front_h">Mashshare</h3>
                                                             <p style="font-size:36px;color:#666;font-weight:600;line-height: 48px;">Make Your Site’s Share Count Skyrocket with this Supercharged Share Buttons for WordPress. </h2>
-                                                            <p style="font-size:20px;color:#666;font-weight:500;">Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Than you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
+                                                            <p style="font-size:20px;color:#666;font-weight:500;">Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Then you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
                                                             <p><a href="https://wordpress.org/plugins/mashsharer/" target="_blank" rel="nofollow external" class="download-button"><i class="fa fa-cloud-download"></i> Download</a></p>
                                                         </div>
                                                     </div>
