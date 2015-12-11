@@ -2221,6 +2221,7 @@ tbody {
 .carousel-caption img {
     border-radius: 50%;
     margin-bottom:10px;
+    max-width: 20%;
 }
 
 .carousel-inner>.item {

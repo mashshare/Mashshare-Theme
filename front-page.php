@@ -37,8 +37,8 @@ get_header(); ?>
                                                     <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
                                                     <div class="container">
                                                         <div class="teaser col-md-10 col-md-offset-1" style="margin-top: 30px;text-align: center;">
-                                                            <h3 class="front_h">Mashshare</h3>
-                                                            <p style="font-size:36px;color:#666;font-weight:600;line-height: 48px;">Make Your Site’s Share Count Skyrocket with this Supercharged Share Buttons for WordPress. </h2>
+                                                            <h3 class="front_h" style="display:none;">Mashshare</h3>
+                                                            <p style="font-size:46px;color:#666;font-weight:600;line-height: 48px;">Grow your traffic with this Supercharged Share Buttons for WordPress. </h2>
                                                             <p style="font-size:20px;color:#666;font-weight:500;">Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Then you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
                                                             <p><a href="https://wordpress.org/plugins/mashsharer/" target="_blank" rel="nofollow external" class="download-button"><i class="fa fa-cloud-download"></i> Download</a></p>
                                                         </div>
@@ -173,23 +173,30 @@ get_header(); ?>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <div class="carousel-caption">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/jean_paul.jpeg" alt="iculture" />
           <p>"We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!"</p>
-          <p>Jean-Paul Horn from iculture.nl</p>
+          <p>Jean-Paul Horn / iculture.nl</p>
               </div>
             </div>
             <div class="item">
               <div class="carousel-caption">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" />
           <p>"Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top."</p>
-          <p>Ramsay from blogtyrant.com</p>
+          <p>Ramsay / blogtyrant.com</p>
               </div>
             </div>
             <div class="item">
               <div class="carousel-caption">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" />
           <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
-          <p>Dan Carr from DanCarrPhotography.com</p>
+          <p>Dan Carr / DanCarrPhotography.com</p>
+              </div>
+            </div>
+              <div class="item">
+              <div class="carousel-caption">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/matt_shih.jpg" alt="Matthew Shih" />
+                    <p>"We’ve tried a whole bunch of other social sharing solutions and never found a system that did everything we wanted until we found Mashshare. It looks and performs flawlessly, and if you ever have any hiccups, the developers are on top of it. Outstanding product and customer service, what more can you ask for?"</p>
+                    <p style="color:#A5A5A5;">Matthew Shih / Factorialist.com</p>
               </div>
             </div>
           </div>
@@ -197,7 +204,7 @@ get_header(); ?>
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
           </ol>
         </div>
       </div>
@@ -219,23 +226,30 @@ get_header(); ?>
   <div class="row box">
     <div class="col-lg-10 col-lg-offset-1">
            
-      <img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/jean_paul.jpg" alt="iculture" />
           <p>"We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!"</p>
-          <p>Jean-Paul Horn from iculture.nl</p>
+          <p>Jean-Paul Horn / iculture.nl</p>
     </div>
   </div>
   <div class="row box white">
     <div class="col-lg-10 col-lg-offset-1">
       <img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" />
           <p>"Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top."</p>
-          <p>Ramsay from blogtyrant.com</p>
+          <p>Ramsay / blogtyrant.com</p>
     </div>
   </div>
   <div class="row box">
     <div class="col-lg-10 col-lg-offset-1">
        <img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" />
           <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
-          <p>Dan Carr from DanCarrPhotography.com</p>
+          <p>Dan Carr / DanCarrPhotography.com</p>
+    </div>
+  </div>
+    <div class="row box">
+    <div class="col-lg-10 col-lg-offset-1">
+       <img src="<?php echo get_template_directory_uri(); ?>/images/matt_shih.jpg" alt="Dan Carr" />
+          <p>"We’ve tried a whole bunch of other social sharing solutions and never found a system that did everything we wanted until we found Mashshare. It looks and performs flawlessly, and if you ever have any hiccups, the developers are on top of it. Outstanding product and customer service, what more can you ask for?"</p>
+          <p>Matthew Shih / Factorialist.com</p>
     </div>
   </div>
 
@@ -264,10 +278,10 @@ get_header(); ?>
       <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
           <div class=" wall">
             <div class="row wall_testimonial">
-                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/iculture2.png" alt="iculture" /></div>
+                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/jean_paul.jpeg" alt="iculture" /></div>
                 <div class="col-md-9 col-sm-9 col-xs-12">
                     <p>We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!</p>
-                    <p style="color:#474747;">Jean-Paul Horn from iculture.nl</p>
+                    <p style="color:#A5A5A5;">Jean-Paul Horn / iculture.nl</p>
                 </div>
             </div>
           </div>
@@ -278,7 +292,7 @@ get_header(); ?>
                 <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/ramsay2.png" alt="Ramsay" /></div>
                 <div class="col-md-9 col-sm-9 col-xs-12">
                     <p>Just switched to this plugin because I wanted something a bit cleaner for my new responsive blog design. I've used the Add Ons as well. Nice to be able to add it to the bottom of my posts as well as in the body content for longer posts where you want to add the social stuff up the top."</p>
-                    <p style="color:#474747;">Ramsay from blogtyrant.com</p>
+                    <p style="color:#A5A5A5;">Ramsay / blogtyrant.com</p>
                 </div>
             </div>
           </div>
@@ -289,7 +303,29 @@ get_header(); ?>
                 <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/dan2.png" alt="Dan Carr" /></div>
                 <div class="col-md-9 col-sm-9 col-xs-12">
                     <p>"There's no other sharing plugin that has the depth of options that you get from this one. If you do need help with something, the developer is always quick to respond via the dedicated support forum on the Mashshare website. It’s the perfect social sharing plugin!"</p>
-                    <p style="color:#474747;">Dan Carr from DanCarrPhotography.com</p>
+                    <p style="color:#A5A5A5;">Dan Carr / DanCarrPhotography.com</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+          <div class="wall">
+            <div class="row wall_testimonial">
+                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo get_template_directory_uri(); ?>/images/matt_shih.jpg" alt="Matt_Shih_factorialist" /></div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <p>"We’ve tried a whole bunch of other social sharing solutions and never found a system that did everything we wanted until we found Mashshare. It looks and performs flawlessly, and if you ever have any hiccups, the developers are on top of it. Outstanding product and customer service, what more can you ask for?"</p>
+                    <p style="color:#A5A5A5;">Matthew Shih / Factorialist.com</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+          <div class="wall">
+            <div class="row wall_testimonial">
+                <div class="col-md-3 col-sm-3 col-xs-12"><img src="<?php echo wp_get_attachment_url( 7177 ); ?>" /></div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <p>"Do you have something to say about Mashshare and want to show it here to all our friends and user?"</p>
+                    <p class="download-button"><a href="https://www.mashshare.net/your-review/" style="color:#ffffff;">Submit review</a></p>
                 </div>
             </div>
           </div>
