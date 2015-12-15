@@ -1384,6 +1384,7 @@ h5 {
 .thumbnail p {
 font-size: 15px;
 text-align:center;
+line-height:1.5em;
 } 
  
 .caption {
@@ -1567,6 +1568,7 @@ font-size: 14px;
 .title_addon {
   font-size: 20px;
   color: #fff;
+  line-height:1.5em;
 
 }
 
@@ -2604,7 +2606,3 @@ li.menu-item>a:before {
     transition: all 0.25s ease-in-out 0s;
 }
 }
-
-
-
-
