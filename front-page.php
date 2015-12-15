@@ -226,7 +226,7 @@ get_header(); ?>
   <div class="row box">
     <div class="col-lg-10 col-lg-offset-1">
            
-      <img src="<?php echo get_template_directory_uri(); ?>/images/jean_paul.jpg" alt="iculture" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/jean_paul.jpeg" alt="iculture" />
           <p>"We have been using Mashshare for a while now and are extremely satisfied with the clean look and wide array of settings, both visually and technically.  We use almost of the Mashshare add-ons and these are of the same high quality. Definitely recommended!"</p>
           <p>Jean-Paul Horn / iculture.nl</p>
     </div>
