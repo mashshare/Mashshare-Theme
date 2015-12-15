@@ -2422,6 +2422,7 @@ tbody {
         border-radius: 64px;
         margin-bottom:20px;
         margin-top: 20px;
+		max-width:104px;
     }
 }
 
@@ -2606,3 +2607,7 @@ li.menu-item>a:before {
     transition: all 0.25s ease-in-out 0s;
 }
 }
+
+
+
+
