@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="row" style="text-align: center;">
-                    <div class="col-sm-12 col-md-12">Mashshare  &copy; 2014 - 2015</div>
+                    <div class="col-sm-12 col-md-12">Mashshare  &copy; 2014 - <?php echo date("Y"); ?></div>
                 </div>
             </div>
 
