@@ -2608,6 +2608,9 @@ li.menu-item>a:before {
 }
 }
 
+.edd-manage-license-back{
+    max-width: 100px;
+}
 
 
 

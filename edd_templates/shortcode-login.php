@@ -12,7 +12,7 @@ if ( ! is_user_logged_in() ) :
 			<span><legend><?php _e( 'Log into Your Account', 'easy-digital-downloads' ); ?></legend></span>
 			<?php do_action( 'edd_login_fields_before' ); ?>
 			<p>
-				<label for="edd_user_login"><?php _e( 'Username', 'easy-digital-downloads' ); ?></label>
+				<label for="edd_user_login"><?php _e( 'Email (Username)', 'easy-digital-downloads' ); ?></label>
 				<input name="edd_user_login" id="edd_user_login" class="required edd-input" type="text" title="<?php _e( 'Username', 'easy-digital-downloads' ); ?>"/>
 			</p>
 			<p>

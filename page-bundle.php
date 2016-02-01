@@ -57,7 +57,7 @@ Template Name: page-bundle
 						<h3>Business</h3>
 						<ul class="list-group list-group-flush text-center">
                                                         <li class="list-group-item">3 site licenses</li>
-							<li class="list-group-item mash_license">&euro; 99</li>
+							<li class="list-group-item mash_license">&euro; 89</li>
 							<li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
 							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/business-license/">All add-ons included</a></li>
                                                         <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On included </a></li>
@@ -72,7 +72,7 @@ Template Name: page-bundle
                                                     <li class="list-group-item">1 site license</li>
                                                     <li class="list-group-item mash_license">&euro; 39</li>
                                                     <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
-                                                    <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">7 add-ons included</a></strong></li>
+                                                    <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">8 add-ons included</a></strong></li>
                                                     <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On not included </a></li>
                                                     <li class="list-group-item mash_btn"> <?php echo do_shortcode('[purchase_link id="21330" text="Buy Now" style="button" direct="true"]') ?></li>
                                                 </ul>
@@ -94,7 +94,7 @@ To continue to receive support and updates, all licenses must be renewed after o
                         <div class="row">
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do I need to renew my license?</h6>
-                                    <p>Your license key is valid for one year from the purchase date. You need an active license key for continued access to automatic updates and support. If you renew your license each year you’ll receive a huge 40% discount off the current price!</p>  
+                                    <p>Your license key is valid for one year from the purchase date. You need an active license key for continued access to automatic updates and support. If you renew your license each year you’ll receive a huge 30% discount off the current price!</p>  
                             </div>
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do you have a refund policy?</h6>
