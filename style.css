@@ -70,10 +70,10 @@ mashshare is based on Underscores http://underscores.me/, (C) 2012-2013 Automatt
 /* =Global
 ----------------------------------------------- */
 body {
-  color: #555;
+  /*color: #555;*/
+  color:#313131;
   word-wrap: break-word;
-  line-height: 1.7;
-  font-size: 14px;
+  line-height: 1.5em;
   background: #f6f6f6;
   overflow-x: hidden; 
   /*font-family: 'Montserrat', sans-serif;*/
@@ -1270,11 +1270,33 @@ background-color: #00ABED;
   background-color: #00ABED;
 }
 
+body.single-post .entry-date {
+    font-size: 1.6em;
+    color: #ffffff;
+    font-style: italic;
+}
+
+body.single-post .entry-title {
+    font-size: 3em;
+    color: #ffffff;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.2em;
+    margin-bottom: 0.2em;
+    font-weight: 600;
+}
+
+body.single-post h2 {
+font-size:1.6em;
+color:#252525;
+}
+
 h1 {
+	font-size:3em;
+	line-height:1.2em;
   font-weight: 600;
   color: #ffffff;
-    text-transform: uppercase;
-	font-size:40px;
+  /*text-transform: uppercase;*/
 }
 
 h2 {
@@ -1586,8 +1608,8 @@ font-size: 14px;
     color: #fff
 }
 
-.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-1186 {
-    padding-top: 90px;
+.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-25308 {
+    padding-top: 60px;
 } 
 .dropdown-menu > li > a {
     padding: 7px 20px;
@@ -1828,7 +1850,7 @@ div.bbp-submit-wrapper {
 }
 
 .entry-title {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .fa.fa-calendar, .fa.fa-comment-o, .fa.fa-folder-open-o, .fa.fa-pencil-square-o, .fa.fa-user, .fa.fa-link {
@@ -2611,6 +2633,7 @@ li.menu-item>a:before {
 .edd-manage-license-back{
     max-width: 100px;
 }
+
 
 
 

@@ -12,8 +12,9 @@ Template Name: Default blog post Template
     <div class="row"><!--start row-->
         <?php if(has_post_thumbnail()){?>
         <div class="col-md-8">
-            <h1><?php the_title(); ?></h1>
-            <h2><?php the_excerpt();?></h2>
+            <h1 class="entry-title"><?php the_title(); ?></h1>
+			<span class="entry-date">Posted on <?php echo get_the_date() . ' by ' . get_the_author(); ?></span>
+			
         </div>
         <div class="col-md-4">
             <?php the_post_thumbnail(); ?>
@@ -21,7 +22,7 @@ Template Name: Default blog post Template
         <?php } else { ?>
         <div class="col-xs-12 col-md-offset-2 col-md-8" style="text-align:center;">
             <h1><?php the_title(); ?></h1>
-            <h2><?php the_excerpt();?></h2>
+            <?php //the_excerpt();?>
         </div>
         <?php } ?>
     </div><!--end row-->

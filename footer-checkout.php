@@ -13,9 +13,9 @@
 
 	<div id="footer-area">
 	<?php do_action( 'rootstrap_footer_start' ); ?>
-            <div class="container" style="margin-bottom:10px;">
+            <div class="container" style="margin-bottom:0px;">
                 <div class="row" style="text-align: center;">
-                    <div class="col-sm-12 col-md-12">Copyright &copy; 2014 - <?php echo date("Y"); ?>, Mashshare</div>
+                    <div class="col-sm-12 col-md-12">Copyright &copy; <?php echo date("Y"); ?>, Mashshare</div>
                 </div>
             </div>
 	</div>
