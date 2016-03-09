@@ -673,7 +673,7 @@ li.recentcomments {
 .site-main [class*="navigation"] a:hover,
 .more-link:hover {
   color: #fff;
-  background: #1FA67A;
+  background: #1C1C1C;
   text-decoration: none;
 }
 .more-link {
