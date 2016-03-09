@@ -1270,6 +1270,32 @@ background-color: #00ABED;
   background-color: #00ABED;
 }
 
+body.blog .entry-date{
+    margin-top: -10px;
+	font-style:italic;
+	color: #2A2A2A;
+}
+
+body.blog h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body.blog .entry-title > a{
+    color:#2A2A2A;
+}
+
+
+
+body.blog .section-divider{
+       border: none;
+}
+
+body.blog .page-header{
+	border-bottom:0px;
+	padding-bottom:3px;
+}
+
 body.single-post .entry-date {
     font-size: 1.6em;
     color: #ffffff;
@@ -1632,9 +1658,9 @@ font-size: 14px;
   margin-left: auto;
   margin-right: auto;
 }
-#primary {
+/*#primary {
   padding-left: 0px;
-}
+}*/
 
 .site-main.container {
   padding-left: 0px;
@@ -1883,12 +1909,12 @@ div.bbp-submit-wrapper {
     font-size: 25px;
 }
 
-.type-post {
+/*.type-post {
     padding-left: 15px !important;
     padding-right: 15px !important;
     /*margin-top: 15px;
     padding-top: 1px !important;*/
-    }
+/*}*/
 
 .entry{
   padding: 30px;
