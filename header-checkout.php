@@ -40,7 +40,7 @@
 		            </button>						
 					<div id="logo" style="line-height: 40px;">
                                             <?php if(!is_front_page()){?>			    
-                                                <img src="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare.jpg" alt="Logo Mashshare" style="height: 25px;">
+                                                <a href="https://www.mashshare.net"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare.jpg" alt="Logo Mashshare" style="height: 25px;"></a>
                                              <?php } ?>
 					</div>
 		        </div>
