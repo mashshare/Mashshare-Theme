@@ -264,7 +264,7 @@ function rootstrap_theme_topmenu_social() {
 		</div>
 	</div>
 <?php };
-add_action('before', 'rootstrap_theme_topmenu_social');
+//add_action('before', 'rootstrap_theme_topmenu_social');
 // header images
 function rootstrap_theme_headerimage() {
 	 if( get_header_image() != '' ) : ?>

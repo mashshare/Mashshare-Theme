@@ -1206,8 +1206,8 @@ span#u_0_2{
     height: 30px;
     text-transform: uppercase;
     color: #fff;
-	border:none;
-	display:inline-block;
+    border:none;
+	/*display:inline-block;*/
 }
 
 .navbar-default .navbar-nav > li > a {

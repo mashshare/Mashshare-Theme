@@ -166,7 +166,7 @@ function rootstrap_scripts() {
 
   wp_enqueue_style( 'rootstrap-bootstrap', get_template_directory_uri() . '/inc/css/bootstrap.min.css' );
 
-  wp_enqueue_style( 'rootstrap-icons', get_template_directory_uri().'/inc/css/font-awesome.min.css' );
+  //wp_enqueue_style( 'rootstrap-icons', get_template_directory_uri().'/inc/css/font-awesome.min.css' );
 
   if( ( is_home() || is_front_page() ) && rootstrap_get_option('rootstrap_slider_checkbox') == 1 ) {
 		wp_enqueue_style( 'slider-css', get_template_directory_uri().'/inc/css/slider.css' );
