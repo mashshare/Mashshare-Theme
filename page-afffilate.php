@@ -23,9 +23,9 @@ get_header(); ?>
     </div><!--end row-->
 </div><!--end header-->
 </div><!--end header-image-->
-<div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" />
+<div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
 	<div class="row">
-        <div id="content-sidebar" class=" col-xs-12 col-md-9 col-lg-9">
+        <div class="col-xs-12 col-sm-6 col-md-offset-2 col-md-6 col-lg-6">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -38,13 +38,11 @@ get_header(); ?>
 			</div>
 
 		</article>
-		
-		
 
 		<?php endwhile; endif; ?>
 	</div> <!-- end content -->
-        <div class="col-xs-12 col-md-3 col-lg-3">
-            <div class="sidebar-on-right">
+        <div id="secondary" class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="margin-top:30px;min-width:270px;">
+            <div class="widget-container">
 		<?php dynamic_sidebar('affiliate-sidebar'); ?>
             </div>
         </div>

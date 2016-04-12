@@ -1206,7 +1206,7 @@ span#u_0_2{
     height: 30px;
     text-transform: uppercase;
     color: #fff;
-    border:none;
+	border:none;
 	/*display:inline-block;*/
 }
 
@@ -1356,11 +1356,23 @@ h2 {
 	vertical-align:top;
 }
 
-h3 {
+.panel.price h3 {
     color: #00ABED;
     font-size: 25px;
     text-align: center;
 }
+
+h3 {
+    /*color: #00ABED;
+    font-size: 25px;
+    text-align: center;*/
+	    color: #00ABED;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+}
+
+
 
 .teaser.col-md-8 > p {
     color: #3e3e3e;
@@ -1634,7 +1646,7 @@ font-size: 14px;
     color: #fff
 }
 
-.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-25308 {
+.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-55329 {
     padding-top: 60px;
 } 
 .dropdown-menu > li > a {
@@ -1939,7 +1951,7 @@ div.bbp-submit-wrapper {
 }
 
 #header-image h2 {
-    margin-top: 0;
+    margin-top: -14px;
 }
 
 .entry-content {
@@ -2551,6 +2563,11 @@ tbody {
   background: linear-gradient(top,#00B3F8 0,#1a7fcc 100%);
 }
 
+.download-button:hover{
+opacity:0.9;
+color:white;
+}
+
 .bbp-body .bbp-topic-title {
     font-size: 13px;
 }
@@ -2660,6 +2677,20 @@ li.menu-item>a:before {
     max-width: 100px;
 }
 
+.mash-single-featured img{
+border:3px solid white;
+}
+
+#gallery-2 img {
+    border: none !important;
+    padding: 5px;
+}
+
+@media screen and (max-width:768px) { 
+#header-image .attachment-product-image.wp-post-image {
+    margin-left: 0px !important;
+}
+}
 
 
 

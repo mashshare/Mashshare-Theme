@@ -16,7 +16,7 @@ Template Name: Default blog post Template
 			<span class="entry-date">Posted on <?php echo get_the_date() . ' by ' . get_the_author(); ?></span>
 			
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mash-single-featured">
             <?php the_post_thumbnail(); ?>
         </div>
         <?php } else { ?>

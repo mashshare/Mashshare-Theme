@@ -3,7 +3,7 @@
  * Template Name: Add-On Feed / Mashshare admin
  */
  $args = array(
-	'posts_per_page'   => 5,
+	'posts_per_page'   => 1,
 	'name'		   => 'add-ons',
 	'offset'           => 0,
 	'category'         => '',

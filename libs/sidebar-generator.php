@@ -53,9 +53,10 @@ class sidebar_generator {
 	    //$sidebars = $this->get_sidebars();
 
 	    if(is_array($sidebars)){
-			foreach($sidebars as $sidebar){
+			foreach($sidebars as $key => $sidebar){
 				$sidebar_class = sidebar_generator::name_to_class($sidebar);
 				register_sidebar(array(
+                                        'id' => $key,
 					'name'=>$sidebar,
                                         'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		   			'after_widget' => '</div>',

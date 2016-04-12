@@ -4,13 +4,23 @@
  *
  * @package rootstrap
  */
-
-/* Add title-tag support
+ 
+ 
+ //Making jQuery to load from Google Library
+function mashtheme_replace_jquery() {
+	if (!is_admin()) {
+		// comment out the next two lines to load the local copy of jQuery
+		wp_deregister_script('jquery');
+		wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js', false, '1.11.3');
+		wp_enqueue_script('jquery');
+	}
+}
+add_action('init', 'mashtheme_replace_jquery');
+ 
+ /* Add title-tag support
  */
 
 add_action( 'after_setup_theme', 'theme_slug_setup' );
-add_filter('widget_text', 'do_shortcode');
-
 
 function theme_slug_setup() {
 
@@ -115,7 +125,7 @@ function rootstrap_widgets_init() {
       'after_title' => '</h3>',
     ));	
     
-    (array(
+    register_sidebar(array(
     	'id' => 'footer-widget-1',
     	'name' =>  __( 'Footer Widget 1', 'rootstrap' ),
     	'description' =>  __( 'Used for footer widget area', 'rootstrap' ),
@@ -278,10 +288,8 @@ add_filter( 'edd_purchase_form_required_fields', 'mashshare_edd_purchase_form_re
  * 
  */
 function edd_version_shortcode() {
-    global $post;
-    $the_post_ID = $post->ID;
-    $version = get_post_meta( $the_post_ID, '_edd_sl_version', TRUE );
-    return $version;
+  $version = get_post_meta( get_the_ID(), '_edd_sl_version', TRUE );
+  return $version;
 }
 add_shortcode( 'edd_version', 'edd_version_shortcode' );
 
@@ -357,6 +365,7 @@ function mash_purchase_history() {
     } else {
         echo do_shortcode('[edd_login redirect="' . get_permalink(69) . '"]');
         echo '<a href="https://www.mashshare.net/register-support/">Register an account</a>';
+
     }
 }
 add_shortcode( 'mashshare_purchase_history', 'mash_purchase_history' );
@@ -375,7 +384,7 @@ if ($terms) {
 }
 
 /* A special widget which is not shown when its content is empty
-Use ful when widgets should be only visible for non logged in user
+Useful when widgets should be only visible for non logged in user
 */
 
 function mashDiscreetText() {
@@ -430,3 +439,12 @@ $initArray['valid_elements'] = $opts;
 $initArray['extended_valid_elements'] = $opts;
 return $initArray;} 
 add_filter('tiny_mce_before_init', 'override_mce_options');
+
+// DISABLE default WordPress change password notifications
+if (!function_exists('wp_password_change_notification')) {
+    function wp_password_change_notification($user) {
+    return;
+    }
+}
+
+

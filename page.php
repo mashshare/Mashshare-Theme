@@ -43,7 +43,7 @@ Template Name: Default page Template
 				</div>
 	
                         </article>
-			<?php endwhile; endif; ?>
+			<?php endwhile; endif;?>
 		</div> <!-- end content -->
             </div><!-- end row -->
 	</div> <!-- end page-wrap -->

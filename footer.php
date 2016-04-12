@@ -42,8 +42,8 @@
                     <p>
                     <ul>  
                         <li><a href="<?php echo get_permalink('59'); ?>">FAQ</a></li>
-                        <li><a href="<?php echo get_permalink('1185'); ?>">Affiliate</a></li>
-                        <li><a href="<?php echo get_permalink('127'); ?>">Legal</a></li>
+                        <li><a href="<?php echo get_permalink('59758'); ?>">Affiliate</a></li>
+                        <li><a href="<?php echo get_permalink('127'); ?>">Legal Imprint</a></li>
                         <li><a href="<?php echo get_permalink('93'); ?>">Contact us</a></li>
                     </ul>
                     </p>
@@ -62,18 +62,6 @@
 </div><!-- #page -->
 <?php do_action( 'rootstrap_footer_after' ); ?>
 <?php do_action( 'rootstrap_body_end' ); ?>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-912289-17', 'mashshare.net');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-</script>
-
 <?php wp_footer(); ?>
 </body>
 </html>

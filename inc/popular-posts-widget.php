@@ -5,19 +5,39 @@
 
 class rootstrap_popular_posts_widget extends WP_Widget {
 
+        /**
+	 * Constructor
+	 */
+	public function __construct() {
+                $widget_ops = array( 
+                    'classname' => 'rootstrap_tabbed_widget', 
+                    'description' => __('Displays tabbed list of popular posts, recent posts & comments', 'rootstrap') 
+                    );
+
+                /* Widget control settings. */
+		$control_ops = array( 
+                    'width' => 250, 
+                    'height' => 350, 
+                    'id_base' => 'rootstrap_tabbed_widget' );
+
+                parent::__construct( 'rootstrap_tabbed_widget', __('rootstrap Popular Posts Widget', 'rootstrap'), $widget_ops, $control_ops );
+
+	}
+ 
+
 	/**
 	 * Widget setup.
 	 */
-	function rootstrap_popular_posts_widget() {
+	/*function rootstrap_popular_posts_widget() {
 		/* Widget settings. */
-		$widget_ops = array( 'classname' => 'rootstrap_tabbed_widget', 'description' => __('Displays tabbed list of popular posts, recent posts & comments', 'rootstrap') );
+		//$widget_ops = array( 'classname' => 'rootstrap_tabbed_widget', 'description' => __('Displays tabbed list of popular posts, recent posts & comments', 'rootstrap') );
 
 		/* Widget control settings. */
-		$control_ops = array( 'width' => 250, 'height' => 350, 'id_base' => 'rootstrap_tabbed_widget' );
+		//$control_ops = array( 'width' => 250, 'height' => 350, 'id_base' => 'rootstrap_tabbed_widget' );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'rootstrap_tabbed_widget', __('rootstrap Popular Posts Widget', 'rootstrap'), $widget_ops, $control_ops );
-	}
+		//$this->WP_Widget( 'rootstrap_tabbed_widget', __('rootstrap Popular Posts Widget', 'rootstrap'), $widget_ops, $control_ops );
+	//}
 
 	/**
 	 * How to display the widget on the screen.
