@@ -2120,7 +2120,8 @@ margin-bottom:40px;
 }
 
 .second_box {
-    border: 10px solid #00ABED;
+    /*border: 10px solid #00ABED;*/ 
+	border: 10px solid #83c11f;
 }
 
 .mash_bundle h6 {
@@ -2318,10 +2319,21 @@ tbody {
     line-height: 11px;
 }
 
-.edd-submit.button.blue{
+/*.edd-submit.button.blue{
     background-color: #00adef;
     border-color: #0099D3;
+}*/
+
+.edd-submit.button.blue{
+    background-color: #83c11f;
+    border-color: #83c11f;
 }
+.edd-submit.button.blue:hover{
+    background-color: ##8DCE23;
+    border-color: #8DCE23;
+}
+
+
 
 .mash-jumbotron {
   background: #f8f8f8;

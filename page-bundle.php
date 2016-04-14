@@ -84,8 +84,11 @@ Template Name: page-bundle
                     <div class="container mash_star">
                         <div class="row">
                             <div class="col-md-12" style="text-align: center;">
-                                <p>*A license allows to install and use Mashshare and all Add-Ons on a site for an unlimited period of time. This is not a subscription!<br />
-To continue to receive support and updates, all licenses must be renewed after one year (not compulsory).</p>
+                                <!--<p>*A license allows to install and use Mashshare and all Add-Ons on a site for an unlimited period of time. This is not a subscription!<br />
+To continue to receive support and updates, all licenses must be renewed after one year (not compulsory).</p>//-->
+<p>If you don't love it within your first 60 days, we'll gladly refund your purchase, no questions asked.</p>
+<!--<p>Licenses subject to yearly renewal for support and updates</p>-->
+<p>To continue to receive support and updates, all licenses must be renewed after one year (not compulsory).</p>
                             </div>
                         </div>
                         
@@ -98,7 +101,7 @@ To continue to receive support and updates, all licenses must be renewed after o
                             </div>
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do you have a refund policy?</h6>
-                                    <p><a href="<?php echo get_permalink('21306'); ?>" target="_blank">Yes we do</a>! We stand behind the quality of our product and will refund 100% of your money if you are unhappy with the plugin.</p>
+                                    <p><a href="<?php echo get_permalink('21306'); ?>" target="_blank">Yes we have.</a> We stand behind the quality of our product and will refund 100% of your money if you are unhappy with the plugin.</p>
                             </div>
                         </div>
                         <div class="row">
@@ -108,23 +111,23 @@ To continue to receive support and updates, all licenses must be renewed after o
                             </div>
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do I get updates for the plugin?</h6>
-                                    <p>Yes! Automatic updates are available free of charge to all users with a valid license key.</p>
+                                    <p>Yes, automatic updates are available free of charge to all users with a valid license key.</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Can I purchase the add-ons separately?</h6>
-                                    <p>Yes you can purchase the add-ons separately.</p>
+                                    <p>Yes, you can purchase the add-ons separately.</p>
                             </div>
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do you offer support if I need help?</h6>
-                                    <p>Yes! Top-notch customer support is key for a quality product, so we’ll do our very best to resolve any issues you encounter via our support page.</p>
+                                    <p>Yes, top-notch customer support is key for a quality product, so we’ll do our very best to resolve any issues you encounter via our support page.</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>I have other pre-sale questions, can you help?</h6>
-                                    <p>Yes! You can ask us any question through our support page.</p>
+                                    <p>Yes, you can ask us any question through our support page.</p>
                             </div>
                         </div>
                         
