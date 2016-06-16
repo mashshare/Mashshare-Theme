@@ -20,16 +20,17 @@
                     <h4>What is Mashshare?</h4>
 <p>Mashshare is an extensible free social share media ecosystem for the best possible social sharing optimization of your website. You find Add-Ons for Velocity Graph, Google Analytics integration, mobile sharing optimization, responsive design and much more in the <a href="https://www.mashshare.net/downloads">Add-On section</a></p>
 <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmashshare.net&amp;width=270&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=80&amp;appId=529531527150598&amp;colorscheme=dark" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:80px;" allowTransparency="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmashshare.net%2F&width=450&height=80&layout=standard&show_faces=true&appId=857132130971447&amp;colorscheme=dark" width="270" height="80" style="border:none; overflow:hidden; width:270px; height:80px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3">
                     <h4>Developer</h4>
                     <p>
-                        Create a Mashshare extension:
+                        Create Mashshare Add-Ons:
                     <ul>                        
                         <li>Add-On boilerplate on <a href="https://github.com/mashshare/MASHSB-Add-On-Boilerplate" target="_blank">GitHub</a> </li>
                         <li>Mashshare on <a href="https://github.com/mashshare/Mashshare" target="_blank">GitHub</a></li>
-                        <li><a id="mail" href="https://www.mashshare.net/contact-developer/">Contact us</a> for hosting your Add-On</li>
+                        <li><a href="https://www.mashshare.net/documentation/developer-instruction-for-commercial-theme-integration/">Theme Integration</a><br> Instructions for developers</li>
                     </ul>
                     </p>
 <!--
@@ -44,6 +45,7 @@
                         <li><a href="<?php echo get_permalink('59'); ?>">FAQ</a></li>
                         <li><a href="<?php echo get_permalink('59758'); ?>">Affiliate</a></li>
                         <li><a href="<?php echo get_permalink('127'); ?>">Legal Imprint</a></li>
+						<li><a href="https://trello.com/b/LdGbXfdq/mashshare-roadmap" target="blank">Feature Requests</a></li>
                         <li><a href="<?php echo get_permalink('93'); ?>">Contact us</a></li>
                     </ul>
                     </p>
