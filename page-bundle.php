@@ -28,11 +28,11 @@ Template Name: page-bundle
                             <div class="panel price fist_box">
 						<h3>Ultimate</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">Unlimited Updates & Support</li>
+                                                        <li class="list-group-item">Unlimited Sites</li>
 							<li class="list-group-item mash_license">&euro; 339</li>
-							<li class="list-group-item mash_etc">Unlimited Updates & Support</li>
-                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/ultimate-license">All add-ons included</a></strong></li>
-                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On included </a></li>
+							<li class="list-group-item mash_etc">Lifetime Updates & Support</li>
+                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/ultimate-license">All Add-Ons Included</a></strong></li>
+                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On Included </a></li>
 							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="25692" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
 					</div>
@@ -43,11 +43,11 @@ Template Name: page-bundle
 						
                                                 <h3>Pro</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">10 site licences</li>
+                                                        <li class="list-group-item">10 Sites</li>
                                                         <li class="list-group-item mash_license"><span style="text-decoration: line-through;color:#999;font-size:36px;font-weight: 600;">&euro;  239</span> &euro; 199</li>
                                                         <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
-							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/pro-license/"><strong>All add-ons included</strong></a></li>
-                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/"><strong>Video Add-On included</strong> </a></li>
+							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/pro-license/"><strong>All Add-ons Included</strong></a></li>
+                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/"><strong>Video Add-On Included</strong> </a></li>
 							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="21347" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
 					</div>
@@ -56,11 +56,11 @@ Template Name: page-bundle
 					<div class="panel price third_box">
 						<h3>Business</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">5 site licenses</li>
+                                                        <li class="list-group-item">5 Sites</li>
 							<li class="list-group-item mash_license">&euro; 119</li>
 							<li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
-							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/business-license/">All add-ons included</a></li>
-                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On included </a></li>
+							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/business-license/">All Add-Ons Included</a></li>
+                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On Included </a></li>
 							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="21345" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
 					</div>
@@ -69,11 +69,11 @@ Template Name: page-bundle
                                         <div class="panel price fist_box">
                                                 <h3>Personal</h3>
                                                 <ul class="list-group list-group-flush text-center">
-                                                    <li class="list-group-item">1 site license</li>
+                                                    <li class="list-group-item">1 Site</li>
                                                     <li class="list-group-item mash_license">&euro; 29</li>
                                                     <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
-                                                    <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">8 add-ons included</a></strong></li>
-                                                    <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On not included </a></li>
+                                                    <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">8 Add-Ons Included</a></strong></li>
+                                                    <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On Not Included </a></li>
                                                     <li class="list-group-item mash_btn"> <?php echo do_shortcode('[purchase_link id="21330" text="Buy Now" style="button" direct="true"]') ?></li>
                                                 </ul>
                                         </div>
