@@ -446,5 +446,15 @@ if (!function_exists('wp_password_change_notification')) {
     return;
     }
 }
+// Disable comments on attachements
+function mashsb_filter_media_comment_status( $open, $post_id ) {
+	$post = get_post( $post_id );
+	if( $post->post_type == 'attachment' ) {
+		return false;
+	}
+	return $open;
+}
+add_filter( 'comments_open', 'mashsb_filter_media_comment_status', 10 , 2 );
+
 
 

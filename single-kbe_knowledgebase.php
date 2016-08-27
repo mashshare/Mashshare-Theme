@@ -51,9 +51,9 @@
     </div>
     </div>  
     <!--content-->
-    <div class="container">
+    <div class="container_not_used">
         <div class="row">
-            <div class="col-md-12" style="padding-left:50px; padding-right: 70px;">
+            <div class="col-md-12">
 <?php
     if(KBE_SIDEBAR_INNER == 0){
 ?>

@@ -387,138 +387,109 @@ function eddpdfi_pdf_template_vat( $eddpdfi_pdf, $eddpdfi_payment, $eddpdfi_paym
 		if( edd_use_taxes() ) : 
 			//$taxrate = (edd_get_payment_amount( $eddpdfi_payment->ID ) - round(edd_get_payment_subtotal( $eddpdfi_payment->ID ))) / round(edd_get_payment_subtotal( $eddpdfi_payment->ID )) * 100;
 
-//		switch ( $eddpdfi_buyer_info['address']['country'] ) {
-//                case 'BE':
-//                    $taxrate = '21%';
-//                    break;
-//                case 'BG':
-//                    $taxrate = '20%';
-//                    break;
-//                case 'CZ':
-//                    $taxrate = '21%';
-//                    break;
-//                case 'DK':
-//                    $taxrate = '25%';
-//                    break;
-//                case 'GB':
-//                    $taxrate = '20%';
-//                    break;
-//                case 'UK':
-//                    $taxrate = '20%';
-//                    break;
-//                case 'DE':
-//                    $taxrate = '19%';
-//                    break;
-//                case 'EE':
-//                    $taxrate = '23%';
-//                    break;
-//                case 'EL':
-//                    $taxrate = '23%';
-//                    break;
-//                case 'ES':
-//                    $taxrate = '21%';
-//                    break;
-//                case 'FR':
-//                    $taxrate = '20%';
-//                    break;
-//                case 'HR':
-//                    $taxrate = '25%';
-//                    break;
-//                case 'IE':
-//                    $taxrate = '23%';
-//                    break;
-//                case 'IT':
-//                    $taxrate = '22%';
-//                    break;
-//                case 'CY':
-//                    $taxrate = '19%';
-//                    break;
-//                case 'LV':
-//                    $taxrate = '21%';
-//                    break;
-//                case 'LT':
-//                    $taxrate = '21%';
-//                    break;
-//                case 'LU':
-//                    $taxrate = '17%';
-//                    break;
-//                case 'HU':
-//                    $taxrate = '27%';
-//                    break;
-//                case 'MT':
-//                    $taxrate = '18%';
-//                    break;
-//                case 'NL':
-//                    $taxrate = '21%';
-//                    break;
-//                case 'AT':
-//                    $taxrate = '20%';
-//                    break;
-//                case 'PL':
-//                    $taxrate = '23%';
-//                    break;
-//                case 'PT':
-//                    $taxrate = '23%';
-//                    break;
-//                case 'RO':
-//                    $taxrate = '20%';
-//                    break;
-//                case 'SI':
-//                    $taxrate = '22%';
-//                    break;
-//                case 'SK':
-//                    $taxrate = '20%';
-//                    break;
-//                case 'FI':
-//                    $taxrate = '24%';
-//                    break;
-//                case 'SE':
-//                    $taxrate = '25%';
-//                    break;
-//                default:
-//                    $taxrate = '0%';
-//            
-//               }
+			switch ($eddpdfi_buyer_info['address']['country']){
+				case 'BE':
+					$taxrate = '21%';
+					break;
+			    case 'BG':
+					$taxrate = '20%';
+					break;
+				case 'CZ':
+					$taxrate = '21%';
+					break;
+			    case 'DK':
+					$taxrate = '25%';
+					break;
+			    case 'GB':
+					$taxrate = '20%';
+					break;
+				case 'UK':
+					$taxrate = '20%';
+					break;
+				case 'DE':
+					$taxrate = '19%';
+					break;
+			    case 'EE':
+					$taxrate = '20%';
+					break;
+				case 'EL':
+					$taxrate = '23%';
+					break;
+			    case 'ES':
+					$taxrate = '21%';
+					break;
+			    case 'FR':
+					$taxrate = '20%';
+					break;
+				case 'HR':
+					$taxrate = '25%';
+					break;
+				case 'IE':
+					$taxrate = '23%';
+					break;
+			    case 'IT':
+					$taxrate = '22%';
+					break;
+				case 'CY':
+					$taxrate = '19%';
+					break;
+			    case 'LV':
+					$taxrate = '21%';
+					break;
+			    case 'LT':
+					$taxrate = '21%';
+					break;
+				case 'LU':
+					$taxrate = '17%';
+					break;
+				case 'HU':
+					$taxrate = '27%';
+					break;
+			    case 'MT':
+					$taxrate = '18%';
+					break;
+				case 'NL':
+					$taxrate = '21%';
+					break;
+			    case 'AT':
+					$taxrate = '20%';
+					break;
+			    case 'PL':
+					$taxrate = '23%';
+					break;
+				case 'PT':
+					$taxrate = '23%';
+					break;
+				case 'RO':
+					$taxrate = '24%';
+					break;
+			    case 'SI':
+					$taxrate = '22%';
+					break;
+				case 'SK':
+					$taxrate = '20%';
+					break;
+				case 'FI':
+					$taxrate = '24%';
+					break;
+				case 'SE':
+					$taxrate = '25%';
+					break;
+				default:
+					$taxrate = '0%';
+			    
+			}
 
-            $taxrate_old = !empty($eddpdfi_payment_meta['tax']) ? $eddpdfi_payment_meta['tax'] : '0';
-            // The new taxrate since 2015 EU tax law requires that the tax of the origin country of the buyer is calculated
-            $mosstaxrate = !empty($eddpdfi_payment_meta['user_info']['vat_rate']) ? ( $eddpdfi_payment_meta['user_info']['vat_rate'] * 100 ) : '0';
-            $taxrate = !empty($mosstaxrate) ? $mosstaxrate . '%' : $taxrate_old . '%';
-            
-            
-            //echo "<pre>";
-            //var_dump($eddpdfi_payment_meta);
-            //var_dump($eddpdfi_payment_meta['user_info']['discount']);
-            //wp_die();
-            $eddpdfi_pdf->Cell( 102, 8, __('Subtotal', 'eddpdfi'), 'B', 0, 'L', false );
-                $eddpdfi_pdf->Cell( 38, 8, html_entity_decode( edd_payment_subtotal( $eddpdfi_payment->ID ), ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', false );
-                $eddpdfi_pdf->SetX( 61 );
-                
-                
-                // Discount Code Used
-		if ($eddpdfi_discount !== __('None', 'eddpdfi')){
-
-                $discount = edd_get_discount_amount(edd_get_discount_id_by_code($eddpdfi_discount));   
-                $discounted_amount = edd_format_amount(edd_get_payment_subtotal( $eddpdfi_payment->ID ) - edd_get_discounted_amount($eddpdfi_discount, (int)edd_get_payment_subtotal( $eddpdfi_payment->ID )));
-                $discounted_total = edd_format_amount( edd_get_discounted_amount($eddpdfi_discount, (int)edd_get_payment_subtotal( $eddpdfi_payment->ID )));
-                
-		$eddpdfi_pdf->SetX( 61 );
-		$eddpdfi_pdf->Cell( 102, 8, __('Discount Code: ', 'eddpdfi') . $eddpdfi_discount, 'B', 0, 'L', false );
-		$eddpdfi_pdf->Cell( 38, 8, $discounted_amount, 'B', 2, 'R', false );
-                $eddpdfi_pdf->SetX( 61 );
-		$eddpdfi_pdf->Cell( 102, 8, __('Subtotal Discounted:', 'eddpdfi'), 'B', 0, 'L', false );
-		$eddpdfi_pdf->Cell( 38, 8, $discounted_total, 'B', 2, 'R', false );
-                $eddpdfi_pdf->SetX( 61 );
-		}
-                
-                $eddpdfi_pdf->Cell( 102, 8, __(apply_filters('lsl_tax_label','Tax'), 'eddpdfi'), 'B', 0, 'L', false );
-                $eddpdfi_pdf->Cell( 38, 8, html_entity_decode( edd_payment_tax( $eddpdfi_payment->ID ) , ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', false );
-                $eddpdfi_pdf->SetX( 61 );
-                $eddpdfi_pdf->Cell( 102, 8, __('VAT RATE', 'eddpdfi'), 'B', 0, 'L', false );
-                $eddpdfi_pdf->Cell( 38, 8, $taxrate, 'B', 2, 'R', false );
+			$eddpdfi_pdf->Cell( 102, 8, __('Subtotal', 'eddpdfi'), 'B', 0, 'L', false );
+			$eddpdfi_pdf->Cell( 38, 8, html_entity_decode( edd_payment_subtotal( $eddpdfi_payment->ID ), ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', false );
+			$eddpdfi_pdf->SetX( 61 );
+			$eddpdfi_pdf->Cell( 102, 8, __(apply_filters('lsl_tax_label','Tax'), 'eddpdfi'), 'B', 0, 'L', false );
+			$eddpdfi_pdf->Cell( 38, 8, html_entity_decode( edd_payment_tax( $eddpdfi_payment->ID ), ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', false );
+			$eddpdfi_pdf->SetX( 61 );
+			$eddpdfi_pdf->Cell( 102, 8, __('VAT RATE', 'eddpdfi'), 'B', 0, 'L', false );
+			$eddpdfi_pdf->Cell( 38, 8, $taxrate, 'B', 2, 'R', false );
 		endif;
 
-                // If Fees
 		$fees = edd_get_payment_fees( $eddpdfi_payment->ID );
 		if ( ! empty ( $fees ) ) :
 			foreach( $fees as $fee ) :
@@ -527,21 +498,11 @@ function eddpdfi_pdf_template_vat( $eddpdfi_pdf, $eddpdfi_payment, $eddpdfi_paym
 				$eddpdfi_pdf->Cell( 38, 8, html_entity_decode( edd_currency_filter( $fee['amount'] ), ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', true );
 			endforeach;
 		endif;
-//                // Discount Code Used
-//		if ($eddpdfi_discount !== __('None', 'eddpdfi')){
-//
-//                $discount = edd_get_discount_amount(edd_get_discount_id_by_code($eddpdfi_discount));   
-//                $discounted_amount = edd_format_amount(edd_get_payment_subtotal( $eddpdfi_payment->ID ) - edd_get_discounted_amount($eddpdfi_discount, (int)edd_get_payment_subtotal( $eddpdfi_payment->ID )));
-//                $discounted_total = edd_format_amount( edd_get_discounted_amount($eddpdfi_discount, (int)edd_get_payment_subtotal( $eddpdfi_payment->ID )));
-//                
-//                
-//		$eddpdfi_pdf->SetX( 61 );
-//		$eddpdfi_pdf->Cell( 102, 8, __('Discount Code: ', 'eddpdfi') . $eddpdfi_discount, 'B', 0, 'L', false );
-//		$eddpdfi_pdf->Cell( 38, 8, $discounted_amount, 'B', 2, 'R', false );
-//                $eddpdfi_pdf->SetX( 61 );
-//		$eddpdfi_pdf->Cell( 102, 8, __('Subtotal Discounted:', 'eddpdfi'), 'B', 0, 'L', false );
-//		$eddpdfi_pdf->Cell( 38, 8, $discounted_total, 'B', 2, 'R', false );
-//		}
+		if ($eddpdfi_discount !== __('None', 'eddpdfi')){
+		$eddpdfi_pdf->SetX( 61 );
+		$eddpdfi_pdf->Cell( 102, 8, __('Discount Used', 'eddpdfi'), 'B', 0, 'L', false );
+		$eddpdfi_pdf->Cell( 38, 8, $eddpdfi_discount, 'B', 2, 'R', false );
+		}
 
 		$eddpdfi_pdf->SetX( 61 );
 		$eddpdfi_pdf->SetFont( $fontb, '', 11 );

@@ -30,7 +30,7 @@ Template Name: Default blog post Template
 </div><!--end header-image-->
 <div class="decor-top container"><img src="<?php echo get_template_directory_uri(); ?>/images/decor_top.png" alt="blue" /></div>
             <div class="row"><!-- start row -->
-		<div class="col-xs-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+		<div class="col-xs-12 col-sm-8 col-md-offset-1 col-md-7 col-lg-5 col-lg-offset-3">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -45,9 +45,14 @@ Template Name: Default blog post Template
 	
                         </article>
 			<?php endwhile; endif; ?>
+			                <?php comments_template( '/comments.php', false ); ?>
 		</div> <!-- end content -->
+		<div id="secondary" class="col-xs-12 col-sm-4 col-md-3 col-lg-2" style="margin-top:30px;">
+		<?php dynamic_sidebar( 'blanksidebar' ); ?>
+		</div>
             </div><!-- end row -->
 	</div> <!-- end page-wrap -->
 			<?php do_action( 'rootstrap_post_after' ); ?>
-		<?php get_sidebar( 'home' ); ?>
+		<?php //get_sidebar( 'home' ); ?>
+
 <?php get_footer(); ?>

@@ -22,7 +22,7 @@ get_header(); ?>
 						<div id="header-image">
                                                     <div id="header-content" class="container">
                                                             <div class="row">
-                                                                <div class="col-md-7">
+                                                                <div class="col-md-8">
                                                                     <svg width="100%" height="100%">
                                                                     <image xlink:href="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare2.svg" src="<?php echo get_template_directory_uri(); ?>/images/logo_mashshare2.png" width="85%" height="85%" />
 </svg>
@@ -30,7 +30,7 @@ get_header(); ?>
                                                                     <?php echo do_shortcode('[mashshare]'); ?>
 
                                                                 </div>
-                                                                <div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/images/packshot.png" alt="Packshot" /></div>
+                                                                <div class="col-md-4"><img src="<?php echo get_template_directory_uri(); ?>/images/packshot.png" alt="Packshot" /></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -38,8 +38,8 @@ get_header(); ?>
                                                     <div class="container">
                                                         <div class="teaser col-md-10 col-md-offset-1" style="margin-top: 30px;text-align: center;">
                                                             <h3 class="front_h" style="display:none;">Mashshare</h3>
-                                                            <p style="font-size:46px;color:#666;font-weight:600;line-height: 48px;">Grow your traffic with this Supercharged Share Buttons for WordPress. </h2>
-                                                            <p style="font-size:20px;color:#666;font-weight:500;">Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Then you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
+                                                            <p style="font-size:46px;color:#2c2c2c;font-weight:600;line-height: 48px;">Grow your traffic with this Supercharged Share Buttons for WordPress. </h2>
+                                                            <p style="font-size:20px;color:#2c2c2c;font-weight:500;">Do you want to attract an insane amount of traffic to your WordPress site from Facebook, Twitter and other social networks? Then you need an easy-to-setup eye-catching “Share it” button that will make visitors want to spread your awesome content.</p>
                                                             <p><a href="https://wordpress.org/plugins/mashsharer/" target="_blank" rel="nofollow external" class="download-button"><i class="fa fa-cloud-download"></i> Download</a></p>
                                                         </div>
                                                     </div>

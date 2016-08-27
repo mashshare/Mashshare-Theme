@@ -28,7 +28,6 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-912289-17', 'mashshare.net');
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
@@ -37,6 +36,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!--<div style="background-color: #83c11f;color:white;padding:10px;text-align:center;">The share count stuck since facebook is shutting down the REST API. we are working hard to resolve this asap and will inform you on <a href="https://twitter.com/Mashshare">twitter</a> and <a href="https://www.facebook.com/mashshare.net/">facebook</a>.</div>-->
 <?php do_action( 'before' ); ?>	
 <div id="page" class="hfeed site">
 <?php do_action( 'nav-before' ); ?>

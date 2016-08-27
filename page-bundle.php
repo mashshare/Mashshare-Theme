@@ -43,7 +43,7 @@ Template Name: page-bundle
 						
                                                 <h3>Pro</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">Unlimited site licences</li>
+                                                        <li class="list-group-item">10 site licences</li>
                                                         <li class="list-group-item mash_license"><span style="text-decoration: line-through;color:#999;font-size:36px;font-weight: 600;">&euro;  239</span> &euro; 199</li>
                                                         <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
 							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/pro-license/"><strong>All add-ons included</strong></a></li>
@@ -56,8 +56,8 @@ Template Name: page-bundle
 					<div class="panel price third_box">
 						<h3>Business</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">3 site licenses</li>
-							<li class="list-group-item mash_license">&euro; 89</li>
+                                                        <li class="list-group-item">5 site licenses</li>
+							<li class="list-group-item mash_license">&euro; 119</li>
 							<li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
 							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/business-license/">All add-ons included</a></li>
                                                         <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On included </a></li>
@@ -70,7 +70,7 @@ Template Name: page-bundle
                                                 <h3>Personal</h3>
                                                 <ul class="list-group list-group-flush text-center">
                                                     <li class="list-group-item">1 site license</li>
-                                                    <li class="list-group-item mash_license">&euro; 39</li>
+                                                    <li class="list-group-item mash_license">&euro; 29</li>
                                                     <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
                                                     <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">8 add-ons included</a></strong></li>
                                                     <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On not included </a></li>
@@ -86,9 +86,9 @@ Template Name: page-bundle
                             <div class="col-md-12" style="text-align: center;">
                                 <!--<p>*A license allows to install and use Mashshare and all Add-Ons on a site for an unlimited period of time. This is not a subscription!<br />
 To continue to receive support and updates, all licenses must be renewed after one year (not compulsory).</p>//-->
-<p>If you don't love it within your first 60 days, we'll gladly refund your purchase, no questions asked.</p>
+<p>If you don't love it within your first 30 days, we'll gladly refund your purchase, no questions asked.</p>
 <!--<p>Licenses subject to yearly renewal for support and updates</p>-->
-<p>To continue to receive support and updates, all licenses must be renewed after one year (not compulsory).</p>
+<p>To continue to receive support and updates, all licenses must be renewed after one year.</p>
                             </div>
                         </div>
                         

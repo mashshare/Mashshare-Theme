@@ -486,9 +486,9 @@ function eddpdfi_pdf_template_vat( $eddpdfi_pdf, $eddpdfi_payment, $eddpdfi_paym
             $taxrate = !empty($mosstaxrate) ? $mosstaxrate . '%' : $taxrate_old . '%';
             
             
-            //echo "<pre>";
-            //var_dump($eddpdfi_payment_meta);
-            //var_dump($eddpdfi_payment_meta['user_info']['discount']);
+            echo "<pre>";
+            var_dump($eddpdfi_payment_meta);
+            var_dump($eddpdfi_payment_meta['user_info']['discount']);
             //wp_die();
             $eddpdfi_pdf->Cell( 102, 8, __('Subtotal', 'eddpdfi'), 'B', 0, 'L', false );
                 $eddpdfi_pdf->Cell( 38, 8, html_entity_decode( edd_payment_subtotal( $eddpdfi_payment->ID ), ENT_COMPAT, 'UTF-8' ), 'B', 2, 'R', false );
