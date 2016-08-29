@@ -88,7 +88,7 @@ Template Name: page-bundle
 To continue to receive support and updates, all licenses must be renewed after one year (not compulsory).</p>//-->
 <p>If you don't love it within your first 30 days, we'll gladly refund your purchase, no questions asked.</p>
 <!--<p>Licenses subject to yearly renewal for support and updates</p>-->
-<p>To continue to receive support and updates, all licenses must be renewed after one year.</p>
+<p>To continue to receive support and updates, all licenses (except Ultimate license) must be renewed after one year.</p>
                             </div>
                         </div>
                         
@@ -129,9 +129,11 @@ To continue to receive support and updates, all licenses must be renewed after o
                                     <h6>I have other pre-sale questions, can you help?</h6>
                                     <p>Yes, you can ask us any question through our support page.</p>
                             </div>
-                        </div>
-                        
-                        
+                            <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
+                                    <h6>Terms and Conditions</h6>
+                                    <p>These are so simple: Read our <a href="https://www.mashshare.net/extensions-terms-conditions/" target="_blank">terms</a>. </p>
+                            </div>
+                        </div>                        
                     </div>
                     </div><!-- end container -->
 		</div> <!-- end content -->
