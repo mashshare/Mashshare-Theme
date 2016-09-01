@@ -43,8 +43,8 @@ Template Name: page-bundle
 						
                                                 <h3>Pro</h3>
 						<ul class="list-group list-group-flush text-center">
-                                                        <li class="list-group-item">10 Sites</li>
-                                                        <li class="list-group-item mash_license"><span style="text-decoration: line-through;color:#999;font-size:36px;font-weight: 600;">&euro;  239</span> &euro; 199</li>
+                                                        <li class="list-group-item">Unlimited Sites</li>
+                                                        <li class="list-group-item mash_license"> &euro; 199</li>
                                                         <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
 							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/pro-license/"><strong>All Add-ons Included</strong></a></li>
                                                         <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/"><strong>Video Add-On Included</strong> </a></li>
