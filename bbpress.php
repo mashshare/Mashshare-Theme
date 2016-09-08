@@ -32,7 +32,7 @@ Template Name: page-sidebar-right
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="entry">
 					<?php the_content(); ?>
-                                        <?php echo do_shortcode('[bbps_dashboard]'); ?>   
+                                        <?php //echo do_shortcode('[bbps_dashboard]'); ?>   
 				</div>
                         </article>
 			<?php endwhile; endif; ?>

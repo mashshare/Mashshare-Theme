@@ -30,7 +30,7 @@
                     <ul>                        
                         <li>Add-On boilerplate on <a href="https://github.com/mashshare/MASHSB-Add-On-Boilerplate" target="_blank">GitHub</a> </li>
                         <li>Mashshare on <a href="https://github.com/mashshare/Mashshare" target="_blank">GitHub</a></li>
-                        <li><a href="https://www.mashshare.net/documentation/developer-instruction-for-commercial-theme-integration/">Theme Integration</a><br> Instructions for developers</li>
+                        <li><a href="http://docs.mashshare.net/collection/11-developer-docs">Theme Integration</a><br> Instructions for developers</li>
                     </ul>
                     </p>
 <!--

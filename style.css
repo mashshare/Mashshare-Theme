@@ -2746,3 +2746,10 @@ padding-right:10px;
 display:none;
 }
 
+.single-download #content h2{
+    color:black;
+    font-weight: 600;
+}
+.single-download #content h3{
+line-height: 30px;
+}

@@ -70,7 +70,7 @@ Template Name: page-bundle
                                                 <h3>Personal</h3>
                                                 <ul class="list-group list-group-flush text-center">
                                                     <li class="list-group-item">1 Site</li>
-                                                    <li class="list-group-item mash_license">&euro; 29</li>
+                                                    <li class="list-group-item mash_license">&euro; 39</li>
                                                     <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
                                                     <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/personal/">8 Add-Ons Included</a></strong></li>
                                                     <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On Not Included </a></li>
