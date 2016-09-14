@@ -45,8 +45,13 @@
                         <li><a href="<?php echo get_permalink('59'); ?>">FAQ</a></li>
                         <li><a href="<?php echo get_permalink('59758'); ?>">Affiliate</a></li>
                         <li><a href="<?php echo get_permalink('127'); ?>">Legal Imprint</a></li>
-						<li><a href="https://trello.com/b/LdGbXfdq/mashshare-roadmap" target="blank">Feature Requests</a></li>
+			<li><a href="https://trello.com/b/LdGbXfdq/mashshare-roadmap" target="blank">Feature Requests</a></li>
                         <li><a href="<?php echo get_permalink('93'); ?>">Contact us</a></li>
+                        <li><div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT, gaTrack: true, gaId: 'UA-912289-17'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></li>
                     </ul>
                     </p>
                     </div>
