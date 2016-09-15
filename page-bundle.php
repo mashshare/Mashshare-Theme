@@ -31,7 +31,7 @@ Template Name: page-bundle
                                                         <li class="list-group-item">Unlimited Sites</li>
 							<li class="list-group-item mash_license">&euro; 339</li>
 							<li class="list-group-item mash_etc">Lifetime Updates & Support</li>
-                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/ultimate-license">All Add-Ons Included</a></strong></li>
+                                                        <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/ultimate-license">12 (All) Add-Ons Included</a></strong></li>
                                                         <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On Included </a></li>
 							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="25692" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
@@ -46,7 +46,7 @@ Template Name: page-bundle
                                                         <li class="list-group-item">Unlimited Sites</li>
                                                         <li class="list-group-item mash_license"> &euro; 199</li>
                                                         <li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
-							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/pro-license/"><strong>All Add-ons Included</strong></a></li>
+							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/pro-license/"><strong>12 (All) Add-Ons Included</strong></a></li>
                                                         <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/"><strong>Video Add-On Included</strong> </a></li>
 							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="21347" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
@@ -59,7 +59,7 @@ Template Name: page-bundle
                                                         <li class="list-group-item">5 Sites</li>
 							<li class="list-group-item mash_license">&euro; 119</li>
 							<li class="list-group-item mash_etc">1 Year of Updates & Support*</li>
-							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/business-license/">All Add-Ons Included</a></li>
+							<li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/business-license/">12 (All) Add-Ons Included</a></li>
                                                         <li class="list-group-item mash_etc"><a href="https://www.mashshare.net/downloads/videopost-popup/">Video Add-On Included </a></li>
 							<li class="list-group-item mash_btn"> <?php echo do_shortcode( '[purchase_link id="21345" text="Buy Now" style="button" direct="true"]' ) ?></li>
 						</ul>
