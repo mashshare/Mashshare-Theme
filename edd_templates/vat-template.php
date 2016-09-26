@@ -568,6 +568,13 @@ function eddpdfi_pdf_template_vat( $eddpdfi_pdf, $eddpdfi_payment, $eddpdfi_paym
 			
 		}
 		
+		if (!empty($eddpdfi_buyer_info['vat_number']))
+		{
+		$eddpdfi_pdf->SetX( 60 );
+		$eddpdfi_pdf->Cell( 0, 6, __('Deliveries within the EU are exempt from turnover tax', 'eddpdfi'), 0, 2, 'L', false );
+		$eddpdfi_pdf->Cell( 0, 6, __('under Section 6a (1) of the German Turnover Tax Act (UStG). ', 'eddpdfi'), 0, 2, 'L', false );
+		}
+		
 	endif;
 }
 add_action( 'eddpdfi_pdf_template_vat', '\lyquidity\edd_vat\eddpdfi_pdf_template_vat', 10, 10 );
