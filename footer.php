@@ -43,7 +43,7 @@
                     <p>
                     <ul>  
                         <li><a href="<?php echo get_permalink('59'); ?>">FAQ</a></li>
-                        <li><a href="<?php echo get_permalink('59758'); ?>">Affiliate</a></li>
+                        <li><a href="<?php echo get_permalink('91050'); ?>">Affiliate</a></li>
                         <li><a href="<?php echo get_permalink('127'); ?>">Legal Imprint</a></li>
 			<li><a href="https://trello.com/b/LdGbXfdq/mashshare-roadmap" target="blank">Feature Requests</a></li>
                         <li><a href="<?php echo get_permalink('93'); ?>">Contact us</a></li>
