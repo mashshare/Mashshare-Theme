@@ -47,9 +47,9 @@
 
 		</article>
 		
-		<?php if(!$data['check_disablecomments']) { ?>
+		<?php //if(!$data['check_disablecomments']) { ?>
 			<?php //comments_template(); ?>
-		<?php } ?>
+		<?php //} ?>
 
 		<?php endwhile; endif; ?>
             
