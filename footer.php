@@ -56,6 +56,18 @@ function googleTranslateElementInit() {
                     </p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h4>Our Plugins</h4>
+                        <a href="https://wp-staging.com/?utm_source=mashshare&utm_medium=footer">WP Staging</a><br>
+                        The easiest way to create a website clone and staging copy of WordPress. Migrate all changes to the live site.
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h4>&nbsp;</h4>
+                        <a href="https://wpquads.com/?utm_source=mashshare&utm_medium=footer">WP QUADS</a><br>
+                        A full-featured ad solution to add AdSense and other monetization assets to WordPress.
+                    </div>
+                </div>
                 <div class="row" style="text-align: center;">
                     <div class="col-sm-12 col-md-12">Mashshare  &copy; <?php echo date("Y"); ?></div>
                 </div>
