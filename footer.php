@@ -19,8 +19,6 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
                     <h4>What is Mashshare?</h4>
 <p>Mashshare is an extensible free social share media ecosystem for the best possible social sharing optimization of your website. You find Add-Ons for Velocity Graph, Google Analytics integration, mobile sharing optimization, responsive design and much more in the <a href="https://www.mashshare.net/downloads">Add-On section</a></p>
-<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmashshare.net&amp;width=270&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=80&amp;appId=529531527150598&amp;colorscheme=dark" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:80px;" allowTransparency="true"></iframe>
-<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmashshare.net%2F&width=450&height=80&layout=standard&show_faces=true&appId=857132130971447&amp;colorscheme=dark" width="270" height="80" style="border:none; overflow:hidden; width:270px; height:80px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3">
@@ -45,13 +43,8 @@
                         <li><a href="<?php echo get_permalink('59'); ?>">FAQ</a></li>
                         <li><a href="<?php echo get_permalink('91050'); ?>">Affiliate</a></li>
                         <li><a href="<?php echo get_permalink('127'); ?>">Legal Imprint</a></li>
-			<li><a href="https://trello.com/b/LdGbXfdq/mashshare-roadmap" target="blank">Feature Requests</a></li>
+						<li><a href="https://mashshare.net/privacy-policy/">Privacy Policy</a></li>
                         <li><a href="<?php echo get_permalink('93'); ?>">Contact us</a></li>
-                        <li><div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT, gaTrack: true, gaId: 'UA-912289-17'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></li>
                     </ul>
                     </p>
                     </div>
@@ -59,13 +52,19 @@ function googleTranslateElementInit() {
                 <div class="row">
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h4>Our Plugins</h4>
+						<div style="float: left;margin-right: 10px;"> <a href="https://wp-staging.com/?utm_source=mashshare&utm_medium=footer"><img src="https://mashshare.net/wp-content/uploads/2018/05/wpquads-logo75x75.png"></a></div>
+						<div>
                         <a href="https://wp-staging.com/?utm_source=mashshare&utm_medium=footer">WP Staging</a><br>
                         The easiest way to create a website clone and staging copy of WordPress. Migrate all changes to the live site.
+						</div>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h4>&nbsp;</h4>
+						<div style="float: left;margin-right: 10px;"><a href="https://wpquads.com/?utm_source=mashshare&utm_medium=footer"><img src="https://mashshare.net/wp-content/uploads/2018/05/logo75x75.jpg"></a></div>
+						<div>
                         <a href="https://wpquads.com/?utm_source=mashshare&utm_medium=footer">WP QUADS</a><br>
                         A full-featured ad solution to add AdSense and other monetization assets to WordPress.
+						</div>
                     </div>
                 </div>
                 <div class="row" style="text-align: center;">
