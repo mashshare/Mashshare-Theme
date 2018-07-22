@@ -52,7 +52,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h4>Our Plugins</h4>
-						<div style="float: left;margin-right: 10px;"> <a href="https://wp-staging.com/?utm_source=mashshare&utm_medium=footer"><img src="https://mashshare.net/wp-content/uploads/2018/05/wpquads-logo75x75.png"></a></div>
+						<div style="float: left;margin-right: 10px;"> <a href="https://wp-staging.com/?utm_source=mashshare&utm_medium=footer"><img src="https://mashshare.net/wp-content/uploads/2018/05/logo75x75.jpg"></a></div>
 						<div>
                         <a href="https://wp-staging.com/?utm_source=mashshare&utm_medium=footer">WP Staging</a><br>
                         The easiest way to create a website clone and staging copy of WordPress. Migrate all changes to the live site.
@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h4>&nbsp;</h4>
-						<div style="float: left;margin-right: 10px;"><a href="https://wpquads.com/?utm_source=mashshare&utm_medium=footer"><img src="https://mashshare.net/wp-content/uploads/2018/05/logo75x75.jpg"></a></div>
+						<div style="float: left;margin-right: 10px;"><a href="https://wpquads.com/?utm_source=mashshare&utm_medium=footer"><img src="https://mashshare.net/wp-content/uploads/2018/05/wpquads-logo75x75.png"></a></div>
 						<div>
                         <a href="https://wpquads.com/?utm_source=mashshare&utm_medium=footer">WP QUADS</a><br>
                         A full-featured ad solution to add AdSense and other monetization assets to WordPress.
