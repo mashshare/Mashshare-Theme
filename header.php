@@ -33,10 +33,22 @@
   gtag('config', 'UA-912289-17');
 </script>
 
-
+<script src="https://mashshare.net/wp-content/themes/mashshare-theme/cookiebanner/cookies-eu-banner.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
+    <div id="cookies-eu-banner" style="display: none;">
+    This website uses Cookies and Google Analytics
+    <a href="https://mashshare.net/privacy-policy" id="cookies-eu-more">Read Privacy Policy</a>
+    <button id="cookies-eu-reject" style="display:none;">Reject</button>
+    <button id="cookies-eu-accept">Accept</button>
+</div>
+<script>
+    new CookiesEuBanner(function(){
+		
+        // Your code to launch when user accept cookies
+    });
+</script>
 <div style="background-color: #83c11f;color:white;padding:10px;text-align:center;display:none;">We are moving to another server. If you experience issues while browsing the site, please try again in 24 hours!</div>
 <?php do_action( 'before' ); ?>	
 <div id="page" class="hfeed site">
