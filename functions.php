@@ -456,5 +456,10 @@ function mashsb_filter_media_comment_status( $open, $post_id ) {
 }
 add_filter( 'comments_open', 'mashsb_filter_media_comment_status', 10 , 2 );
 
+/*
+Hide discount code field
+*/
+remove_action( 'edd_checkout_form_top', 'edd_discount_field', -1 );
+
 
 
