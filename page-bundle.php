@@ -97,7 +97,7 @@ To continue to receive support and updates, all licenses must be renewed after o
                         <div class="row">
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do I need to renew my license?</h6>
-                                    <p>Your license key is valid for one year from the purchase date. You need an active license key for continued access to automatic updates and support. If you renew your license each year you’ll receive a huge 30% discount off the current price!</p>  
+                                    <p>Your license key is valid for one year from the purchase date. You need an active license key for continued access to automatic updates and support.</p>  
                             </div>
                             <div class="mash_bundle col-md-6 col-sm-12 col-xs-12">
                                     <h6>Do you have a refund policy?</h6>
